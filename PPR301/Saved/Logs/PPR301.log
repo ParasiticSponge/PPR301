@@ -1188,3 +1188,75 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.14-02.05.19:099][166]LogSlate: Took 0.000684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2024.06.14-02.05.19:110][166]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
 [2024.06.14-02.05.19:111][166]LogSlate: Took 0.000717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.06.14-02.09.08:848][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Triangle.Triangle
+[2024.06.14-02.09.08:848][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Triangle.Triangle
+[2024.06.14-02.09.08:849][299]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/Triangle.Triangle as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: ================================================
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Total job queries 8, among them cache hits 0 (0.00%)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Tracking 8 distinct input hashes that result in 8 distinct outputs (100.00%)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: RAM used: 164.94 KiB of 819.20 MiB budget. Usage: 0.02%
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Job execution time: average 0.91 s, max 0.99 s
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Job life time (pending + execution): average 0.95 s, max 1.03
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Shader code size: average 34.86 KiB, min 31.809 KiB, max 36.582 KiB
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.03 s
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Average processing rate: 3.89 jobs/sec
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Total thread time: 1.806 s
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Total thread preprocess time: 0.299 s
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Percentage time preprocessing: 16.56%
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.17% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                                 FLumenCardVS - 27.98% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.61% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.24% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.14-02.09.08:915][299]LogShaderCompilers: Display: ================================================
+[2024.06.14-02.09.12:824][511]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Star.Star
+[2024.06.14-02.09.12:824][511]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Star.Star
+[2024.06.14-02.09.12:825][511]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/Star.Star as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2024.06.14-02.09.17:122][748]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Sphere.Sphere
+[2024.06.14-02.09.17:122][748]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Sphere.Sphere
+[2024.06.14-02.09.17:123][748]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/Sphere.Sphere as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2
+[2024.06.14-02.09.21:407][977]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Maze_Layout.Maze_Layout
+[2024.06.14-02.09.21:407][977]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Maze_Layout.Maze_Layout
+[2024.06.14-02.09.21:407][977]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/Maze_Layout.Maze_Layout as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2024.06.14-02.09.27:040][275]LogStaticMesh: Display: Building static mesh HourGlass...
+[2024.06.14-02.09.27:047][275]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/Meshes/HourGlass.HourGlass
+[2024.06.14-02.09.27:105][275]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/HourGlass.HourGlass
+[2024.06.14-02.09.27:105][275]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/HourGlass.HourGlass
+[2024.06.14-02.09.27:105][275]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/HourGlass.HourGlass as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4
+[2024.06.14-02.09.29:980][427]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Cube.Cube
+[2024.06.14-02.09.29:980][427]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/Cube.Cube
+[2024.06.14-02.09.29:981][427]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5
+[2024.06.14-02.09.44:548][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.14-02.09.44:628][280]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.008265 seconds
+[2024.06.14-02.09.44:630][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/VX/FWZJZVQ65RH7ZQO30L5BWY
+[2024.06.14-02.09.44:631][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/FWZJZVQ65RH7ZQO30L5BWY8EB4AA7F46904DA11FB9C39B01EC4443.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/VX/FWZJZVQ65RH7ZQO30L5BWY.uasset'
+[2024.06.14-02.09.44:634][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/98/2HDRQU4W0AMWQS7Q0WD6IB
+[2024.06.14-02.09.44:635][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/2HDRQU4W0AMWQS7Q0WD6IBA5722D3449E8D94D2873C4BA9A21A621.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/98/2HDRQU4W0AMWQS7Q0WD6IB.uasset'
+[2024.06.14-02.09.44:638][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/HI/ZBS19ULI26QCCPBK35LY4V
+[2024.06.14-02.09.44:639][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/ZBS19ULI26QCCPBK35LY4V862855004F67E6A38E1C6A9044DB8572.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/HI/ZBS19ULI26QCCPBK35LY4V.uasset'
+[2024.06.14-02.09.44:642][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/IY/L8CITCS4F6BPDDII3ECMZ0
+[2024.06.14-02.09.44:643][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/L8CITCS4F6BPDDII3ECMZ0E359D197467F863997B568BEA7FA3853.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/IY/L8CITCS4F6BPDDII3ECMZ0.uasset'
+[2024.06.14-02.09.44:646][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SG/PAWAEHJ5KW0BZCKJTC3CW7
+[2024.06.14-02.09.44:646][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/PAWAEHJ5KW0BZCKJTC3CW709F537464E1BEDC063DD379DA00FED14.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SG/PAWAEHJ5KW0BZCKJTC3CW7.uasset'
+[2024.06.14-02.09.44:650][280]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/1Z/B8PCX1NQZ4POQZYN8U816T
+[2024.06.14-02.09.44:651][280]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/B8PCX1NQZ4POQZYN8U816T05AF33AA493C07BA0EBF4BB7C7141807.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/1Z/B8PCX1NQZ4POQZYN8U816T.uasset'
+[2024.06.14-02.09.44:668][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms
+[2024.06.14-02.09.44:669][280]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.14-02.09.44:669][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392362832
+[2024.06.14-02.09.44:670][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392444834
+[2024.06.14-02.09.44:670][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392325831
+[2024.06.14-02.09.44:670][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392401833
+[2024.06.14-02.09.44:670][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392221829
+[2024.06.14-02.09.44:670][280]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_F8AC659E886E3BFF01_1392280830
