@@ -1172,3 +1172,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.14-02.03.27:044][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.06.14-02.03.27:147][302]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
 [2024.06.14-02.04.22:330][881]LogDerivedDataCache: C:/Users/JayAn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.125 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1125 files in 1859 folders with total size 21 MiB.
+[2024.06.14-02.05.18:094][166]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2024.06.14-02.05.18:095][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-02.05.18:095][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-02.05.18:104][166]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.06.14-02.05.18:813][166]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.14-02.05.18:813][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-02.05.18:813][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-02.05.18:902][166]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/HUD/WBP_MainHUD.WBP_MainHUD
+[2024.06.14-02.05.18:903][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-02.05.18:903][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-02.05.18:912][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-02.05.18:912][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-02.05.18:920][166]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.06.14-02.05.19:099][166]LogSlate: Took 0.000684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.14-02.05.19:110][166]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.06.14-02.05.19:111][166]LogSlate: Took 0.000717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
