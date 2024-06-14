@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PPR301.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PPR301.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PPR301Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PPR301">
+      <UniqueIdentifier>{CA5DBC57-8E5A-3AF7-94F6-A782E9B718E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PPR301\PPR301.Build.cs">
+      <Filter>Source\PPR301</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PPR301\PPR301.cpp">
+      <Filter>Source\PPR301</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PPR301\PPR301.h">
+      <Filter>Source\PPR301</Filter>
+    </ClInclude>
+    <Filter Include="Source\PPR301\Private">
+      <UniqueIdentifier>{3A0160B2-5D38-3536-A657-7ACB47E79286}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PPR301\Private\RandomShape.cpp">
+      <Filter>Source\PPR301\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PPR301\Public">
+      <UniqueIdentifier>{29C8E68B-25B5-32B3-9160-368730F99136}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PPR301\Public\RandomShape.h">
+      <Filter>Source\PPR301\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
