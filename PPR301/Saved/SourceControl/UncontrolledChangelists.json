@@ -5,6 +5,18 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SG/PAWAEHJ5KW0BZCKJTC3CW7.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/U9/LCSOPJBGINXJH38DT7UXME.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/1Z/B8PCX1NQZ4POQZYN8U816T.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/HI/ZBS19ULI26QCCPBK35LY4V.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/VX/FWZJZVQ65RH7ZQO30L5BWY.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/IY/L8CITCS4F6BPDDII3ECMZ0.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/98/2HDRQU4W0AMWQS7Q0WD6IB.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KD/DTM8B2DG4YUWCMLZNGQYUE.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/LevelPrototyping/Meshes/NewMaterial.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/LevelPrototyping/Meshes/MI_Mat.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/HUD/WBP_MainHUD.uasset",
@@ -66,18 +78,7 @@
 				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset",
 				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset",
 				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/SG/PAWAEHJ5KW0BZCKJTC3CW7.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/U9/LCSOPJBGINXJH38DT7UXME.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/1Z/B8PCX1NQZ4POQZYN8U816T.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/HI/ZBS19ULI26QCCPBK35LY4V.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/VX/FWZJZVQ65RH7ZQO30L5BWY.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/IY/L8CITCS4F6BPDDII3ECMZ0.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/98/2HDRQU4W0AMWQS7Q0WD6IB.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KD/DTM8B2DG4YUWCMLZNGQYUE.uasset",
-				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/LevelPrototyping/Meshes/NewMaterial.uasset"
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset"
 			]
 		}
 	]
