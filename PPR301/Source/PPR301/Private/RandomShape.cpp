@@ -8,15 +8,13 @@ ARandomShape::ARandomShape()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	selectShape = rand() % 5;
 }
 
 // Called when the game starts or when spawned
 void ARandomShape::BeginPlay()
 {
 	Super::BeginPlay();
-
-	selectShape = rand() % 5;
 
 	FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], -0.381866f);
 	board->SetVectorParameterValueEditorOnly("Position", position);

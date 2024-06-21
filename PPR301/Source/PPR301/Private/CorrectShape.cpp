@@ -16,7 +16,7 @@ ACorrectShape::ACorrectShape()
 void ACorrectShape::BeginPlay()
 {
     Super::BeginPlay();
-    printFString("selected: %s", *FString::FromInt(rando->selectShape));
+    //printFString("selected: %s", *FString::FromInt(rando->selectShape));
 
     switch (rando->selectShape)
     {
