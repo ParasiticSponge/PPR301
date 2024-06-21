@@ -16,10 +16,11 @@ void ARandomShape::BeginPlay()
 {
 	Super::BeginPlay();
 
+	selectShape = rand() % 5;
+
 	FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], -0.381866f);
 	board->SetVectorParameterValueEditorOnly("Position", position);
 
-	selectShape = rand() % 5;
 	FString print = FString::FromInt(selectShape);
 	UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);
 }
