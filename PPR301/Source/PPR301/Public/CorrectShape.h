@@ -37,8 +37,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	class ARandomShape* rando;
 
-	UPROPERTY(EditAnywhere)
-	TSubclassOf<AGameModeBase> gameMode;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ShapeObject")
+	int isCorrect = 0;
 
 	class AActor* selected;
 };

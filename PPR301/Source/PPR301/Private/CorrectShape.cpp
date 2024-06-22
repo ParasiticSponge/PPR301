@@ -51,13 +51,13 @@ void ACorrectShape::OnOverlapBegin(class AActor* OverlappedActor, class AActor* 
         /*print("Overlap Begin");
         printFString("Overlapping Actor = %s", *OtherActor->GetName());*/
         print("Correct!");
-        
-        
+        isCorrect = 1;
     }
     if (OtherActor && (OtherActor != this) && OtherActor != selected)
     {
         /*print("Overlap Begin");
         printFString("Overlapping Actor = %s", *OtherActor->GetName());*/
         print("Incorrect!");
+        isCorrect = 2;
     }
 }
