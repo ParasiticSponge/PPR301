@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPR301ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abec5e4a61a60c469cced2c936a81b39a1c0ad1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f47e481eaa5cf2d44f0e1d8bec09af1bc8a56c54")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPR301ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPR301ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

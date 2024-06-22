@@ -39,5 +39,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	class ARandomShape* rando;
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AGameModeBase> gameMode;
+
 	class AActor* selected;
 };

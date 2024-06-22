@@ -9,7 +9,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCorrectShape() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerBox();
 	PPR301_API UClass* Z_Construct_UClass_ACorrectShape();
 	PPR301_API UClass* Z_Construct_UClass_ACorrectShape_NoRegister();
@@ -107,6 +109,10 @@ void EmptyLinkFunctionForGeneratedCodeCorrectShape() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_rando_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_rando;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_gameMode_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_gameMode;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -171,6 +177,13 @@ void EmptyLinkFunctionForGeneratedCodeCorrectShape() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACorrectShape_Statics::NewProp_rando = { "rando", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACorrectShape, rando), Z_Construct_UClass_ARandomShape_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACorrectShape_Statics::NewProp_rando_MetaData), Z_Construct_UClass_ACorrectShape_Statics::NewProp_rando_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACorrectShape_Statics::NewProp_gameMode_MetaData[] = {
+		{ "Category", "CorrectShape" },
+		{ "ModuleRelativePath", "Public/CorrectShape.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACorrectShape_Statics::NewProp_gameMode = { "gameMode", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACorrectShape, gameMode), Z_Construct_UClass_UClass, Z_Construct_UClass_AGameModeBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACorrectShape_Statics::NewProp_gameMode_MetaData), Z_Construct_UClass_ACorrectShape_Statics::NewProp_gameMode_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACorrectShape_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_cube,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_circle,
@@ -178,6 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeCorrectShape() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_hour,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_star,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_rando,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACorrectShape_Statics::NewProp_gameMode,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACorrectShape_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACorrectShape>::IsAbstract,
@@ -212,15 +226,15 @@ void EmptyLinkFunctionForGeneratedCodeCorrectShape() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACorrectShape);
 	ACorrectShape::~ACorrectShape() {}
-	struct Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics
+	struct Z_CompiledInDeferFile_FID_Development_Games_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACorrectShape, ACorrectShape::StaticClass, TEXT("ACorrectShape"), &Z_Registration_Info_UClass_ACorrectShape, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACorrectShape), 739513187U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Development_Games_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ACorrectShape, ACorrectShape::StaticClass, TEXT("ACorrectShape"), &Z_Registration_Info_UClass_ACorrectShape, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACorrectShape), 359573894U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_1404435102(TEXT("/Script/PPR301"),
-		Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Development_Games_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_2787478760(TEXT("/Script/PPR301"),
+		Z_CompiledInDeferFile_FID_Development_Games_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Development_Games_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
