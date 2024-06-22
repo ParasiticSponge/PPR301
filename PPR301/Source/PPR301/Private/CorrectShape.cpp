@@ -48,7 +48,6 @@ void ACorrectShape::OnOverlapBegin(class AActor* OverlappedActor, class AActor* 
     //make sure the shape number is the same as the one chosen
     if (OtherActor && (OtherActor != this) && OtherActor == selected)
     {
-        win = true;
         /*print("Overlap Begin");
         printFString("Overlapping Actor = %s", *OtherActor->GetName());*/
         print("Correct!");
@@ -57,7 +56,6 @@ void ACorrectShape::OnOverlapBegin(class AActor* OverlappedActor, class AActor* 
     }
     if (OtherActor && (OtherActor != this) && OtherActor != selected)
     {
-        wrong = true;
         /*print("Overlap Begin");
         printFString("Overlapping Actor = %s", *OtherActor->GetName());*/
         print("Incorrect!");

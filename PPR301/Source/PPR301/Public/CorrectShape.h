@@ -19,8 +19,6 @@ protected:
 
 public:
 	ACorrectShape();
-	bool win = false;
-	bool wrong = false;
 
 	UFUNCTION()
 	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
