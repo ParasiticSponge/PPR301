@@ -33,6 +33,7 @@ void ARandomShape::Tick(float DeltaTime)
 		start++;
 		if (start == 1)
 		{
+			//FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
 			FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
 			board->SetVectorParameterValueEditorOnly("Position", position);
 			FString print = MyCharacter.ToString();
