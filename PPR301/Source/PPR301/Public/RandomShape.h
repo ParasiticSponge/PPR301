@@ -29,5 +29,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UMaterialInstanceDynamic* board;
 
-	float meshPos[5] = { -0.307872f, -0.121206f, 0.06546f, 0.262793f, 0.475141f };
+	float meshPos[5] = { 0.0, 0.185f, 0.375f, 0.575f, 0.785f};
 };

@@ -5,9 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/LevelPrototyping/Meshes/NewMaterial.uasset",
-				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/LevelPrototyping/Meshes/MI_Mat.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EL/WM49TRFOIF2F3WXT0IP33R.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/ShapeSystem/BP_Board.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_MainMenu.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/Levels/MainMenu.umap",
+				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/Levels/Maze/D/EH/Z7Y8EW2QDIQ0ZILH12GVJB.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/Levels/Maze/C/R1/NJJX55V77ICQ9PS2V5KJCV.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/Levels/Maze/B/EH/G0CQMUK9ZQT85P5VCQ4HLR.uasset",
+				"C:/Development/Games/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/KD/DTM8B2DG4YUWCMLZNGQYUE.uasset"
 			]
 		}
 	]

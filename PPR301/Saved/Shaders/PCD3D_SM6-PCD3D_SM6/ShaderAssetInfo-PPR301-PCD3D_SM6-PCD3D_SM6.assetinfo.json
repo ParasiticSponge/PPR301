@@ -372,12 +372,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "55B2E6BCB54953AEF56E025009FA6AEEE6FD2453",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/M_PrototypeGrid"
-			]
-		},
-		{
 			"ShaderMapHash": "870BAAC4E33E7F405B692237CBDE0F2A06781B8C",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
@@ -393,12 +387,6 @@
 			"ShaderMapHash": "BBFDC1C866BC172EF00CD8FB5849AFC7F69D7986",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Transmission_DS"
-			]
-		},
-		{
-			"ShaderMapHash": "52FEAFC9D949A94C29846FD50C5B20495AFDDCAB",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
 			]
 		},
 		{

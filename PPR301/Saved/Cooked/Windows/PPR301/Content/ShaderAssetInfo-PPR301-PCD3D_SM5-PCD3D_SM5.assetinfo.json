@@ -8,12 +8,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "BFC2020112554820F44804D9A19E3890064916E2",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
-			]
-		},
-		{
 			"ShaderMapHash": "E887E2014001CC1284960B18E957C69EA9AE23FB",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Unlit_Blend_DS"
@@ -355,12 +349,6 @@
 			"ShaderMapHash": "7BDC1FA06BE59BF740629282C15475DC3B0B5935",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
-			]
-		},
-		{
-			"ShaderMapHash": "92A8C8A0CC5679F75008A95531CB49AEF6084469",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/M_PrototypeGrid"
 			]
 		},
 		{
