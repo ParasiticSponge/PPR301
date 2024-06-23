@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "RandomShape.generated.h"
 
+
 UCLASS()
 class PPR301_API ARandomShape : public AActor
 {
@@ -28,6 +29,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UMaterial* board;
+	UMaterialInstanceDynamic* dynamicMaterial;
+
+	UPROPERTY(EditAnywhere)
+	AActor* boardObj;
+	UStaticMeshComponent* Mesh;
 
 	float meshPos[5] = { -0.307872f, -0.121206f, 0.06546f, 0.262793f, 0.475141f };
 };

@@ -2,6 +2,9 @@
 
 
 #include "RandomShape.h"
+#include "Materials/MaterialInterface.h"
+#include "Materials/MaterialInstanceConstant.h"
+#include "Materials/Material.h"
 
 // Sets default values
 ARandomShape::ARandomShape()
@@ -15,9 +18,19 @@ ARandomShape::ARandomShape()
 void ARandomShape::BeginPlay()
 {
 	Super::BeginPlay();
-
+	dynamicMaterial = UMaterialInstanceDynamic::Create(board, this);
 	FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], -0.381866f);
-	board->SetVectorParameterValueEditorOnly("Position", position);
+	dynamicMaterial->SetVectorParameterValue("Position", position);
+
+	TArray<UStaticMeshComponent*> Components;
+	boardObj->GetComponents<UStaticMeshComponent>(Components);
+	for (int32 i = 0; i < Components.Num(); i++)
+	{
+		Mesh = Components[i];
+	}
+
+	Mesh->SetMaterial(0, dynamicMaterial);
+
 
 	FString print = FString::FromInt(selectShape);
 	UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);
@@ -35,7 +48,10 @@ void ARandomShape::Tick(float DeltaTime)
 		{
 			//FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
 			FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
-			board->SetVectorParameterValueEditorOnly("Position", position);
+
+			dynamicMaterial->SetVectorParameterValue("Position", position);
+			Mesh->SetMaterial(0, dynamicMaterial);
+
 			FString print = MyCharacter.ToString();
 			//UE_LOG(LogTemp, Warning, TEXT("In Place"), *print);
 			//UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);

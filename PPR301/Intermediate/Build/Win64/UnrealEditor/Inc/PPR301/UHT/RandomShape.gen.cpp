@@ -10,6 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeRandomShape() {}
 // Cross Module References
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	PPR301_API UClass* Z_Construct_UClass_ARandomShape();
 	PPR301_API UClass* Z_Construct_UClass_ARandomShape_NoRegister();
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeRandomShape() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_board_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_board;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_boardObj_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_boardObj;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -55,8 +60,16 @@ void EmptyLinkFunctionForGeneratedCodeRandomShape() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARandomShape_Statics::NewProp_board = { "board", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARandomShape, board), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ARandomShape_Statics::NewProp_board_MetaData), Z_Construct_UClass_ARandomShape_Statics::NewProp_board_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARandomShape_Statics::NewProp_boardObj_MetaData[] = {
+		{ "Category", "RandomShape" },
+		{ "ModuleRelativePath", "Public/RandomShape.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARandomShape_Statics::NewProp_boardObj = { "boardObj", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARandomShape, boardObj), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ARandomShape_Statics::NewProp_boardObj_MetaData), Z_Construct_UClass_ARandomShape_Statics::NewProp_boardObj_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARandomShape_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARandomShape_Statics::NewProp_board,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARandomShape_Statics::NewProp_boardObj,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARandomShape_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ARandomShape>::IsAbstract,
@@ -96,9 +109,9 @@ void EmptyLinkFunctionForGeneratedCodeRandomShape() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_RandomShape_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARandomShape, ARandomShape::StaticClass, TEXT("ARandomShape"), &Z_Registration_Info_UClass_ARandomShape, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARandomShape), 2981072618U) },
+		{ Z_Construct_UClass_ARandomShape, ARandomShape::StaticClass, TEXT("ARandomShape"), &Z_Registration_Info_UClass_ARandomShape, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARandomShape), 2511456924U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_RandomShape_h_3022190650(TEXT("/Script/PPR301"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_RandomShape_h_855934151(TEXT("/Script/PPR301"),
 		Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_RandomShape_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_RandomShape_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
