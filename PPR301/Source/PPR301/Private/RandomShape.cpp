@@ -17,7 +17,7 @@ void ARandomShape::BeginPlay()
 	Super::BeginPlay();
 
 	FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], -0.381866f);
-	board->SetVectorParameterValueEditorOnly("Position", position);
+	board->SetVectorParameterValue("Position", position);
 
 	FString print = FString::FromInt(selectShape);
 	UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);
@@ -35,7 +35,7 @@ void ARandomShape::Tick(float DeltaTime)
 		{
 			//FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
 			FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
-			board->SetVectorParameterValueEditorOnly("Position", position);
+			board->SetVectorParameterValue("Position", position);
 			FString print = MyCharacter.ToString();
 			//UE_LOG(LogTemp, Warning, TEXT("In Place"), *print);
 			//UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);

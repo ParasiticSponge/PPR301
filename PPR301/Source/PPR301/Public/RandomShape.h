@@ -27,7 +27,7 @@ public:
 	FVector MyCharacter = FVector::Zero();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UMaterial* board;
+	UMaterialInstanceDynamic* board;
 
 	float meshPos[5] = { -0.307872f, -0.121206f, 0.06546f, 0.262793f, 0.475141f };
 };

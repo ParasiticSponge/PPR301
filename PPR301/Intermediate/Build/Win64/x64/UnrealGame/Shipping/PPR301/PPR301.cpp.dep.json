@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\development\\games\\ppr301\\ppr301\\source\\ppr301\\ppr301.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\development\\games\\ppr301\\ppr301\\intermediate\\build\\win64\\x64\\ppr301\\shipping\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\development\\games\\ppr301\\ppr301\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\ppr301\\definitions.ppr301.h",
+            "c:\\development\\games\\ppr301\\ppr301\\source\\ppr301\\ppr301.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

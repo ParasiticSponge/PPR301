@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{82A28396-770A-3F8F-9E54-4539FA754AA4}</ProjectGuid>
+    <ProjectGuid>{FD4AE44F-9EDB-31B7-8894-8A95D93F6B16}</ProjectGuid>
     <RootNamespace>PPR301</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
