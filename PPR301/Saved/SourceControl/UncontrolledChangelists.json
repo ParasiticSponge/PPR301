@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/ShapeSystem/BP_Board.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EL/WM49TRFOIF2F3WXT0IP33R.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/G9/479J9E5XXXDJPN7NLUNLPR.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/4J/XQT44AI4VIY6PF8N6C36FW.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
+				"C:/Users/123sj/Documents/GitHub/PPR301/PPR301/Content/LevelPrototyping/Meshes/NewMaterial.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/LevelPrototyping/Meshes/NewMaterial.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Development/Games/PPR301/PPR301/Content/LevelPrototyping/Meshes/MI_Mat.uasset",
