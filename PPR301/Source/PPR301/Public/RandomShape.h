@@ -23,10 +23,23 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	float easeOutQuart(float x);
+	float reverseEaseOutQuart(float x);
+	float easeInQuart(float x);
+	float scaleEase(float _start, float _finish, float x);
+	float BoundBy(float _start, float _end, float _value);
+	float GetFrames(float _speed, float distance);
+	float GetIncrementFactor(float _speed, float distance, float frames);
+	float Sigma(float _start, float _finish);
+	float GetDistance(float _speed, float _increment, float frames);
+
 	int selectShape = 0;
 	float start = -0.307872f;
 	float time = 0;
-	bool selecting;
+	float landed = 0;
+	bool past;
+	float velocity;
+	float speed;
 	FVector MyCharacter = FVector::Zero();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

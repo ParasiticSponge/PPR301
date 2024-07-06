@@ -43,11 +43,13 @@ void ARandomShape::Tick(float DeltaTime)
 	MyCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
 	if (MyCharacter.X >= 4250)
 	{
-		time+= 0.01f;
-		start+= 0.01f;
-		if (time <= 3)
+		time += DeltaTime;
+		if (!past)
 		{
+			start += 0.01f;
 			if (start >= 0.685382f) start = meshPos[0];
+			//keep track of last position
+			landed = start;
 
 			//FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], 0.135468f);
 			FLinearColor position = FLinearColor(0, 0, start, 0.135468f);
@@ -61,17 +63,139 @@ void ARandomShape::Tick(float DeltaTime)
 			FString delta = FString::SanitizeFloat(time);
 			UE_LOG(LogTemp, Warning, TEXT("%s"), *delta);
 		}
-		if (time > 3) 
+		if (time >= 3) past = true;
+		if (past)
 		{
-			FLinearColor position = FLinearColor(0, 0, start, 0.135468f);
+			//(start >= meshPos[selectShape] - 0.28 && start <= meshPos[selectShape] + 0.28)
+			//(start < meshPos[selectShape] - 0.28 || start > meshPos[selectShape] + 0.28)
 
-			dynamicMaterial->SetVectorParameterValue("Position", position);
-			Mesh->SetMaterial(0, dynamicMaterial);
+			float num = FMath::Abs(meshPos[1] - meshPos[0]) + ((FMath::Abs(meshPos[1] - meshPos[0])) / 2);
+			bool bounds1 = landed >= meshPos[selectShape] - num && landed <= meshPos[selectShape];
+			bool bounds2 = landed <= meshPos[selectShape] + num && landed >= meshPos[selectShape];
+			if (meshPos[selectShape] - num < meshPos[0])
+			{
+				bounds1 = landed >= BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] - num) && landed < 0.685382f
+					|| landed >= meshPos[0] && landed <= meshPos[selectShape];
+			}
+			if (meshPos[selectShape] + num > 0.685382f)
+			{
+				bounds2 = landed <= BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] + num) && landed > meshPos[0]
+					|| landed <= 0.685382f && landed >= meshPos[selectShape];
+			}
+			//float margin = BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] + 0.28);
 
-			if (start >= meshPos[selectShape] - 0.01f && start <= meshPos[selectShape] + 0.01f)
-				start = meshPos[selectShape];
+			//if landed shape is too close to target (not enough time to slow down), cycle another round
+			if (bounds1 || bounds2)
+			{
+				start += 0.01f;
+				if (start >= 0.685382f) start = meshPos[0];
+				//also move the landed shape as it cycles
+				landed = start;
+
+				FLinearColor position = FLinearColor(0, 0, start, 0.135468f);
+
+				dynamicMaterial->SetVectorParameterValue("Position", position);
+				Mesh->SetMaterial(0, dynamicMaterial);
+				UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(landed));
+				time = 0;
+				speed = DeltaTime;
+				velocity = speed;
+			}
+			//once it's far enough
+			else
+			{
+				float magnitude = 0;
+				if (landed > meshPos[selectShape]) magnitude = (0.685382f - landed) + (meshPos[selectShape] - meshPos[0]);
+				else magnitude = meshPos[selectShape] - landed;
+
+				float getFrame = GetFrames(speed, magnitude);
+				float incr = GetIncrementFactor(speed, magnitude, getFrame);
+				float dist = GetDistance(speed, incr, getFrame);
+
+				velocity -= incr;
+				if (velocity <= 0) velocity = 0;
+				start += velocity;
+				if (start >= 0.685382f) start = meshPos[0];
+
+				/*start += magnitude;
+				if (start > landed + magnitude) start = landed + magnitude;*/
+
+				//start no longer updates every frame to calculate lerping distance
+				FLinearColor position = FLinearColor(0, 0, start, 0.135468f);
+
+				dynamicMaterial->SetVectorParameterValue("Position", position);
+				Mesh->SetMaterial(0, dynamicMaterial);
+
+				/*if (start >= meshPos[selectShape] - 0.001f && start <= meshPos[selectShape] + 0.001f)
+					start = meshPos[selectShape];*/
+				UE_LOG(LogTemp, Warning, TEXT("starting: %s"), *FString::SanitizeFloat(start));
+				UE_LOG(LogTemp, Warning, TEXT("expected: %s"), *FString::SanitizeFloat(meshPos[selectShape]));
+				UE_LOG(LogTemp, Warning, TEXT("magnitude: %s"), *FString::SanitizeFloat(magnitude));
+			}
 		}
 	}
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Player Location: %s"), *MyCharacter.ToString()));
 }
 
+float ARandomShape::GetFrames(float _speed, float distance)
+{
+	float frames = (distance / _speed) * ((_speed / distance) + 2);
+	return floor(frames);
+}
+float ARandomShape::GetIncrementFactor(float _speed, float distance, float frames)
+{
+	float numerator = (distance - (_speed * floor(frames)));
+	float denominator = Sigma(floor(frames), 0);
+	float increment = FMath::Abs(numerator) / FMath::Abs(denominator);
+	return increment;
+}
+float ARandomShape::Sigma(float _start, float _finish)
+{
+	float group = 0;
+	//if start is lower than finish, make for loop add, else subtract
+	for (int i = _start; _start < _finish ? i <= _finish : i >= _finish; _start < _finish ? i++ : i--)
+	{
+		group += i;
+	}
+	return group;
+}
+
+float ARandomShape::GetDistance(float _speed, float _increment, float frames)
+{
+	return -(Sigma(frames, 0) * _increment) + (_speed * frames);
+}
+
+//returns time (x)
+float ARandomShape::easeOutQuart(float x)
+{
+	return 1 - FMath::Pow(1 - x, 4);
+}
+float ARandomShape::reverseEaseOutQuart(float x)
+{
+	//return 1 - FMath::Pow(x * (1.0f/9.0f), 4);
+	return 1 - FMath::Pow(x * (1.0f / 5.0f), 4);
+}
+float ARandomShape::easeInQuart(float x)
+{
+	return x * x * x * x;
+}
+
+float ARandomShape::scaleEase(float _start, float _finish, float x)
+{
+	/*float magnitude = FMath::Abs(_finish - _start);
+	float ryu = magnitude * x;
+	return ryu += _start;*/
+	float magnitude = 0;
+	if (_finish < _start) magnitude = (0.685382f - _start) + (_finish - meshPos[0]);
+	else magnitude = FMath::Abs(_finish - _start);
+	float ryu = x * 0.01f;
+	return ryu;
+}
+
+float ARandomShape::BoundBy(float _start, float _end, float _value)
+{
+	float magnitude = _end - _start;
+	if (_value < _start) _value += (magnitude * ceil(FMath::Abs(((_value - _start) / magnitude))));
+	if (_value > _end) _value -= (magnitude * floor((_value - _start) / magnitude));
+	return _value;
+}
