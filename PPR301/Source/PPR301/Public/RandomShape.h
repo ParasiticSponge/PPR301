@@ -50,5 +50,5 @@ public:
 	AActor* boardObj;
 	UStaticMeshComponent* Mesh;
 
-	float meshPos[5] = { -0.307872f, -0.121206f, 0.06546f, 0.262793f, 0.475141f };
+	float meshPos[5] = { -0.307872f, -0.121206f, 0.06546f, 0.276793f, 0.475141f };
 };

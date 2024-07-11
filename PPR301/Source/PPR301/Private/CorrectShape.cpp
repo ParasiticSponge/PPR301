@@ -27,13 +27,13 @@ void ACorrectShape::BeginPlay()
         selected = circle;
         break;
     case 2:
-        selected = triangle;
-        break;
-    case 3:
         selected = hour;
         break;
-    case 4:
+    case 3:
         selected = star;
+        break;
+    case 4:
+        selected = triangle;
         break;
     default:
         break;

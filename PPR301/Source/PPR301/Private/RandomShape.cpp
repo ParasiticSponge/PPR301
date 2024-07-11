@@ -47,7 +47,7 @@ void ARandomShape::Tick(float DeltaTime)
 		if (!past)
 		{
 			start += 0.01f;
-			if (start >= 0.685382f) start = meshPos[0];
+			if (start >= 0.6915f) start = meshPos[0];
 			//keep track of last position
 			landed = start;
 
@@ -58,37 +58,29 @@ void ARandomShape::Tick(float DeltaTime)
 			Mesh->SetMaterial(0, dynamicMaterial);
 
 			FString print = MyCharacter.ToString();
-			//UE_LOG(LogTemp, Warning, TEXT("In Place"), *print);
-			//UE_LOG(LogTemp, Warning, TEXT("IS: %s"), *print);
 			FString delta = FString::SanitizeFloat(time);
 			UE_LOG(LogTemp, Warning, TEXT("%s"), *delta);
 		}
 		if (time >= 3) past = true;
 		if (past)
 		{
-			//(start >= meshPos[selectShape] - 0.28 && start <= meshPos[selectShape] + 0.28)
-			//(start < meshPos[selectShape] - 0.28 || start > meshPos[selectShape] + 0.28)
+			//distance between half a shape
+			float num = ((meshPos[1] - meshPos[0]) / 2);
+			//between the distance and the selected number on the left side
+			bool bounds = landed >= meshPos[selectShape] && landed <= meshPos[selectShape] + num;
 
-			float num = FMath::Abs(meshPos[1] - meshPos[0]) + ((FMath::Abs(meshPos[1] - meshPos[0])) / 2);
-			bool bounds1 = landed >= meshPos[selectShape] - num && landed <= meshPos[selectShape];
-			bool bounds2 = landed <= meshPos[selectShape] + num && landed >= meshPos[selectShape];
-			if (meshPos[selectShape] - num < meshPos[0])
-			{
-				bounds1 = landed >= BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] - num) && landed < 0.685382f
-					|| landed >= meshPos[0] && landed <= meshPos[selectShape];
-			}
+			//if bounds fall above array
 			if (meshPos[selectShape] + num > 0.685382f)
 			{
-				bounds2 = landed <= BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] + num) && landed > meshPos[0]
-					|| landed <= 0.685382f && landed >= meshPos[selectShape];
+				bounds = landed >= meshPos[selectShape] && landed <= 0.685382f || landed >= meshPos[0] && landed <= meshPos[0] + (num - (0.685382f - meshPos[selectShape]));
 			}
-			//float margin = BoundBy(meshPos[0], 0.685382f, meshPos[selectShape] + 0.28);
 
-			//if landed shape is too close to target (not enough time to slow down), cycle another round
-			if (bounds1 || bounds2)
+			//distance of 2 objects
+			if (!bounds)
 			{
 				start += 0.01f;
-				if (start >= 0.685382f) start = meshPos[0];
+				if (start >= 0.6915f) start = meshPos[0];
+
 				//also move the landed shape as it cycles
 				landed = start;
 
@@ -96,7 +88,8 @@ void ARandomShape::Tick(float DeltaTime)
 
 				dynamicMaterial->SetVectorParameterValue("Position", position);
 				Mesh->SetMaterial(0, dynamicMaterial);
-				UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(landed));
+				//UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(landed));
+				//UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(start));
 				time = 0;
 				speed = DeltaTime;
 				velocity = speed;
@@ -105,17 +98,22 @@ void ARandomShape::Tick(float DeltaTime)
 			else
 			{
 				float magnitude = 0;
-				if (landed > meshPos[selectShape]) magnitude = (0.685382f - landed) + (meshPos[selectShape] - meshPos[0]);
+				if (landed > meshPos[selectShape])
+				{
+					  magnitude = (0.6915f - landed) + (meshPos[selectShape] - meshPos[0]);
+					  UE_LOG(LogTemp, Warning, TEXT("OVERSHOT: %s"), *FString::SanitizeFloat(magnitude));
+				}
 				else magnitude = meshPos[selectShape] - landed;
 
 				float getFrame = GetFrames(speed, magnitude);
 				float incr = GetIncrementFactor(speed, magnitude, getFrame);
 				float dist = GetDistance(speed, incr, getFrame);
 
-				velocity -= incr;
 				if (velocity <= 0) velocity = 0;
+				velocity -= incr;
+
+				if (start >= 0.6915f) start = meshPos[0];
 				start += velocity;
-				if (start >= 0.685382f) start = meshPos[0];
 
 				/*start += magnitude;
 				if (start > landed + magnitude) start = landed + magnitude;*/
@@ -128,8 +126,8 @@ void ARandomShape::Tick(float DeltaTime)
 
 				/*if (start >= meshPos[selectShape] - 0.001f && start <= meshPos[selectShape] + 0.001f)
 					start = meshPos[selectShape];*/
-				UE_LOG(LogTemp, Warning, TEXT("starting: %s"), *FString::SanitizeFloat(start));
-				UE_LOG(LogTemp, Warning, TEXT("expected: %s"), *FString::SanitizeFloat(meshPos[selectShape]));
+				//UE_LOG(LogTemp, Warning, TEXT("starting: %s"), *FString::SanitizeFloat(start));
+				//UE_LOG(LogTemp, Warning, TEXT("expected: %s"), *FString::SanitizeFloat(meshPos[selectShape]));
 				UE_LOG(LogTemp, Warning, TEXT("magnitude: %s"), *FString::SanitizeFloat(magnitude));
 			}
 		}
@@ -186,7 +184,7 @@ float ARandomShape::scaleEase(float _start, float _finish, float x)
 	float ryu = magnitude * x;
 	return ryu += _start;*/
 	float magnitude = 0;
-	if (_finish < _start) magnitude = (0.685382f - _start) + (_finish - meshPos[0]);
+	if (_finish < _start) magnitude = (0.6915f - _start) + (_finish - meshPos[0]);
 	else magnitude = FMath::Abs(_finish - _start);
 	float ryu = x * 0.01f;
 	return ryu;
