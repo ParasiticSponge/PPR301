@@ -26,13 +26,10 @@ public:
 	void PieceSwap(int list[], int from, int to);
 	void CreateSequence(int arr[], int start);
 	void RandomSequence(int arr[], int start);
-	void ShuffleArray(int arr[]);
 	void ShuffleArray(float arr[][2]);
-	bool ArrayEquals(int arr1[], int arr2[]);
-	bool ArrayEquals(int arr1[][2], int arr2[][2]);
+	bool ArrayEquals(float arr1[][2], float arr2[][2]);
 	UFUNCTION(BlueprintCallable)
 	void MovePanel(int x);
-	int FindFirstIndex(int arr[], int x);
 	int FindFirstIndex(float arr[][2], float x[]);
 	bool NextToBlank(int x);
 

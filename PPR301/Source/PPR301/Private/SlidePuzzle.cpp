@@ -55,7 +55,7 @@ void ASlidePuzzle::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("blank: %s"), *FString::SanitizeFloat(blank[0]));
 		UE_LOG(LogTemp, Warning, TEXT("blank: %s"), *FString::SanitizeFloat(blank[1]));
 	}
-	//ShuffleArray(meshPos);
+	ShuffleArray(meshPos);
 
 	for (int i = 0; i < rowLength * columnLength; i++)
 	{
@@ -84,13 +84,8 @@ void ASlidePuzzle::BeginPlay()
 void ASlidePuzzle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	/*for (int i = 0; i < rowLength * columnLength; i++)
-	{
-		FLinearColor position = FLinearColor(0, 0, meshPos[i][0], meshPos[i][1]);
-		dynamicMaterial[i]->SetVectorParameterValue("Position", position);
-	}*/
 
-	/*if (ArrayEquals(meshPos, meshWin)) hasWon = true;*/
+	if (ArrayEquals(meshPos, meshWin)) hasWon = true;
 }
 
 void ASlidePuzzle::PieceSwap(float list[][2], int from, int to)
@@ -136,23 +131,6 @@ void ASlidePuzzle::RandomSequence(int arr[], int start)
 		numbers.erase(numbers.begin() + rand);
 	}
 }
-void ASlidePuzzle::ShuffleArray(int arr[])
-{
-	int size = rowLength * columnLength;
-	vector<float> numbers(size, 0);
-
-	for (int i = 0; i < size; i++)
-	{
-		numbers[i] = arr[i];
-	}
-	for (int i = 0; i < size; i++)
-	{
-		//get percentage out of 100 and ratio it by length
-		float rand = floor((FMath::RandRange(0.0f, 100.0f)) / 100 * numbers.size());
-		arr[i] = numbers[rand];
-		numbers.erase(numbers.begin() + rand);
-	}
-}
 void ASlidePuzzle::ShuffleArray(float arr[][2])
 {
 	int size = rowLength * columnLength;
@@ -179,23 +157,17 @@ void ASlidePuzzle::ShuffleArray(float arr[][2])
 			numbers.erase(numbers.begin() + rand);
 		}
 }
-bool ASlidePuzzle::ArrayEquals(int arr1[], int arr2[])
+bool ASlidePuzzle::ArrayEquals(float arr1[][2], float arr2[][2])
 {
-	int size = sizeof(arr1);
-	if (size != sizeof(arr2)) return false;
-	for (int i = 0; i < size; i++)
+	int rows_1 = sizeof arr1 / sizeof arr1[0];
+	int cols_1 = sizeof arr1[0] / sizeof(int);
+	int rows_2 = sizeof arr2 / sizeof arr2[0];
+	int cols_2 = sizeof arr2[0] / sizeof(int);
+
+	if (rows_1 != rows_2 || cols_1 != cols_2) return false;
+	for (int i = 0; i < rows_1; i++)
 	{
-		if (arr1[i] != arr2[i]) return false;
-	}
-	return true;
-}
-bool ASlidePuzzle::ArrayEquals(int arr1[][2], int arr2[][2])
-{
-	int size = sizeof(arr1);
-	if (size != sizeof(arr2)) return false;
-	for (int i = 0; i < size; i++)
-	{
-		for (int j = 0; j < 2; j++)
+		for (int j = 0; j < cols_1; j++)
 		{
 			if (arr1[i][j] != arr2[i][j]) return false;
 		}
@@ -218,14 +190,6 @@ void ASlidePuzzle::MovePanel(int x)
 	position = FLinearColor(0, 0, meshPos[index][0], meshPos[index][1]);
 	dynamicMaterial[index]->SetVectorParameterValue("Position", position);
 }
-int ASlidePuzzle::FindFirstIndex(int arr[], int x)
-{
-	for (int i = 0; i < sizeof(arr); i++)
-	{
-		if (arr[i] == x) return i;
-	}
-	return -1;
-}
 int ASlidePuzzle::FindFirstIndex(float arr[][2], float x[])
 {
 	for (int i = 0; i < rowLength * columnLength; i++)
@@ -236,43 +200,45 @@ int ASlidePuzzle::FindFirstIndex(float arr[][2], float x[])
 }
 bool ASlidePuzzle::NextToBlank(int x)
 {
-	//gets the index of the blank value
 	int index = FindFirstIndex(meshPos, blank);
+	int index2 = FindFirstIndex(meshPos, meshPos[x]);
+	UE_LOG(LogTemp, Warning, TEXT("blank: %s"), *FString::FromInt(index));
+	UE_LOG(LogTemp, Warning, TEXT("clicked: %s"), *FString::FromInt(index2));
 	bool isNear = false;
 
-	if (x == 0)
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
-	else if (x == rowLength - 1)
-		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
-	else if (x == (rowLength * columnLength) - rowLength)
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
-	else if (x == (rowLength * columnLength) - 1)
-		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
-	else if (x < rowLength)
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
-	else if (x > (rowLength * columnLength) - rowLength)
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
-	else if (x % rowLength == 0)
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
+	//if (x == 0)
+	//	isNear = x == index + 1 ||
+	//	x == index + rowLength;
+	//else if (x == rowLength - 1)
+	//	isNear = x == index - 1 ||
+	//	x == index + rowLength;
+	//else if (x == (rowLength * columnLength) - rowLength)
+	//	isNear = x == index + 1 ||
+	//	x == index - rowLength;
+	//else if (x == (rowLength * columnLength) - 1)
+	//	isNear = x == index - 1 ||
+	//	x == index - rowLength;
+	//else if (x < rowLength)
+	//	isNear = x == index + 1 ||
+	//	x == index - 1 ||
+	//	x == index + rowLength;
+	//else if (x > (rowLength * columnLength) - rowLength)
+	//	isNear = x == index + 1 ||
+	//	x == index - 1 ||
+	//	x == index - rowLength;
+	if (x % rowLength == 0)
+		isNear = x == index - 1 ||
+		x == index + rowLength ||
+		x == index - rowLength;
 	else if ((x + 1) % rowLength == 0)
-		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
+		isNear = x == index + 1 ||
+		x == index + rowLength ||
+		x == index - rowLength;
 	else
-		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
-		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
-		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
-		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
+		isNear = x == index + 1 ||
+		x == index - 1 ||
+		x == index + rowLength ||
+		x == index - rowLength;
 
 	return isNear;
 }
