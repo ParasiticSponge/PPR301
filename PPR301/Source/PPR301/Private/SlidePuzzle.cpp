@@ -44,16 +44,18 @@ void ASlidePuzzle::BeginPlay()
 			int index = (j + i);
 			meshPos[index][0] = meshWin[index][0] = j/rowLength;
 			meshPos[index][1] = meshWin[index][1] = (i/rowLength)/rowLength;
-			UE_LOG(LogTemp, Warning, TEXT("1: %s"), *FString::SanitizeFloat(meshPos[index][0]));
-			UE_LOG(LogTemp, Warning, TEXT("2: %s"), *FString::SanitizeFloat(meshPos[index][1]));
+			UE_LOG(LogTemp, Warning, TEXT("init 1: %s"), *FString::SanitizeFloat(meshPos[index][0]));
+			UE_LOG(LogTemp, Warning, TEXT("init 2: %s"), *FString::SanitizeFloat(meshPos[index][1]));
 		}
 	}
 
 	for (int j = 0; j < 2; j++)
 	{
 		blank[j] = meshPos[(rowLength * columnLength) - 1][j];
+		UE_LOG(LogTemp, Warning, TEXT("blank: %s"), *FString::SanitizeFloat(blank[0]));
+		UE_LOG(LogTemp, Warning, TEXT("blank: %s"), *FString::SanitizeFloat(blank[1]));
 	}
-	ShuffleArray(meshPos);
+	//ShuffleArray(meshPos);
 
 	for (int i = 0; i < rowLength * columnLength; i++)
 	{
@@ -202,12 +204,19 @@ bool ASlidePuzzle::ArrayEquals(int arr1[][2], int arr2[][2])
 }
 void ASlidePuzzle::MovePanel(int x)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Attempting to move..."));
 	if (!NextToBlank(x)) return;
+	UE_LOG(LogTemp, Warning, TEXT("MOVED"));
 
 	//gets the index of the blank value
 	int index = FindFirstIndex(meshPos, blank);
 	//swap position information
 	PieceSwap(meshPos, x, index);
+
+	FLinearColor position = FLinearColor(0, 0, meshPos[x][0], meshPos[x][1]);
+	dynamicMaterial[x]->SetVectorParameterValue("Position", position);
+	position = FLinearColor(0, 0, meshPos[index][0], meshPos[index][1]);
+	dynamicMaterial[index]->SetVectorParameterValue("Position", position);
 }
 int ASlidePuzzle::FindFirstIndex(int arr[], int x)
 {
@@ -217,9 +226,9 @@ int ASlidePuzzle::FindFirstIndex(int arr[], int x)
 	}
 	return -1;
 }
-int ASlidePuzzle::FindFirstIndex(float arr[][2], int x[])
+int ASlidePuzzle::FindFirstIndex(float arr[][2], float x[])
 {
-	for (int i = 0; i < sizeof(arr); i++)
+	for (int i = 0; i < rowLength * columnLength; i++)
 	{
 		if (arr[i][0] == x[0] && arr[i][1] == x[1]) return i;
 	}
@@ -232,38 +241,38 @@ bool ASlidePuzzle::NextToBlank(int x)
 	bool isNear = false;
 
 	if (x == 0)
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
 	else if (x == rowLength - 1)
-		isNear = puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength];
+		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
 	else if (x == (rowLength * columnLength) - rowLength)
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 	else if (x == (rowLength * columnLength) - 1)
-		isNear = puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 	else if (x < rowLength)
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1];
 	else if (x > (rowLength * columnLength) - rowLength)
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 	else if (x % rowLength == 0)
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 	else if ((x + 1) % rowLength == 0)
-		isNear = puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 	else
-		isNear = puzzleOrder[x] == puzzleOrder[index + 1] ||
-		puzzleOrder[x] == puzzleOrder[index - 1] ||
-		puzzleOrder[x] == puzzleOrder[index + rowLength] ||
-		puzzleOrder[x] == puzzleOrder[index - rowLength];
+		isNear = meshPos[x][0] == meshPos[index + 1][0] && meshPos[x][1] == meshPos[index + 1][1] ||
+		meshPos[x][0] == meshPos[index - 1][0] && meshPos[x][1] == meshPos[index - 1][1] ||
+		meshPos[x][0] == meshPos[index + rowLength][0] && meshPos[x][1] == meshPos[index + rowLength][1] ||
+		meshPos[x][0] == meshPos[index - rowLength][0] && meshPos[x][1] == meshPos[index - rowLength][1];
 
 	return isNear;
 }

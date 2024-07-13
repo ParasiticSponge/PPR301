@@ -101,7 +101,7 @@ void ARandomShape::Tick(float DeltaTime)
 				if (landed > meshPos[selectShape])
 				{
 					  magnitude = (0.6915f - landed) + (meshPos[selectShape] - meshPos[0]);
-					  UE_LOG(LogTemp, Warning, TEXT("OVERSHOT: %s"), *FString::SanitizeFloat(magnitude));
+					  //UE_LOG(LogTemp, Warning, TEXT("OVERSHOT: %s"), *FString::SanitizeFloat(magnitude));
 				}
 				else magnitude = meshPos[selectShape] - landed;
 
@@ -128,7 +128,7 @@ void ARandomShape::Tick(float DeltaTime)
 					start = meshPos[selectShape];*/
 				//UE_LOG(LogTemp, Warning, TEXT("starting: %s"), *FString::SanitizeFloat(start));
 				//UE_LOG(LogTemp, Warning, TEXT("expected: %s"), *FString::SanitizeFloat(meshPos[selectShape]));
-				UE_LOG(LogTemp, Warning, TEXT("magnitude: %s"), *FString::SanitizeFloat(magnitude));
+				//UE_LOG(LogTemp, Warning, TEXT("magnitude: %s"), *FString::SanitizeFloat(magnitude));
 			}
 		}
 	}

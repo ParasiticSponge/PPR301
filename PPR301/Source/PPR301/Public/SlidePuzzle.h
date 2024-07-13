@@ -33,7 +33,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void MovePanel(int x);
 	int FindFirstIndex(int arr[], int x);
-	int FindFirstIndex(float arr[][2], int x[]);
+	int FindFirstIndex(float arr[][2], float x[]);
 	bool NextToBlank(int x);
 
 	int puzzleOrder[9];
@@ -74,5 +74,5 @@ public:
 	//position of numbers texture
 	float meshWin[9][2];
 	float meshPos[9][2];
-	int blank[2];
+	float blank[2];
 };
