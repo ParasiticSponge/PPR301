@@ -41,7 +41,7 @@ void ARandomShape::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	MyCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-	if (MyCharacter.X >= 4250)
+	if (MyCharacter.X >= 3700)
 	{
 		time += DeltaTime;
 		if (!past)
