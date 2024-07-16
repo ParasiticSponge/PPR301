@@ -42,15 +42,6 @@
     <ClInclude Include="..\..\Source\PPR301\PPR301.h">
       <Filter>Source\PPR301</Filter>
     </ClInclude>
-    <Filter Include="Source\PPR301\.vs">
-      <UniqueIdentifier>{405F269F-0F28-3D08-B51F-05C6D8704C7A}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\PPR301\.vs\slnx.sqlite">
-      <Filter>Source\PPR301\.vs</Filter>
-    </None>
-    <None Include="..\..\Source\PPR301\.vs\slnx.sqlite-journal">
-      <Filter>Source\PPR301\.vs</Filter>
-    </None>
     <Filter Include="Source\PPR301\Private">
       <UniqueIdentifier>{3A0160B2-5D38-3536-A657-7ACB47E79286}</UniqueIdentifier>
     </Filter>
