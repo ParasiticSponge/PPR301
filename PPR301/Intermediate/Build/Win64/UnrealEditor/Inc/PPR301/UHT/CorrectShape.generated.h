@@ -15,16 +15,11 @@ class AActor;
 #endif
 #define PPR301_CorrectShape_generated_h
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_SPARSE_DATA
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
- \
+#define FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACorrectShape(); \
 	friend struct Z_Construct_UClass_ACorrectShape_Statics; \
@@ -33,11 +28,11 @@ public: \
 	DECLARE_SERIALIZER(ACorrectShape)
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API ACorrectShape(ACorrectShape&&); \
-	NO_API ACorrectShape(const ACorrectShape&); \
+	ACorrectShape(ACorrectShape&&); \
+	ACorrectShape(const ACorrectShape&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACorrectShape); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACorrectShape); \
@@ -45,17 +40,13 @@ public: \
 	NO_API virtual ~ACorrectShape();
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_12_PROLOG
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_GENERATED_BODY \
+#define FID_PPR301_Source_PPR301_Public_CorrectShape_h_12_PROLOG
+#define FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_SPARSE_DATA \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h_15_ENHANCED_CONSTRUCTORS \
+	FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_INCLASS_NO_PURE_DECLS \
+	FID_PPR301_Source_PPR301_Public_CorrectShape_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,7 +54,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PPR301_API UClass* StaticClass<class ACorrectShape>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_CorrectShape_h
+#define CURRENT_FILE_ID FID_PPR301_Source_PPR301_Public_CorrectShape_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

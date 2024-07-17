@@ -14,16 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PPR301_SlidePuzzle_generated_h
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_SPARSE_DATA
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
+#define FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execMovePanel);
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ACCESSORS
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASlidePuzzle(); \
 	friend struct Z_Construct_UClass_ASlidePuzzle_Statics; \
@@ -32,11 +27,11 @@ public: \
 	DECLARE_SERIALIZER(ASlidePuzzle)
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API ASlidePuzzle(ASlidePuzzle&&); \
-	NO_API ASlidePuzzle(const ASlidePuzzle&); \
+	ASlidePuzzle(ASlidePuzzle&&); \
+	ASlidePuzzle(const ASlidePuzzle&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASlidePuzzle); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASlidePuzzle); \
@@ -44,17 +39,13 @@ public: \
 	NO_API virtual ~ASlidePuzzle();
 
 
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_9_PROLOG
-#define FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_GENERATED_BODY \
+#define FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_9_PROLOG
+#define FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_SPARSE_DATA \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ACCESSORS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ENHANCED_CONSTRUCTORS \
+	FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_INCLASS_NO_PURE_DECLS \
+	FID_PPR301_Source_PPR301_Public_SlidePuzzle_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +53,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PPR301_API UClass* StaticClass<class ASlidePuzzle>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_123sj_Documents_GitHub_PPR301_PPR301_Source_PPR301_Public_SlidePuzzle_h
+#define CURRENT_FILE_ID FID_PPR301_Source_PPR301_Public_SlidePuzzle_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -12,24 +12,6 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
-    <Filter Include="Config">
-      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
     <Filter Include="Source\PPR301">
       <UniqueIdentifier>{CA5DBC57-8E5A-3AF7-94F6-A782E9B718E7}</UniqueIdentifier>
     </Filter>
@@ -42,6 +24,27 @@
     <ClInclude Include="..\..\Source\PPR301\PPR301.h">
       <Filter>Source\PPR301</Filter>
     </ClInclude>
+    <Filter Include="Source\PPR301\.vs">
+      <UniqueIdentifier>{405F269F-0F28-3D08-B51F-05C6D8704C7A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PPR301\.vs\ProjectSettings.json">
+      <Filter>Source\PPR301\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\PPR301\.vs\slnx.sqlite">
+      <Filter>Source\PPR301\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\PPR301\.vs\slnx.sqlite-journal">
+      <Filter>Source\PPR301\.vs</Filter>
+    </None>
+    <Filter Include="Source\PPR301\.vs\PPR301">
+      <UniqueIdentifier>{18AC76A1-E9C4-3102-AA8F-E586D8DAE8BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PPR301\.vs\PPR301\FileContentIndex">
+      <UniqueIdentifier>{7E3F88F4-B079-3786-A31D-331A197CB582}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PPR301\.vs\PPR301\FileContentIndex\92b26022-4616-4da3-ac22-1ae83928b106.vsidx">
+      <Filter>Source\PPR301\.vs\PPR301\FileContentIndex</Filter>
+    </None>
     <Filter Include="Source\PPR301\Private">
       <UniqueIdentifier>{3A0160B2-5D38-3536-A657-7ACB47E79286}</UniqueIdentifier>
     </Filter>
