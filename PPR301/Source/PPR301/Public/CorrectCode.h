@@ -35,5 +35,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DoneCode")
 	bool isDone = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Won")
-	bool hasWon;
+	bool hasWon = false;
 };
