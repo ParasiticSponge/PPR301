@@ -114,6 +114,8 @@ void ARandomShape::Tick(float DeltaTime)
 				if (velocity <= 0) velocity = 0;
 
 				if (start >= 0.6915f) start = meshPos[0];
+
+				if (velocity <= 0 && start <= meshPos[selectShape]) velocity = 0.001f;
 				start += velocity;
 
 				/*start += magnitude;
