@@ -42,51 +42,6 @@
     <ClInclude Include="..\..\Source\PPR301\PPR301.h">
       <Filter>Source\PPR301</Filter>
     </ClInclude>
-    <Filter Include="Source\PPR301\.vs">
-      <UniqueIdentifier>{405F269F-0F28-3D08-B51F-05C6D8704C7A}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\PPR301\.vs\ProjectSettings.json">
-      <Filter>Source\PPR301\.vs</Filter>
-    </None>
-    <None Include="..\..\Source\PPR301\.vs\slnx.sqlite">
-      <Filter>Source\PPR301\.vs</Filter>
-    </None>
-    <None Include="..\..\Source\PPR301\.vs\VSWorkspaceState.json">
-      <Filter>Source\PPR301\.vs</Filter>
-    </None>
-    <Filter Include="Source\PPR301\.vs\PPR301">
-      <UniqueIdentifier>{18AC76A1-E9C4-3102-AA8F-E586D8DAE8BC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\PPR301\.vs\PPR301\FileContentIndex">
-      <UniqueIdentifier>{7E3F88F4-B079-3786-A31D-331A197CB582}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\PPR301\.vs\PPR301\FileContentIndex\5fbcf963-c4c6-4f24-9455-ab26e37b954e.vsidx">
-      <Filter>Source\PPR301\.vs\PPR301\FileContentIndex</Filter>
-    </None>
-    <Filter Include="Source\PPR301\.vs\PPR301\v17">
-      <UniqueIdentifier>{E9D9B378-2A31-3572-9330-EC06187416CE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\PPR301\.vs\PPR301\v17\.wsuo">
-      <Filter>Source\PPR301\.vs\PPR301\v17</Filter>
-    </None>
-    <None Include="..\..\Source\PPR301\.vs\PPR301\v17\Browse.VC.db">
-      <Filter>Source\PPR301\.vs\PPR301\v17</Filter>
-    </None>
-    <None Include="..\..\Source\PPR301\.vs\PPR301\v17\DocumentLayout.json">
-      <Filter>Source\PPR301\.vs\PPR301\v17</Filter>
-    </None>
-    <Filter Include="Source\PPR301\.vs\PPR301\v17\ipch">
-      <UniqueIdentifier>{33D5745D-9A8F-3C68-8284-AB6B1BCEBE8F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\PPR301\.vs\PPR301\v17\ipch\AutoPCH">
-      <UniqueIdentifier>{7762B224-E97C-306B-B291-EF96617FCD89}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\PPR301\.vs\PPR301\v17\ipch\AutoPCH\d68bbb5ad5e92986">
-      <UniqueIdentifier>{92F23588-3EE2-30DE-9B51-7263B3B9C5F7}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\PPR301\.vs\PPR301\v17\ipch\AutoPCH\d68bbb5ad5e92986\CORRECTSHAPE.ipch">
-      <Filter>Source\PPR301\.vs\PPR301\v17\ipch\AutoPCH\d68bbb5ad5e92986</Filter>
-    </None>
     <Filter Include="Source\PPR301\Private">
       <UniqueIdentifier>{3A0160B2-5D38-3536-A657-7ACB47E79286}</UniqueIdentifier>
     </Filter>
