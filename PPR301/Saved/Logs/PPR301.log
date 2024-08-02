@@ -13316,3 +13316,391 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.02-10.40.08:125][479]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
 [2024.08.02-10.40.08:154][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
 [2024.08.02-10.40.08:309][480]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.08.02-10.42.09:547][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.08.02-10.42.11:553][643]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.08.02-10.42.11:563][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.02-10.42.11:563][643]PIE: New page: PIE session: Level2 (3 Aug 2024, 6:42:11 am)
+[2024.08.02-10.42.11:563][643]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.08.02-10.42.11:571][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008483s)
+[2024.08.02-10.42.11:571][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.008526s)
+[2024.08.02-10.42.11:586][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.08.02-10.42.11:588][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.02-10.42.11:589][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.02-10.42.11:589][643]LogAIModule: Creating AISystem for world Level2
+[2024.08.02-10.42.11:589][643]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2024.08.02-10.42.11:589][643]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.08.02-10.42.11:589][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.02-10.42.11:590][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.02-10.42.11:590][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.02-10.42.11:590][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.02-10.42.11:590][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.02-10.42.11:590][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.02-10.42.11:593][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.02-10.42.11:615][643]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2024.08.02-10.42.11:615][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.02-10.42.11:615][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.02-10.42.11:615][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.02-10.42.11:616][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.08.02-10.42.11:616][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=17
+[2024.08.02-10.42.11:618][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.08.02-10.42.11:618][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.08.02-10.42.11:618][643]LogInit: FAudioDevice initialized with ID 17.
+[2024.08.02-10.42.11:618][643]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level2'.
+[2024.08.02-10.42.11:618][643]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.08.02-10.42.11:674][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.02-10.42.11:674][643]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.02-10.42.11:683][643]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.08.02-20.42.11
+[2024.08.02-10.42.11:683][643]LogWorld: Bringing up level for play took: 0.008655
+[2024.08.02-10.42.11:686][643]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.08.02-10.42.11:689][643]LogTemp: Warning: init 1: 0.0
+[2024.08.02-10.42.11:689][643]LogTemp: Warning: init 2: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 1: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: init 2: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: blank: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: blank: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: blank: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: blank: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.333333
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: ARR: 0.666667
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: 2: 9
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.02-10.42.11:690][643]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.02-10.42.11:701][643]PIE: Server logged in
+[2024.08.02-10.42.11:704][643]PIE: Play in editor total start time 0.142 seconds.
+[2024.08.02-10.42.11:706][643]LogTemp: Warning: code: 
+[2024.08.02-10.42.11:769][643]LogViewport: Scene viewport resized to 1920x1041, mode Windowed.
+[2024.08.02-10.42.11:779][644]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:127][645]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:372][646]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:478][647]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:509][648]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:555][649]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:573][650]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:593][651]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:610][652]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:628][653]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:649][654]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:668][655]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:687][656]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:706][657]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:723][658]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:742][659]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:759][660]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:775][661]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:792][662]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:810][663]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:828][664]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:847][665]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:865][666]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:882][667]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:900][668]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:917][669]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:934][670]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:951][671]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:970][672]LogTemp: Warning: code: 
+[2024.08.02-10.42.12:990][673]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:009][674]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:029][675]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:047][676]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:067][677]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:087][678]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:107][679]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:125][680]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:144][681]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:160][682]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:177][683]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:194][684]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:213][685]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:236][686]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:253][687]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:272][688]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:292][689]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:312][690]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:331][691]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:349][692]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:367][693]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:386][694]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:404][695]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:424][696]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:442][697]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:462][698]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:479][699]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:495][700]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:516][701]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:535][702]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:555][703]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.02-10.42.13:555][703]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.08.02-10.42.13:555][703]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.08.02-10.42.13:555][703]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:576][704]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:629][705]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:715][706]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:735][707]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:777][708]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:807][709]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:832][710]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:865][711]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:894][712]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:916][713]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:943][714]LogTemp: Warning: code: 
+[2024.08.02-10.42.13:972][715]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:001][716]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:030][717]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:059][718]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:088][719]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:118][720]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:147][721]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:177][722]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:205][723]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:236][724]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:265][725]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:294][726]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:324][727]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:352][728]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:381][729]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:411][730]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:441][731]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:471][732]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:501][733]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:537][734]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:566][735]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:597][736]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:626][737]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:657][738]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:684][739]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:714][740]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:742][741]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:774][742]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:800][743]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:827][744]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:856][745]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:885][746]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:915][747]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:944][748]LogTemp: Warning: code: 
+[2024.08.02-10.42.14:974][749]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:006][750]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:038][751]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:065][752]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:092][753]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:124][754]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:148][755]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:177][756]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:203][757]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:228][758]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:249][759]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:273][760]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:298][761]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:325][762]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:352][763]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:380][764]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:408][765]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:434][766]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:459][767]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:482][768]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:505][769]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:533][770]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:558][771]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:583][772]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:604][773]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:627][774]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:654][775]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:683][776]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:705][777]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:731][778]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:759][779]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:786][780]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:812][781]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:839][782]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:868][783]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:898][784]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:922][785]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:949][786]LogTemp: Warning: code: 
+[2024.08.02-10.42.15:974][787]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:002][788]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:031][789]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:059][790]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:088][791]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:118][792]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:148][793]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:177][794]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:206][795]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:236][796]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:266][797]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:296][798]LogTemp: Warning: code: 
+[2024.08.02-10.42.16:330][799]LogTemp: Warning: code: 2
+[2024.08.02-10.42.16:355][800]LogTemp: Warning: code: 2
+[2024.08.02-10.42.16:387][801]LogTemp: Warning: code: 2
+[2024.08.02-10.42.16:416][802]LogTemp: Warning: code: 2
+[2024.08.02-10.42.16:449][803]LogTemp: Warning: code: 2
+[2024.08.02-10.42.16:486][804]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:517][805]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:552][806]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:589][807]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:621][808]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:655][809]LogTemp: Warning: code: 21
+[2024.08.02-10.42.16:692][810]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:720][811]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:755][812]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:787][813]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:809][814]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:835][815]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:864][816]LogTemp: Warning: code: 215
+[2024.08.02-10.42.16:898][817]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.16:920][818]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.16:951][819]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.16:982][820]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.17:011][821]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.17:040][822]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.17:067][823]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.17:095][824]LogTemp: Warning: code: 2151
+[2024.08.02-10.42.17:126][825]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:153][826]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:183][827]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:214][828]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:241][829]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:266][830]LogTemp: Warning: code: 21516
+[2024.08.02-10.42.17:291][831]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:311][832]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:333][833]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:363][834]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:387][835]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:415][836]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:444][837]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:469][838]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:493][839]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:518][840]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:541][841]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:569][842]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:594][843]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:620][844]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:640][845]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:664][846]LogTemp: Warning: code: 215166
+[2024.08.02-10.42.17:692][847]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:710][848]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:734][849]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:766][850]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:789][851]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:819][852]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:845][853]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:873][854]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:907][855]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:937][856]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:961][857]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.17:988][858]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:013][859]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:041][860]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:069][861]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:098][862]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:128][863]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:156][864]LogTemp: Warning: code: 2151661
+[2024.08.02-10.42.18:191][865]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:215][866]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:245][867]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:277][868]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:305][869]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:336][870]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:366][871]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:396][872]LogTemp: Warning: code: 21516610
+[2024.08.02-10.42.18:430][873]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:458][874]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:489][875]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:521][876]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:552][877]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:577][878]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:597][879]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:615][880]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:631][881]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:648][882]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:665][883]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:685][884]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:686][884]LogTemp: Warning: you won!
+[2024.08.02-10.42.18:703][885]LogTemp: Warning: code: 215166104
+[2024.08.02-10.42.18:704][885]LogTemp: Warning: you won!
+[2024.08.02-10.42.19:640][941]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.02-10.42.19:641][941]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.02-10.42.19:641][941]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.08.02-10.42.19:646][941]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.08.02-10.42.19:647][941]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.08.02-10.42.19:647][941]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.08.02-10.42.19:648][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.02-10.42.19:671][941]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.02-10.42.19:681][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.08.02-10.42.19:705][941]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainMenu'.
+[2024.08.02-10.42.19:705][941]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.02-10.42.19:705][941]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.02-10.42.19:706][941]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.02-10.42.19:706][941]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2024.08.02-10.42.19:706][941]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.02-10.42.19:707][941]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2024.08.02-20.42.19
+[2024.08.02-10.42.19:707][941]LogWorld: Bringing up level for play took: 0.000686
+[2024.08.02-10.42.19:707][941]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.02-10.42.19:709][941]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.02-10.42.19:709][941]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.02-10.42.19:709][941]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.08.02-10.42.19:709][941]LogLoad: Took 0.068350 seconds to LoadMap(/Game/Levels/MainMenu)
+[2024.08.02-10.42.20:926][ 13]Cmd: quit
+[2024.08.02-10.42.20:927][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.02-10.42.20:927][ 13]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.02-10.42.20:927][ 13]LogSlate: Window 'PPR301 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.08.02-10.42.20:962][ 13]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.02-10.42.20:962][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.02-10.42.20:965][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.02-10.42.20:970][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.02-10.42.20:988][ 13]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.08.02-10.42.20:988][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.08.02-10.42.20:990][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.08.02-10.42.20:998][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.08.02-10.42.21:182][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.08.02-10.42.21:232][ 14]LogViewport: Scene viewport resized to 393x221, mode Windowed.
+[2024.08.02-10.43.24:698][446]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.02-10.43.27:418][608]BlueprintLog: New page: Compile BP_PressurePlate
+[2024.08.02-10.43.27:477][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.08.02-10.43.27:625][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.02-10.43.27:747][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/BP_PressurePlate" FILE="../../../../../../Development/Games/PPR301/PPR301/Content/Assets/Meshes/BP_PressurePlate.uasset" SILENT=true
+[2024.08.02-10.43.27:761][608]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/BP_PressurePlate
+[2024.08.02-10.43.27:763][608]LogSavePackage: Moving '../../../../../../Development/Games/PPR301/PPR301/Saved/BP_PressurePlate3CDE19084B5BF9A71B1D9FA9FB401DBE.tmp' to '../../../../../../Development/Games/PPR301/PPR301/Content/Assets/Meshes/BP_PressurePlate.uasset'
+[2024.08.02-10.43.27:772][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 6.13 sec)
+[2024.08.02-10.43.27:776][608]AssetCheck: New page: Asset Save: BP_PressurePlate
+[2024.08.02-10.43.27:776][608]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/BP_PressurePlate.BP_PressurePlate
