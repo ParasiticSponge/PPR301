@@ -20,21 +20,22 @@ ARandomShape::ARandomShape()
 	//includes pause
 	//GetWorld()->GetTimeSeconds();
 	//FPlatformTime::Seconds();
-
-	time_t seconds = time(NULL);
-
-	FMath::RandInit(seconds);
-	SeedAllRandomStreams();
-	selectShape = FMath::RandRange(0, 4);
-
-	//srand(seconds);
-	//selectShape = rand() % 5;
 }
 
 // Called when the game starts or when spawned
 void ARandomShape::BeginPlay()
 {
 	Super::BeginPlay();
+
+	time_t seconds = time(NULL);
+
+	//FMath::RandInit(seconds);
+	//selectShape = FMath::RandRange(0, 4);
+
+	srand(seconds);
+	selectShape = rand() % 5;
+	UE_LOG(LogTemp, Warning, TEXT("THE NUMBER IS: %s"), *FString::FromInt(selectShape));
+
 	dynamicMaterial = UMaterialInstanceDynamic::Create(board, this);
 	FLinearColor position = FLinearColor(0, 0, meshPos[selectShape], -0.381866f);
 	dynamicMaterial->SetVectorParameterValue("Position", position);
