@@ -33,9 +33,10 @@ public:
 	float Sigma(float _start, float _finish);
 	float GetDistance(float _speed, float _increment, float frames);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int selectShape = 0;
 	float start = -0.307872f;
-	float time = 0;
+	float _time = 0;
 	float landed = 0;
 	bool past;
 	float velocity;

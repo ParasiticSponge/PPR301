@@ -5,13 +5,30 @@
 #include "Materials/MaterialInterface.h"
 #include "Materials/MaterialInstanceConstant.h"
 #include "Materials/Material.h"
+#include "Engine/World.h"
+#include <time.h>
 
 // Sets default values
 ARandomShape::ARandomShape()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	selectShape = rand() % 5;
+
+	//double time = FPlatformTime::Seconds();
+	//float time = UGameplayStatics::GetRealTimeSeconds(());
+	//double time = GetWorld()->GetTimeSeconds();
+	//includes pause
+	//GetWorld()->GetTimeSeconds();
+	//FPlatformTime::Seconds();
+
+	time_t seconds = time(NULL);
+
+	FMath::RandInit(seconds);
+	SeedAllRandomStreams();
+	selectShape = FMath::RandRange(0, 4);
+
+	//srand(seconds);
+	//selectShape = rand() % 5;
 }
 
 // Called when the game starts or when spawned
@@ -43,7 +60,7 @@ void ARandomShape::Tick(float DeltaTime)
 	MyCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
 	if (MyCharacter.X >= 3700)
 	{
-		time += DeltaTime;
+		_time += DeltaTime;
 		if (!past)
 		{
 			start += 0.01f;
@@ -58,10 +75,10 @@ void ARandomShape::Tick(float DeltaTime)
 			Mesh->SetMaterial(0, dynamicMaterial);
 
 			FString print = MyCharacter.ToString();
-			FString delta = FString::SanitizeFloat(time);
+			FString delta = FString::SanitizeFloat(_time);
 			UE_LOG(LogTemp, Warning, TEXT("%s"), *delta);
 		}
-		if (time >= 3) past = true;
+		if (_time >= 3) past = true;
 		if (past)
 		{
 			//distance between half a shape
@@ -90,7 +107,7 @@ void ARandomShape::Tick(float DeltaTime)
 				Mesh->SetMaterial(0, dynamicMaterial);
 				//UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(landed));
 				//UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::SanitizeFloat(start));
-				time = 0;
+				_time = 0;
 				speed = DeltaTime;
 				velocity = speed;
 			}
