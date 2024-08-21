@@ -20535,3 +20535,645 @@ Make sure 'BP_ThirdPersonCharacter_C' has been compiled for  Set As Text Box
 [2024.08.21-10.20.38:573][710]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB341D1402_1308490727
 [2024.08.21-10.20.38:573][710]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB341D1402_1237478726
 [2024.08.21-10.20.38:573][710]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB341D1402_1187729725
+[2024.08.21-10.32.35:019][667]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.08.21-10.32.35:040][667]LogContentBrowser: Creating deferred item: NewFolder
+[2024.08.21-10.32.35:061][668]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.08.21-10.32.43:416][159]LogContentBrowser: Attempting asset rename: NewFolder -> Rat_Textures
+[2024.08.21-10.32.43:418][159]LogContentBrowser: End creating deferred item NewFolder
+[2024.08.21-10.33.03:108][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.33.04:340][297]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Total job queries 1,395, among them cache hits 1,029 (73.76%)
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Tracking 366 distinct input hashes that result in 224 distinct outputs (61.20%)
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: RAM used: 8.12 MiB of 819.20 MiB budget. Usage: 0.99%
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Shaders Compiled: 154
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Jobs assigned 154, completed 154 (100%)
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Average time worker was idle: 109.29 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.72 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 1.11 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Job life time (pending + execution): average 0.56 s, max 1.11
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Shader code size: average 35.872 KiB, min 3.559 KiB, max 71.035 KiB
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.99 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Jobs were issued in 154 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Average processing rate: 11.85 jobs/sec
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Total thread time: 43.855 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Total thread preprocess time: 5.304 s
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Percentage time preprocessing: 12.09%
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Effective parallelization: 3.38 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.08.21-10.33.04:341][297]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    6 times, average 0.34 sec, max 0.42 sec, min 0.29 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   26 times, average 0.32 sec, max 0.61 sec, min 0.21 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    6 times, average 0.32 sec, max 0.37 sec, min 0.24 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   12 times, average 0.31 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.31 sec, max 0.33 sec, min 0.29 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.13% of total time (compiled   26 times, average 0.32 sec, max 0.61 sec, min 0.21 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.60% of total time (compiled   26 times, average 0.30 sec, max 0.54 sec, min 0.21 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.76% of total time (compiled   23 times, average 0.28 sec, max 0.50 sec, min 0.20 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.69% of total time (compiled   23 times, average 0.17 sec, max 0.35 sec, min 0.09 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display:                                                  FVelocityVS - 8.49% of total time (compiled   12 times, average 0.31 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.33.04:344][297]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.33.04:383][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/RatCoat" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/RatCoat.uasset" SILENT=true
+[2024.08.21-10.33.04:387][297]LogSavePackage: Moving output files for package: /Game/Assets/Materials/RatCoat
+[2024.08.21-10.33.04:388][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/RatCoatA3BA454F43A131DDC084BC9F27192A37.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/RatCoat.uasset'
+[2024.08.21-10.33.05:038][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/RatBase" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/RatBase.uasset" SILENT=true
+[2024.08.21-10.33.05:039][297]LogSavePackage: Moving output files for package: /Game/Assets/Materials/RatBase
+[2024.08.21-10.33.05:040][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/RatBase375F3CA04722AB2B3DFBA1995B1EF489.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/RatBase.uasset'
+[2024.08.21-10.33.05:071][297]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Normal
+[2024.08.21-10.33.05:071][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Ratthew_M_to_SP_Coat_Base_Normal1BD069CA4DA12351A73D36AC26C8E39B.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Normal.uasset'
+[2024.08.21-10.33.05:080][297]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Roughness
+[2024.08.21-10.33.05:080][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Ratthew_M_to_SP_Coat_Base_RoughnD990EC73483B30759EF7569CB129E305.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Roughness.uasset'
+[2024.08.21-10.33.05:117][297]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_BaseColor
+[2024.08.21-10.33.05:118][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Ratthew_M_to_SP_Rat_BaseColor5A53228E4314372FCDD114A499CA0A48.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_BaseColor.uasset'
+[2024.08.21-10.33.05:135][297]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_Roughness
+[2024.08.21-10.33.05:135][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Ratthew_M_to_SP_Rat_Roughness4590BE0A41AD6DC7D478D2B06731749F.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_Roughness.uasset'
+[2024.08.21-10.33.05:154][297]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_BaseColor
+[2024.08.21-10.33.05:154][297]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Ratthew_M_to_SP_Coat_Base_BaseCo9CB7F4534EA1FC9447249F971F69F508.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_BaseColor.uasset'
+[2024.08.21-10.33.05:173][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.06 sec (total: 26.0 sec)
+[2024.08.21-10.33.05:226][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.08.21-10.33.05:243][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.08.21-10.33.05:255][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.08.21-10.33.05:310][297]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/RatCoat.RatCoat
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/RatBase.RatBase
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Normal.Ratthew_M_to_SP_Coat_Base_Normal
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_Roughness.Ratthew_M_to_SP_Coat_Base_Roughness
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_BaseColor.Ratthew_M_to_SP_Rat_BaseColor
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Rat_Roughness.Ratthew_M_to_SP_Rat_Roughness
+[2024.08.21-10.33.05:311][297]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Rat_Textures/Ratthew_M_to_SP_Coat_Base_BaseColor.Ratthew_M_to_SP_Coat_Base_BaseColor
+[2024.08.21-10.33.15:205][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.33.15:391][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.33.15:561][892]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.33.15:617][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.33.15:788][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.33.21:741][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.08.21-10.33.23:095][253]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.33.23:147][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.08.21-10.33.23:169][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.08.21-10.33.23:182][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.21-10.33.24:026][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.08.21-10.33.24:819][295]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.33.24:892][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.08.21-10.33.24:926][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.08.21-10.33.24:945][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.08.21-10.33.30:489][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.08.21-10.34.00:351][610]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.34.09:845][137]LogContentBrowser: Attempting asset rename: standardSurface1 -> standardSurface1
+[2024.08.21-10.34.14:012][384]LogContentBrowser: Attempting asset rename: standardSurface1 -> standardSurface
+[2024.08.21-10.34.14:058][384]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/Wheel_Updated_pCylinder5) ...
+[2024.08.21-10.34.14:082][384]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/wheelie_obj_inner_hole) ...
+[2024.08.21-10.34.14:116][384]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/HourGlass_CentreBottomPivotUpdated) ...
+[2024.08.21-10.34.14:150][384]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/Wheel_Updated_polySurface2) ...
+[2024.08.21-10.34.14:168][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.34.14:286][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_outer_ring
+[2024.08.21-10.34.14:287][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_outer_ring8E6A2E4F45839E75BABC318971A48B69.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_outer_ring.uasset'
+[2024.08.21-10.34.14:298][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Sphere_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:300][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Sphere_CentreBottomPivotUpdatedCE49F7204EF16DF36A28978FB219BF45.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Sphere_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.14:313][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_wheel" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_wheel.uasset" SILENT=true
+[2024.08.21-10.34.14:323][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_wheel
+[2024.08.21-10.34.14:324][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_wheelD8A8DF204F1D825D50762E871CE39172.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_wheel.uasset'
+[2024.08.21-10.34.14:336][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Wheel_Updated_pCylinder5
+[2024.08.21-10.34.14:337][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Wheel_Updated_pCylinder5B4A6B2674713B6AE5DE1698769C87B69.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Wheel_Updated_pCylinder5.uasset'
+[2024.08.21-10.34.14:349][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Triangle_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:350][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Triangle_CentreBottomPivotUpdateE41C487C43298874E4B06498A877CE58.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Triangle_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.14:361][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_inner_hole
+[2024.08.21-10.34.14:363][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_inner_holeC3A43C414386D5541E1E62ACEBF10EB8.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_inner_hole.uasset'
+[2024.08.21-10.34.14:375][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PulleySystem_Updated_pCylinder10
+[2024.08.21-10.34.14:376][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/PulleySystem_Updated_pCylinder10ABBAF6BE40CC807E85B7E792B731749F.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/PulleySystem_Updated_pCylinder10.uasset'
+[2024.08.21-10.34.14:396][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/WeightScales_Updated_pCube3
+[2024.08.21-10.34.14:397][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/WeightScales_Updated_pCube38A1738334704FCFFF271A58CFD24C4D3.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/WeightScales_Updated_pCube3.uasset'
+[2024.08.21-10.34.14:409][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/HourGlass_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:411][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/HourGlass_CentreBottomPivotUpdatDD460E4E47C4D07D387F998CF4423BA5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/HourGlass_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.14:423][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_hook" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_hook.uasset" SILENT=true
+[2024.08.21-10.34.14:427][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_hook
+[2024.08.21-10.34.14:429][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_hookBD2A142F48D9473CD401C49342BEFC9D.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_hook.uasset'
+[2024.08.21-10.34.14:443][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PulleySystem_Updated_polySurface2
+[2024.08.21-10.34.14:447][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/PulleySystem_Updated_polySurface19EC2AAD4B4D7C3D0BADE6BC84C1E7B5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/PulleySystem_Updated_polySurface2.uasset'
+[2024.08.21-10.34.14:450][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/standardSurface1_001" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface1_001.uasset" SILENT=true
+[2024.08.21-10.34.14:450][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/standardSurface1_001
+[2024.08.21-10.34.14:452][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/standardSurface1_00151E0DC844908F23D2F08A28CBD0B4D94.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface1_001.uasset'
+[2024.08.21-10.34.14:463][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_stand" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_stand.uasset" SILENT=true
+[2024.08.21-10.34.14:471][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_stand
+[2024.08.21-10.34.14:471][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_stand81423A994AC9A702352D899273B01912.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_stand.uasset'
+[2024.08.21-10.34.14:486][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Star_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:493][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Star_CentreBottomPivotUpdated25988AA040FE68116474418EE2EE3217.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Star_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.14:508][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Cube_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:509][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Cube_CentreBottomPivotUpdated33499A0A40FA4F1FC939429C9470D5EE.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Cube_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.14:527][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Wheel_Updated_polySurface2
+[2024.08.21-10.34.14:528][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Wheel_Updated_polySurface2A3A1534E499121445515E1B1219CB949.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Wheel_Updated_polySurface2.uasset'
+[2024.08.21-10.34.14:529][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/standardSurface" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface.uasset" SILENT=true
+[2024.08.21-10.34.14:530][384]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/standardSurface
+[2024.08.21-10.34.14:530][384]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/standardSurfaceE5EEA21D4A5AD0F165F31DB7E414D636.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface.uasset'
+[2024.08.21-10.34.14:545][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 26.4 sec)
+[2024.08.21-10.34.14:565][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.08.21-10.34.14:575][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.08.21-10.34.14:589][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.08.21-10.34.14:597][384]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_outer_ring.wheelie_obj_outer_ring
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Sphere_CentreBottomPivotUpdated.Sphere_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_wheel.wheelie_obj_wheel
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Wheel_Updated_pCylinder5.Wheel_Updated_pCylinder5
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Triangle_CentreBottomPivotUpdated.Triangle_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_inner_hole.wheelie_obj_inner_hole
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PulleySystem_Updated_pCylinder10.PulleySystem_Updated_pCylinder10
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/WeightScales_Updated_pCube3.WeightScales_Updated_pCube3
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/HourGlass_CentreBottomPivotUpdated.HourGlass_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_hook.wheelie_obj_hook
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PulleySystem_Updated_polySurface2.PulleySystem_Updated_polySurface2
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Meshes/standardSurface1_001.standardSurface1_001
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_stand.wheelie_obj_stand
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Star_CentreBottomPivotUpdated.Star_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Cube_CentreBottomPivotUpdated.Cube_CentreBottomPivotUpdated
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Wheel_Updated_polySurface2.Wheel_Updated_polySurface2
+[2024.08.21-10.34.14:598][384]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Meshes/standardSurface.standardSurface
+[2024.08.21-10.34.18:450][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.34.18:577][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_outer_ring
+[2024.08.21-10.34.18:578][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_outer_ringFF50C7684B964D6C0C5E558BE5850F50.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_outer_ring.uasset'
+[2024.08.21-10.34.18:582][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Sphere_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:583][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Sphere_CentreBottomPivotUpdated19FD39A74E4B7208EED59686964C7130.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Sphere_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.18:586][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_wheel" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_wheel.uasset" SILENT=true
+[2024.08.21-10.34.18:597][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_wheel
+[2024.08.21-10.34.18:598][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_wheel59764F3340B2B444C2C29EACD14289B3.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_wheel.uasset'
+[2024.08.21-10.34.18:604][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Wheel_Updated_pCylinder5
+[2024.08.21-10.34.18:605][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Wheel_Updated_pCylinder5D2FBA0C84ACE793A7827C698BFAE8EE7.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Wheel_Updated_pCylinder5.uasset'
+[2024.08.21-10.34.18:608][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Triangle_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:609][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Triangle_CentreBottomPivotUpdate6C7D1A5D46EF2D6BBB9FF8A0431A6959.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Triangle_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.18:612][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_inner_hole
+[2024.08.21-10.34.18:612][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_inner_hole2FED2F3242528C3B1EA772B1E7900C36.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_inner_hole.uasset'
+[2024.08.21-10.34.18:621][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PulleySystem_Updated_pCylinder10
+[2024.08.21-10.34.18:622][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/PulleySystem_Updated_pCylinder10E199704844F3A5605007F8895A3AD6CB.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/PulleySystem_Updated_pCylinder10.uasset'
+[2024.08.21-10.34.18:625][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/WeightScales_Updated_pCube3
+[2024.08.21-10.34.18:626][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/WeightScales_Updated_pCube3BC955FD0413E5910A040F690B367EB9E.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/WeightScales_Updated_pCube3.uasset'
+[2024.08.21-10.34.18:629][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/HourGlass_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:629][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/HourGlass_CentreBottomPivotUpdat1C6620274CD65425B1944393D89FC9A4.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/HourGlass_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.18:631][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_hook" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_hook.uasset" SILENT=true
+[2024.08.21-10.34.18:632][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_hook
+[2024.08.21-10.34.18:633][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_hook22B8B6CC4E79E711174AFC958780232D.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_hook.uasset'
+[2024.08.21-10.34.18:637][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/PulleySystem_Updated_polySurface2
+[2024.08.21-10.34.18:637][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/PulleySystem_Updated_polySurface5E9ABCA9424D5C30701DE88EA86A0583.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/PulleySystem_Updated_polySurface2.uasset'
+[2024.08.21-10.34.18:638][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/standardSurface1_001" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface1_001.uasset" SILENT=true
+[2024.08.21-10.34.18:639][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/standardSurface1_001
+[2024.08.21-10.34.18:639][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/standardSurface1_001461C03C3410320CB6037109DFEDF8D42.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/standardSurface1_001.uasset'
+[2024.08.21-10.34.18:640][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/wheelie_obj_stand" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_stand.uasset" SILENT=true
+[2024.08.21-10.34.18:643][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/wheelie_obj_stand
+[2024.08.21-10.34.18:643][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/wheelie_obj_standADBA5E9E46FBFF57D3505EAD45734D9A.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/wheelie_obj_stand.uasset'
+[2024.08.21-10.34.18:646][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Star_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:647][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Star_CentreBottomPivotUpdated52446F144B315A803F6DAD93EBC70ECB.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Star_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.18:649][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Cube_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:650][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Cube_CentreBottomPivotUpdatedE632D8334333754DF39B12A567B51E40.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Cube_CentreBottomPivotUpdated.uasset'
+[2024.08.21-10.34.18:659][593]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Wheel_Updated_polySurface2
+[2024.08.21-10.34.18:659][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Wheel_Updated_polySurface2F950922C420D6B71FB208795FF9603F6.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Wheel_Updated_polySurface2.uasset'
+[2024.08.21-10.34.18:661][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/standardSurface" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/standardSurface.uasset" SILENT=true
+[2024.08.21-10.34.18:662][593]LogSavePackage: Moving output files for package: /Game/Assets/Materials/standardSurface
+[2024.08.21-10.34.18:662][593]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/standardSurface1908CE84490FBE9737A9FCB960F1AE86.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/standardSurface.uasset'
+[2024.08.21-10.34.18:679][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 26.6 sec)
+[2024.08.21-10.34.18:693][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.08.21-10.34.18:707][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.21-10.34.18:716][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.08.21-10.34.18:772][593]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.21-10.34.18:773][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_outer_ring.wheelie_obj_outer_ring
+[2024.08.21-10.34.18:773][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Sphere_CentreBottomPivotUpdated.Sphere_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:773][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_wheel.wheelie_obj_wheel
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Wheel_Updated_pCylinder5.Wheel_Updated_pCylinder5
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Triangle_CentreBottomPivotUpdated.Triangle_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_inner_hole.wheelie_obj_inner_hole
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PulleySystem_Updated_pCylinder10.PulleySystem_Updated_pCylinder10
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/WeightScales_Updated_pCube3.WeightScales_Updated_pCube3
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/HourGlass_CentreBottomPivotUpdated.HourGlass_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_hook.wheelie_obj_hook
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/PulleySystem_Updated_polySurface2.PulleySystem_Updated_polySurface2
+[2024.08.21-10.34.18:774][593]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Meshes/standardSurface1_001.standardSurface1_001
+[2024.08.21-10.34.18:775][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/wheelie_obj_stand.wheelie_obj_stand
+[2024.08.21-10.34.18:775][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Star_CentreBottomPivotUpdated.Star_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:775][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Cube_CentreBottomPivotUpdated.Cube_CentreBottomPivotUpdated
+[2024.08.21-10.34.18:775][593]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/Wheel_Updated_polySurface2.Wheel_Updated_polySurface2
+[2024.08.21-10.34.18:775][593]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/standardSurface.standardSurface
+[2024.08.21-10.34.48:355][728]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\123sj\Downloads\cricket-ball-sports-white\source\Cricket bat 2_0.fbx)
+[2024.08.21-10.34.48:379][728]LogFbx: Loading FBX Scene from C:\Users\123sj\Downloads\cricket-ball-sports-white\source\Cricket bat 2_0.fbx
+[2024.08.21-10.34.48:421][728]LogFbx: FBX Scene Loaded Succesfully
+[2024.08.21-10.34.54:641][728]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.08.21-10.34.55:047][728]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blender saves\Cricket\Cricket ball\Textures\Cricket Ball texture.jpg
+[2024.08.21-10.34.55:053][728]LogFbx: Display: Triangulating static mesh Sphere
+[2024.08.21-10.34.55:145][728]LogStaticMesh: Display: Building static mesh Cricket_bat_2_0_Sphere...
+[2024.08.21-10.34.55:184][728]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Meshes/Cricket_bat_2_0_Sphere.Cricket_bat_2_0_Sphere
+[2024.08.21-10.34.55:291][728]LogFbx: Display: Triangulating static mesh Cylinder.002
+[2024.08.21-10.34.57:103][728]LogStaticMesh: Display: Building static mesh Cricket_bat_2_0_Cylinder_002...
+[2024.08.21-10.34.57:645][728]LogStaticMesh: Built static mesh [0.54s] /Game/Assets/Meshes/Cricket_bat_2_0_Cylinder_002.Cricket_bat_2_0_Cylinder_002
+[2024.08.21-10.34.57:931][728]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.08.21-10.34.59:429][782]LogSlate: Window 'Message Log' being destroyed
+[2024.08.21-10.34.59:455][782]LogSlate: Window 'Message Log' being destroyed
+[2024.08.21-10.35.19:712][697]LogInterchangeEngine: [Pending] Importing
+[2024.08.21-10.35.19:713][697]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/123sj/Downl...ports-white/textures/Cricket_Ball_texture_red.png]
+[2024.08.21-10.35.19:714][697]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.08.21-10.35.19:714][697]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/123sj/Downl...ports-white/textures/Cricket_Ball_normal.png]
+[2024.08.21-10.35.19:715][697]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.08.21-10.35.19:715][697]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/123sj/Downl...ports-white/textures/Cricket_Ball_texture.jpg]
+[2024.08.21-10.35.19:766][698]LogInterchangeImport: JPEG file [C:/Users/123sj/Downloads/cricket-ball-sports-white/textures/Cricket_Ball_texture.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.08.21-10.35.19:777][698]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.08.21-10.35.20:094][698]LogTexture: Display: Building textures: /Game/Assets/Textures/Cricket_Ball_texture_red.Cricket_Ball_texture_red (BGRA8, 2626x2626 x1x1x1) (Required Memory Estimate: 201.739368 MB), EncodeSpeed: Fast
+[2024.08.21-10.35.20:183][698]LogTexture: Display: Building textures: /Game/Assets/Textures/Cricket_Ball_texture.Cricket_Ball_texture (BGRA8, 2626x2626 x1x1x1) (Required Memory Estimate: 201.739368 MB), EncodeSpeed: Fast
+[2024.08.21-10.35.20:208][698]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.08.21-10.35.20:211][698]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.08.21-10.35.20:211][698]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.08.21-10.35.20:233][699]LogTexture: Display: Building textures: /Game/Assets/Textures/Cricket_Ball_normal.Cricket_Ball_normal (BGRA8, 2626x2626 x1x1x1) (Required Memory Estimate: 201.739368 MB), EncodeSpeed: Fast
+[2024.08.21-10.35.20:454][699]LogInterchangeEngine: [Success] Import Done
+[2024.08.21-10.35.20:509][700]LogInterchangeEngine: [Success] Import Done
+[2024.08.21-10.35.44:642][210]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/Cricket_bat_2_0_Sphere.Cricket_bat_2_0_Sphere
+[2024.08.21-10.35.44:683][210]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.35.44:684][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.21-10.35.45:495][210]LogViewport: Scene viewport resized to 1292x1321, mode Windowed.
+[2024.08.21-10.35.48:442][367]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.08.21-10.43.16:158][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.08.21-10.43.17:539][867]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.43.17:606][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.08.21-10.43.17:633][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.08.21-10.43.17:657][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.08.21-10.43.18:814][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.21-10.43.20:361][905]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.43.20:545][905]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.08.21-10.43.20:546][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.21-10.43.20:569][905]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Meshes/Cricket_bat_2_0_Sphere.Cricket_bat_2_0_Sphere
+	Asset Type: StaticMesh
+[2024.08.21-10.43.21:748][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.08.21-10.43.21:770][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.08.21-10.43.21:785][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.21-10.43.39:938][ 36]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\123sj\Downloads\cricket-ball-sports-white\source\cricket_ball_merge.fbx)
+[2024.08.21-10.43.39:954][ 36]LogFbx: Loading FBX Scene from C:\Users\123sj\Downloads\cricket-ball-sports-white\source\cricket_ball_merge.fbx
+[2024.08.21-10.43.39:990][ 36]LogFbx: FBX Scene Loaded Succesfully
+[2024.08.21-10.43.42:551][ 36]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.08.21-10.43.42:968][ 36]LogFbx: Display: Triangulating static mesh Cylinder.002
+[2024.08.21-10.43.45:336][ 36]LogStaticMesh: Display: Building static mesh cricket_ball_merge...
+[2024.08.21-10.43.46:061][ 36]LogStaticMesh: Built static mesh [0.73s] /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.43.46:692][ 36]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.08.21-10.43.50:082][ 54]LogSlate: Window 'Message Log' being destroyed
+[2024.08.21-10.43.50:195][ 54]LogSlate: Window 'Message Log' being destroyed
+[2024.08.21-10.44.15:309][886]LogEditorFactories: Performing atomic reimport of [C:/Users/123sj/Downloads/cricket-ball-sports-white/source/cricket_ball_merge.fbx]
+[2024.08.21-10.44.15:333][886]LogFbx: Loading FBX Scene from C:/Users/123sj/Downloads/cricket-ball-sports-white/source/cricket_ball_merge.fbx
+[2024.08.21-10.44.15:371][886]LogFbx: FBX Scene Loaded Succesfully
+[2024.08.21-10.44.15:607][886]LogFbx: Display: Triangulating static mesh Cylinder.002
+[2024.08.21-10.44.18:914][886]LogEditorFactories: -- imported successfully
+[2024.08.21-10.44.18:927][886]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.08.21-10.44.19:094][886]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446732441666411158
+[2024.08.21-10.44.19:094][886]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.08.21-10.44.21:685][907]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.44.21:741][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.44.21:741][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.21-10.44.22:485][907]LogViewport: Scene viewport resized to 1292x1321, mode Windowed.
+[2024.08.21-10.44.39:710][579]LogContentBrowser: Deferred new asset file creation: NewMaterial1
+[2024.08.21-10.44.39:755][579]LogContentBrowser: Creating deferred item: NewMaterial1
+[2024.08.21-10.44.39:857][580]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial1).
+[2024.08.21-10.44.43:472][770]LogContentBrowser: Attempting asset rename: NewMaterial1 -> cricketball
+[2024.08.21-10.44.43:475][770]LogContentBrowser: End creating deferred item NewMaterial1
+[2024.08.21-10.44.45:280][855]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Materials/cricketball.cricketball
+[2024.08.21-10.44.45:287][855]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.21-10.44.45:288][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.21-10.44.45:483][855]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.44.45:483][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.45:483][855]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.44.45:493][855]LogViewport: Scene viewport resized to 713x657, mode Windowed.
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: Total job queries 1,447, among them cache hits 1,049 (72.49%)
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: Tracking 398 distinct input hashes that result in 236 distinct outputs (59.30%)
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: RAM used: 8.96 MiB of 819.20 MiB budget. Usage: 1.09%
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: Shaders Compiled: 180
+[2024.08.21-10.44.45:527][856]LogShaderCompilers: Display: Jobs assigned 180, completed 180 (100%)
+[2024.08.21-10.44.45:528][856]LogShaderCompilers: Display: Average time worker was idle: 92.42 s
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.72 s
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Job execution time: average 0.45 s, max 1.11 s
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Job life time (pending + execution): average 0.55 s, max 1.11
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Shader code size: average 37.559 KiB, min 3.559 KiB, max 71.035 KiB
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.95 s
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Jobs were issued in 180 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.08.21-10.44.45:529][856]LogShaderCompilers: Display: Average processing rate: 12.91 jobs/sec
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Total thread time: 49.798 s
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Total thread preprocess time: 5.902 s
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Percentage time preprocessing: 11.85%
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Effective parallelization: 3.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    6 times, average 0.34 sec, max 0.42 sec, min 0.29 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    6 times, average 0.32 sec, max 0.37 sec, min 0.24 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   27 times, average 0.32 sec, max 0.61 sec, min 0.13 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   12 times, average 0.31 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.31 sec, max 0.33 sec, min 0.29 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.11% of total time (compiled   27 times, average 0.32 sec, max 0.61 sec, min 0.13 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.85% of total time (compiled   27 times, average 0.29 sec, max 0.54 sec, min 0.18 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.00% of total time (compiled   23 times, average 0.28 sec, max 0.50 sec, min 0.20 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.65% of total time (compiled   23 times, average 0.17 sec, max 0.35 sec, min 0.09 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display:                                                  FVelocityVS - 7.48% of total time (compiled   12 times, average 0.31 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.44.45:530][856]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.44.45:565][857]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.44.45:565][857]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.44.45:565][857]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.44.45:565][857]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.45:565][857]MaterialEditorStats: Shader Count: 2
+[2024.08.21-10.44.47:414][929]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.44.47:415][929]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.47:415][929]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.44.47:506][931]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.44.47:506][931]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.44.47:506][931]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.44.47:506][931]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.47:506][931]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.44.48:183][955]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.44.48:184][955]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.48:184][955]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.44.48:275][957]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.44.48:275][957]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.44.48:275][957]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.44.48:275][957]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.48:276][957]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.44.48:954][982]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.44.48:954][982]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.48:954][982]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.44.49:053][984]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.44.49:054][984]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.44.49:054][984]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.44.49:054][984]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.44.49:054][984]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.02:528][497]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.02:530][497]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.02:530][497]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.02:561][498]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.45.02:562][498]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.45.02:562][498]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.45.02:562][498]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.02:562][498]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.08:854][735]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.08:854][735]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.08:854][735]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.08:900][736]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.45.08:900][736]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.45.08:900][736]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.45.08:900][736]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.08:900][736]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.16:295][ 16]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.16:295][ 16]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.16:295][ 16]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.16:337][ 17]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.08.21-10.45.16:337][ 17]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.08.21-10.45.16:337][ 17]MaterialEditorStats: Texture samplers: 2/16
+[2024.08.21-10.45.16:337][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.08.21-10.45.16:337][ 17]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.19:758][142]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.19:759][142]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.08.21-10.45.19:759][142]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.19:759][142]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.19:891][144]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.26:042][369]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.26:043][369]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.08.21-10.45.26:043][369]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.26:043][369]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.26:160][371]MaterialEditorStats: Base pass shader: 197 instructions
+[2024.08.21-10.45.26:161][371]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.08.21-10.45.26:161][371]MaterialEditorStats: Texture samplers: 4/16
+[2024.08.21-10.45.26:161][371]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.08.21-10.45.26:161][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.26:161][371]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.28:241][447]MaterialEditorStats: Texture samplers: 0/16
+[2024.08.21-10.45.28:241][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.08.21-10.45.28:242][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.28:242][447]MaterialEditorStats: Shader Count: 0
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: Texture samplers: 5/16
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.28:324][449]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.47:263][204]LogMaterialEditor: Applying material cricketball
+[2024.08.21-10.45.47:429][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.08.21-10.45.47:732][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.21-10.45.47:800][204]MaterialEditorStats: Texture samplers: 3/16
+[2024.08.21-10.45.47:800][204]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.08.21-10.45.47:800][204]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.47:800][204]MaterialEditorStats: Shader Count: 2
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: Texture samplers: 5/16
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.47:878][205]MaterialEditorStats: Shader Count: 4
+[2024.08.21-10.45.48:370][222]LogMaterialEditor: Saving and Compiling material cricketball
+[2024.08.21-10.45.48:374][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.45.48:626][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/cricketball" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/cricketball.uasset" SILENT=true
+[2024.08.21-10.45.48:629][222]LogSavePackage: Moving output files for package: /Game/Assets/Materials/cricketball
+[2024.08.21-10.45.48:630][222]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricketballBC9062DE430333B2735FD8B4CE5DA725.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/cricketball.uasset'
+[2024.08.21-10.45.48:651][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 277 ms (total: 26.9 sec)
+[2024.08.21-10.45.48:681][222]AssetCheck: New page: Asset Save: cricketball
+[2024.08.21-10.45.48:681][222]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/cricketball.cricketball
+[2024.08.21-10.45.48:692][222]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: MaxSampler: 254 instructions
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: Texture samplers: 6/16
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.08.21-10.45.48:696][222]MaterialEditorStats: Shader Count: 16
+[2024.08.21-10.46.05:350][879]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.46.20:317][357]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.46.29:228][630]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.46.53:617][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.46.53:867][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/cricket_ball_merge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset" SILENT=true
+[2024.08.21-10.46.53:933][451]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/cricket_ball_merge
+[2024.08.21-10.46.53:933][451]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricket_ball_mergeB1F87363421C8916CF499C995DBEFE62.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset'
+[2024.08.21-10.46.53:949][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 333 ms (total: 27.2 sec)
+[2024.08.21-10.46.53:952][451]AssetCheck: New page: Asset Save: cricket_ball_merge
+[2024.08.21-10.46.53:953][451]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.47.27:765][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.08.21-10.47.27:772][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.47.27:954][ 39]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ
+[2024.08.21-10.47.27:955][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/9GFMRO3GN0VLGTYBRUZCTZE9AFB9E645939D2B8B4C09A500B2281D.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ.uasset'
+[2024.08.21-10.47.27:963][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/Cricket_Ball_normal" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Cricket_Ball_normal.uasset" SILENT=true
+[2024.08.21-10.47.28:124][ 39]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Cricket_Ball_normal
+[2024.08.21-10.47.28:124][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Cricket_Ball_normal31EED41943D86188292D6D81A0DD7390.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Cricket_Ball_normal.uasset'
+[2024.08.21-10.47.28:270][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Material_004" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_004.uasset" SILENT=true
+[2024.08.21-10.47.28:274][ 39]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Material_004
+[2024.08.21-10.47.28:274][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Material_004BDA9337A4C6933D884298EA444F7096E.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_004.uasset'
+[2024.08.21-10.47.28:562][ 39]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Cricket_Ball_texture_red
+[2024.08.21-10.47.28:563][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Cricket_Ball_texture_red5C68F92344FB599EE5E8EAA892D35F5C.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Cricket_Ball_texture_red.uasset'
+[2024.08.21-10.47.28:574][ 39]LogSavePackage: Moving output files for package: /Game/Assets/Textures/Cricket_Ball_texture
+[2024.08.21-10.47.28:574][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Cricket_Ball_texture934FD0DE4D8E25D2B16DDFB85FE264CB.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Textures/Cricket_Ball_texture.uasset'
+[2024.08.21-10.47.28:597][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Material_002" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_002.uasset" SILENT=true
+[2024.08.21-10.47.28:600][ 39]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Material_002
+[2024.08.21-10.47.28:600][ 39]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Material_00223F839E542C5EE25CB13DABEA93B7BC7.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_002.uasset'
+[2024.08.21-10.47.28:621][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 847 ms (total: 28.0 sec)
+[2024.08.21-10.47.28:643][ 39]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.21-10.47.28:643][ 39]LogContentValidation: Display: Validating /Game/Assets/Meshes/BP_Shape.BP_Shape_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Shape_C_UAID_88A4C25E52D6710102_1752263439
+[2024.08.21-10.47.28:643][ 39]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Cricket_Ball_normal.Cricket_Ball_normal
+[2024.08.21-10.47.28:644][ 39]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Meshes/Material_004.Material_004
+[2024.08.21-10.47.28:644][ 39]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Cricket_Ball_texture_red.Cricket_Ball_texture_red
+[2024.08.21-10.47.28:644][ 39]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Textures/Cricket_Ball_texture.Cricket_Ball_texture
+[2024.08.21-10.47.28:644][ 39]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Meshes/Material_002.Material_002
+[2024.08.21-10.48.54:070][900]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.54:070][900]LogEditorTransaction: Undo Edit Z
+[2024.08.21-10.48.54:470][900]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.48.55:511][931]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.55:511][931]LogEditorTransaction: Undo Edit Y
+[2024.08.21-10.48.55:838][931]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.48.56:432][956]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.56:432][956]LogEditorTransaction: Undo Edit X
+[2024.08.21-10.48.56:810][956]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.48.57:413][973]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.57:413][973]LogEditorTransaction: Undo Clicking on Elements
+[2024.08.21-10.48.57:680][973]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.48.58:346][  2]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.58:347][  2]LogEditorTransaction: Undo Move Elements
+[2024.08.21-10.48.58:625][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.48.59:169][ 30]Cmd: TRANSACTION UNDO
+[2024.08.21-10.48.59:169][ 30]LogEditorTransaction: Undo Move Elements
+[2024.08.21-10.48.59:477][ 30]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.49.01:397][136]Cmd: TRANSACTION UNDO
+[2024.08.21-10.49.01:397][136]LogEditorTransaction: Undo Move Elements
+[2024.08.21-10.49.01:785][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.08.21-10.49.43:353][496]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.49.43:354][496]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.21-10.49.43:354][496]LogShaderCompilers: Display: Total job queries 1,632, among them cache hits 1,159 (71.02%)
+[2024.08.21-10.49.43:354][496]LogShaderCompilers: Display: Tracking 470 distinct input hashes that result in 273 distinct outputs (58.09%)
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: RAM used: 10.53 MiB of 819.20 MiB budget. Usage: 1.28%
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: Shaders Compiled: 196
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: Jobs assigned 199, completed 196 (98.49%)
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: Average time worker was idle: 118.08 s
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.72 s
+[2024.08.21-10.49.43:355][496]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 1.12 s
+[2024.08.21-10.49.43:356][496]LogShaderCompilers: Display: Job life time (pending + execution): average 0.57 s, max 1.22
+[2024.08.21-10.49.43:356][496]LogShaderCompilers: Display: Shader code size: average 37.142 KiB, min 3.559 KiB, max 71.035 KiB
+[2024.08.21-10.49.43:356][496]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.39 s
+[2024.08.21-10.49.43:356][496]LogShaderCompilers: Display: Jobs were issued in 199 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.08.21-10.49.43:357][496]LogShaderCompilers: Display: Average processing rate: 11.27 jobs/sec
+[2024.08.21-10.49.43:357][496]LogShaderCompilers: Display: Total thread time: 55.845 s
+[2024.08.21-10.49.43:357][496]LogShaderCompilers: Display: Total thread preprocess time: 6.632 s
+[2024.08.21-10.49.43:357][496]LogShaderCompilers: Display: Percentage time preprocessing: 11.88%
+[2024.08.21-10.49.43:358][496]LogShaderCompilers: Display: Effective parallelization: 3.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.08.21-10.49.43:358][496]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.21-10.49.43:358][496]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 0.34 sec, max 0.44 sec, min 0.24 sec)
+[2024.08.21-10.49.43:358][496]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    6 times, average 0.34 sec, max 0.42 sec, min 0.29 sec)
+[2024.08.21-10.49.43:359][496]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   30 times, average 0.33 sec, max 0.61 sec, min 0.13 sec)
+[2024.08.21-10.49.43:359][496]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   13 times, average 0.32 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.49.43:359][496]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    6 times, average 0.32 sec, max 0.37 sec, min 0.24 sec)
+[2024.08.21-10.49.43:359][496]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.21-10.49.43:359][496]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.76% of total time (compiled   30 times, average 0.33 sec, max 0.61 sec, min 0.13 sec)
+[2024.08.21-10.49.43:360][496]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.36% of total time (compiled   30 times, average 0.30 sec, max 0.54 sec, min 0.18 sec)
+[2024.08.21-10.49.43:360][496]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.75% of total time (compiled   26 times, average 0.30 sec, max 0.50 sec, min 0.20 sec)
+[2024.08.21-10.49.43:360][496]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.30% of total time (compiled   27 times, average 0.17 sec, max 0.35 sec, min 0.09 sec)
+[2024.08.21-10.49.43:360][496]LogShaderCompilers: Display:                                                  FVelocityVS - 7.45% of total time (compiled   13 times, average 0.32 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.49.43:360][496]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.49.47:451][639]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.382 seconds, threshold is 0.300 s), will parallelize next time.
+[2024.08.21-10.49.48:748][681]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.49.53:727][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.49.53:953][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/cricket_ball_merge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset" SILENT=true
+[2024.08.21-10.49.54:008][849]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/cricket_ball_merge
+[2024.08.21-10.49.54:009][849]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricket_ball_merge135BB7D94744AF3BAF450A92F5A12BE8.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset'
+[2024.08.21-10.49.54:038][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 311 ms (total: 28.4 sec)
+[2024.08.21-10.49.54:043][849]AssetCheck: New page: Asset Save: cricket_ball_merge
+[2024.08.21-10.49.54:043][849]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.50.01:759][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.08.21-10.50.01:767][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.50.01:943][285]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ
+[2024.08.21-10.50.01:944][285]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/9GFMRO3GN0VLGTYBRUZCTZ46FE8D8F485C0FE41E671E9216BC77B5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ.uasset'
+[2024.08.21-10.50.01:977][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 28.6 sec)
+[2024.08.21-10.50.01:986][285]AssetCheck: New page: Asset Save: BP_Shape_C_UAID_88A4C25E52D6710102_1752263439
+[2024.08.21-10.50.01:986][285]LogContentValidation: Display: Validating /Game/Assets/Meshes/BP_Shape.BP_Shape_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Shape_C_UAID_88A4C25E52D6710102_1752263439
+[2024.08.21-10.50.06:910][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.50.07:089][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/cricket_ball_merge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset" SILENT=true
+[2024.08.21-10.50.07:143][504]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/cricket_ball_merge
+[2024.08.21-10.50.07:147][504]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricket_ball_mergeE128DA39440ECC9208A2D3B0056952F5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset'
+[2024.08.21-10.50.07:165][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 28.8 sec)
+[2024.08.21-10.50.07:168][504]AssetCheck: New page: Asset Save: cricket_ball_merge
+[2024.08.21-10.50.07:170][504]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.50.10:715][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.08.21-10.50.42:258][729]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.51.03:460][436]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.51.12:762][727]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.51.30:361][337]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.51.41:939][738]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.51.55:337][226]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.52.06:676][610]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.52.08:622][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.52.08:784][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/cricket_ball_merge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset" SILENT=true
+[2024.08.21-10.52.08:838][675]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/cricket_ball_merge
+[2024.08.21-10.52.08:838][675]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricket_ball_mergeADC7DFEB4215AF786E7A7C884FB11FB3.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset'
+[2024.08.21-10.52.08:850][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 29.0 sec)
+[2024.08.21-10.52.08:854][675]AssetCheck: New page: Asset Save: cricket_ball_merge
+[2024.08.21-10.52.08:854][675]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.52.49:954][ 86]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.52.49:954][ 86]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: Total job queries 1,756, among them cache hits 1,178 (67.08%)
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: Tracking 575 distinct input hashes that result in 311 distinct outputs (54.09%)
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: RAM used: 12.82 MiB of 819.20 MiB budget. Usage: 1.56%
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: Shaders Compiled: 279
+[2024.08.21-10.52.49:955][ 86]LogShaderCompilers: Display: Jobs assigned 282, completed 279 (98.94%)
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Average time worker was idle: 90.39 s
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.72 s
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 1.42 s
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Job life time (pending + execution): average 0.57 s, max 1.52
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Shader code size: average 37.358 KiB, min 3.559 KiB, max 71.035 KiB
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 32.59 s
+[2024.08.21-10.52.49:956][ 86]LogShaderCompilers: Display: Jobs were issued in 282 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Average processing rate: 8.56 jobs/sec
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Total thread time: 85.347 s
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Total thread preprocess time: 10.177 s
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Percentage time preprocessing: 11.92%
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Effective parallelization: 2.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.08.21-10.52.49:957][ 86]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    7 times, average 0.37 sec, max 0.57 sec, min 0.29 sec)
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 0.35 sec, max 0.44 sec, min 0.24 sec)
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   51 times, average 0.35 sec, max 0.62 sec, min 0.13 sec)
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    7 times, average 0.34 sec, max 0.51 sec, min 0.24 sec)
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   52 times, average 0.34 sec, max 0.54 sec, min 0.18 sec)
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.21-10.52.49:958][ 86]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.15% of total time (compiled   51 times, average 0.35 sec, max 0.62 sec, min 0.13 sec)
+[2024.08.21-10.52.49:959][ 86]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.70% of total time (compiled   52 times, average 0.34 sec, max 0.54 sec, min 0.18 sec)
+[2024.08.21-10.52.49:959][ 86]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.78% of total time (compiled   42 times, average 0.32 sec, max 0.51 sec, min 0.20 sec)
+[2024.08.21-10.52.49:959][ 86]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.12% of total time (compiled   43 times, average 0.18 sec, max 0.35 sec, min 0.09 sec)
+[2024.08.21-10.52.49:960][ 86]LogShaderCompilers: Display:                                                  FVelocityVS - 5.86% of total time (compiled   15 times, average 0.33 sec, max 0.48 sec, min 0.23 sec)
+[2024.08.21-10.52.49:960][ 86]LogShaderCompilers: Display: ================================================
+[2024.08.21-10.52.54:781][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.52.54:968][315]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ
+[2024.08.21-10.52.54:970][315]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/9GFMRO3GN0VLGTYBRUZCTZD30E65E445DBF2138F0B2195419477E5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/V4/9GFMRO3GN0VLGTYBRUZCTZ.uasset'
+[2024.08.21-10.52.54:988][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 29.3 sec)
+[2024.08.21-10.52.54:993][315]AssetCheck: New page: Asset Save: BP_Shape_C_UAID_88A4C25E52D6710102_1752263439
+[2024.08.21-10.52.54:993][315]LogContentValidation: Display: Validating /Game/Assets/Meshes/BP_Shape.BP_Shape_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Shape_C_UAID_88A4C25E52D6710102_1752263439
+[2024.08.21-10.53.02:055][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.08.21-10.53.03:176][709]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.21-10.53.03:240][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.08.21-10.53.03:286][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.08.21-10.53.03:316][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.08.21-10.53.06:201][833]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.53.06:432][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Material_002" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/Material_002.uasset" SILENT=true
+[2024.08.21-10.53.06:436][833]LogSavePackage: Moving output files for package: /Game/Assets/Materials/Material_002
+[2024.08.21-10.53.06:437][833]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Material_002DBA875124E8B53F0940CC8B91DB1D6DB.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Materials/Material_002.uasset'
+[2024.08.21-10.53.06:439][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Material_002" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_002.uasset" SILENT=true
+[2024.08.21-10.53.06:442][833]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/Material_002
+[2024.08.21-10.53.06:443][833]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Material_00285B0A3EA40482170080AD280CDC567F1.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/Material_002.uasset'
+[2024.08.21-10.53.06:459][833]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 29.5 sec)
+[2024.08.21-10.53.06:526][833]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.21-10.53.06:526][833]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Materials/Material_002.Material_002
+[2024.08.21-10.53.06:526][833]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Meshes/Material_002.Material_002
+[2024.08.21-10.53.15:508][144]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Meshes/cricket_ball_merge) ...
+[2024.08.21-10.53.17:261][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.53.17:423][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/cricket_ball_merge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset" SILENT=true
+[2024.08.21-10.53.17:473][194]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/cricket_ball_merge
+[2024.08.21-10.53.17:507][194]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/cricket_ball_merge302FEDA14BC0D1106207F98420A6DF78.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/cricket_ball_merge.uasset'
+[2024.08.21-10.53.17:530][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 268 ms (total: 29.8 sec)
+[2024.08.21-10.53.17:541][194]AssetCheck: New page: Asset Save: cricket_ball_merge
+[2024.08.21-10.53.17:542][194]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Meshes/cricket_ball_merge.cricket_ball_merge
+[2024.08.21-10.54.02:228][562]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.08.21-10.54.05:071][729]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.08.21-10.54.10:889][ 69]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.08.21-10.54.12:992][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.08.21-10.54.13:001][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.21-10.54.13:215][177]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2024.08.21-10.54.13:217][177]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/SWSI13675DVYIZ0N4NF7Y3C50DBF2640641A0963153C9DB06DC359.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2024.08.21-10.54.13:242][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 241 ms (total: 30.0 sec)
+[2024.08.21-10.54.13:264][177]AssetCheck: New page: Asset Save: PlayerStart_0
+[2024.08.21-10.54.13:265][177]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0
