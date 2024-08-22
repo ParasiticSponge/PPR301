@@ -4743,3 +4743,168 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.22-07.40.42:515][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
 [2024.08.22-07.40.42:581][130]LogPlayLevel: Display: Destroying online subsystem :Context_22
 [2024.08.22-07.40.44:721][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.22-07.42.19:388][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.22-07.42.51:733][747]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/Meshes/MovingHedge.MovingHedge_C
+[2024.08.22-07.42.51:734][747]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/Meshes/MovingHedge.MovingHedge_C
+[2024.08.22-07.42.51:737][747]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge as actor: MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_0
+[2024.08.22-07.42.51:739][747]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge as actor: MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_0
+[2024.08.22-07.42.53:133][821]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/Meshes/MovingHedge.MovingHedge_C
+[2024.08.22-07.42.53:135][821]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/Meshes/MovingHedge.MovingHedge_C
+[2024.08.22-07.42.53:140][821]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge as actor: MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_1848733851
+[2024.08.22-07.42.53:147][821]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge as actor: MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_1848733851
+[2024.08.22-07.42.54:616][936]Cmd: TRANSACTION UNDO
+[2024.08.22-07.42.54:616][936]LogEditorTransaction: Undo Create Actors
+[2024.08.22-07.43.05:408][696]Cmd: DUPLICATE
+[2024.08.22-07.43.05:409][696]Cmd: ACTOR DUPLICATE
+[2024.08.22-07.43.05:516][696]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34591402_1582819310" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.43.05:528][696]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34591402_1582819310" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.43.53:051][177]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.43.53:053][177]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.43.53:054][177]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2024.08.22-07.43.54:321][256]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.43.54:321][256]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.43.54:323][256]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_1909919853
+[2024.08.22-07.44.08:479][273]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.44.08:479][273]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.44.08:481][273]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge.hedge as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2024.08.22-07.44.10:497][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.44.10:497][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.44.10:499][401]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge.hedge as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_1926095854
+[2024.08.22-07.45.07:958][607]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_1848733851 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/BK/XK4085AM9BL4SJUE0WW9PX.PackageMetaData in its package
+[2024.08.22-07.45.07:967][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.08.22-07.45.07:975][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.45.08:121][607]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7S/BS4OUXBIBZV5ZVJUF04PPW
+[2024.08.22-07.45.08:122][607]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/BS4OUXBIBZV5ZVJUF04PPWB6EC0F54467451F88D710F9EC9A24DC1.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7S/BS4OUXBIBZV5ZVJUF04PPW.uasset'
+[2024.08.22-07.45.08:126][607]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8F/YZP8F555Z5UI4CP9CYKJJQ
+[2024.08.22-07.45.08:126][607]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/YZP8F555Z5UI4CP9CYKJJQ33FB468C4BA3732240A24BA13DA4C4C3.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8F/YZP8F555Z5UI4CP9CYKJJQ.uasset'
+[2024.08.22-07.45.08:131][607]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/3P/VAPFQSWDQFK34AB7RKOE97
+[2024.08.22-07.45.08:131][607]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/VAPFQSWDQFK34AB7RKOE97E8D33DB642359D7ED9922F8138205916.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/3P/VAPFQSWDQFK34AB7RKOE97.uasset'
+[2024.08.22-07.45.08:166][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 4.08 sec)
+[2024.08.22-07.45.08:202][607]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-07.45.08:202][607]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_1926095854
+[2024.08.22-07.45.08:202][607]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_1909919853
+[2024.08.22-07.45.08:202][607]LogContentValidation: Display: Validating /Game/Assets/Meshes/MovingHedge.MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_1861020852
+[2024.08.22-07.45.08:211][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.08.22-07.45.33:851][395]Cmd: TRANSACTION UNDO
+[2024.08.22-07.45.33:851][395]LogEditorTransaction: Undo Clicking on Elements
+[2024.08.22-07.45.38:722][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.08.22-07.45.38:729][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.45.38:878][710]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/3P/VAPFQSWDQFK34AB7RKOE97
+[2024.08.22-07.45.38:879][710]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/VAPFQSWDQFK34AB7RKOE970DEEFBD743D218E3EA4040B82350354F.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/3P/VAPFQSWDQFK34AB7RKOE97.uasset'
+[2024.08.22-07.45.38:900][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 4.25 sec)
+[2024.08.22-07.45.38:919][710]AssetCheck: New page: Asset Save: MovingHedge_C_UAID_74D4DD3DEB34011502_1861020852
+[2024.08.22-07.45.38:919][710]LogContentValidation: Display: Validating /Game/Assets/Meshes/MovingHedge.MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_1861020852
+[2024.08.22-07.45.41:607][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.08.22-07.45.57:715][809]Cmd: DUPLICATE
+[2024.08.22-07.45.57:715][809]Cmd: ACTOR DUPLICATE
+[2024.08.22-07.45.57:745][809]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34591402_1582819310" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.45.57:752][809]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34591402_1582819310" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.46.11:681][765]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.46.11:683][765]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.46.11:683][765]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2
+[2024.08.22-07.46.15:176][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.46.15:176][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.46.15:178][980]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_2050774856
+[2024.08.22-07.46.22:883][482]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.46.22:883][482]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.46.22:884][482]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge.hedge as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2024.08.22-07.46.23:736][534]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.46.23:736][534]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge.hedge
+[2024.08.22-07.46.23:739][534]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge.hedge as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_2059334857
+[2024.08.22-07.47.04:609][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.08.22-07.47.04:616][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.47.04:764][261]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZX/ALTEUQ810R8BMUZJ59R8S1
+[2024.08.22-07.47.04:764][261]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/ALTEUQ810R8BMUZJ59R8S116FD848046F7881B9F05E3BC716A46C9.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZX/ALTEUQ810R8BMUZJ59R8S1.uasset'
+[2024.08.22-07.47.04:767][261]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/0P/VS8F79HX7PY7TZWYA4UQF5
+[2024.08.22-07.47.04:768][261]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/VS8F79HX7PY7TZWYA4UQF5D547B7CA46C6BFA393DAE7A376952311.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/0P/VS8F79HX7PY7TZWYA4UQF5.uasset'
+[2024.08.22-07.47.04:770][261]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/83/IU15L4XCDC68BOC6N5T7DU
+[2024.08.22-07.47.04:770][261]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/IU15L4XCDC68BOC6N5T7DU33EA67A0456CFFE0098D1A9D4EEAEE13.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/83/IU15L4XCDC68BOC6N5T7DU.uasset'
+[2024.08.22-07.47.04:791][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 4.43 sec)
+[2024.08.22-07.47.04:811][261]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-07.47.04:811][261]LogContentValidation: Display: Validating /Game/Assets/Meshes/MovingHedge.MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34011502_2033314855
+[2024.08.22-07.47.04:811][261]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_2059334857
+[2024.08.22-07.47.04:811][261]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34011502_2050774856
+[2024.08.22-07.47.54:629][747]Cmd: DUPLICATE
+[2024.08.22-07.47.54:630][747]Cmd: ACTOR DUPLICATE
+[2024.08.22-07.47.54:672][747]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34571402_1278352927" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.47.54:679][747]LogClass: Warning: Short type name "MovingHedge_C_UAID_74D4DD3DEB34571402_1278352927" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.08.22-07.48.32:674][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.08.22-07.48.32:682][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.48.32:769][492]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/E4/KX3TPA632EQSA67SPE7YCM
+[2024.08.22-07.48.32:769][492]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/KX3TPA632EQSA67SPE7YCM0360E2E34A284AD7D8B2B2A75DA91FA3.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/E4/KX3TPA632EQSA67SPE7YCM.uasset'
+[2024.08.22-07.48.32:786][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 4.53 sec)
+[2024.08.22-07.48.32:790][492]AssetCheck: New page: Asset Save: MovingHedge_C_UAID_74D4DD3DEB34021502_1076487034
+[2024.08.22-07.48.32:790][492]LogContentValidation: Display: Validating /Game/Assets/Meshes/MovingHedge.MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34021502_1076487034
+[2024.08.22-07.48.48:403][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
