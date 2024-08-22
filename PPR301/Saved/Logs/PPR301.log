@@ -4908,3 +4908,754 @@ UnknownFunction []
 [2024.08.22-07.48.32:790][492]AssetCheck: New page: Asset Save: MovingHedge_C_UAID_74D4DD3DEB34021502_1076487034
 [2024.08.22-07.48.32:790][492]LogContentValidation: Display: Validating /Game/Assets/Meshes/MovingHedge.MovingHedge_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.MovingHedge_C_UAID_74D4DD3DEB34021502_1076487034
 [2024.08.22-07.48.48:403][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.08.22-07.49.50:200][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.22-07.49.50:206][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.49.50:305][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.49.50:467][335]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.08.22-07.49.50:469][335]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/BP_ThirdPersonCharacterE29500AD491A3DABFCC2F29C6D37F434.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.08.22-07.49.50:499][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 4.82 sec)
+[2024.08.22-07.49.50:521][335]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.08.22-07.49.50:521][335]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.08.22-07.49.51:709][428]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-07.49.51:719][428]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.22-07.49.51:719][428]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.22-07.49.51:727][428]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7 ms (total: 69 ms)
+[2024.08.22-07.49.51:728][428]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.08.22-07.49.51:736][428]LogPlayLevel: [PlayLevel] Compiling RatAnimBP before play...
+[2024.08.22-07.49.51:741][428]LogPlayLevel: [PlayLevel]   Compiling BP_ThirdPersonCharacter as a dependent...
+[2024.08.22-07.49.51:936][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.08.22-07.49.51:943][428]LogPlayLevel: PlayLevel: Blueprint regeneration took 214 ms (2 blueprints)
+[2024.08.22-07.49.51:943][428]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 3:49:51 am)
+[2024.08.22-07.49.51:971][428]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.49.51:988][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016988s)
+[2024.08.22-07.49.51:988][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.017585s)
+[2024.08.22-07.49.52:001][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.22-07.49.52:002][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.49.52:002][428]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.49.52:003][428]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.22-07.49.52:004][428]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.22-07.49.52:004][428]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.22-07.49.52:004][428]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.22-07.49.52:004][428]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.22-07.49.52:010][428]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.22-07.49.52:010][428]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 606 ms)
+[2024.08.22-07.49.52:011][428]LogPlayLevel: PIE: World Init took: (0.008510s)
+[2024.08.22-07.49.52:011][428]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-07.49.52:011][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-07.49.52:011][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-07.49.52:012][428]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-07.49.52:012][428]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-07.49.52:012][428]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-07.49.52:025][428]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-07.49.52:087][428]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.22-07.49.52:088][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-07.49.52:088][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-07.49.52:088][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-07.49.52:089][428]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.08.22-07.49.52:089][428]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.08.22-07.49.52:097][428]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.08.22-07.49.52:097][428]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.08.22-07.49.52:097][428]LogInit: FAudioDevice initialized with ID 11.
+[2024.08.22-07.49.52:097][428]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2024.08.22-07.49.52:097][428]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.08.22-07.49.52:101][428]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.22-07.49.52:117][428]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.22-17.49.52
+[2024.08.22-07.49.52:120][428]LogWorld: Bringing up level for play took: 0.016305
+[2024.08.22-07.49.52:126][428]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.49.52:129][428]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.49.52:130][428]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.49.52:131][428]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.49.52:131][428]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.49.52:131][428]LogTemp: Warning: blank: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: 2: 9
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.22-07.49.52:133][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: THE NUMBER IS: 0
+[2024.08.22-07.49.52:134][428]LogTemp: Warning: IS: 0
+[2024.08.22-07.49.52:136][428]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-07.49.52:136][428]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.22-07.49.52:136][428]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.22-07.49.52:140][428]PIE: Server logged in
+[2024.08.22-07.49.52:141][428]PIE: Play in editor total start time 0.423 seconds.
+[2024.08.22-07.50.50:897][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.50.50:897][887]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.50.50:898][887]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-07.50.50:899][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.50.50:899][887]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.22-07.50.50:907][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-07.50.50:946][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.50.51:057][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.50.51:061][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.08.22-07.50.51:062][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.08.22-07.50.51:067][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.08.22-07.50.51:188][887]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2024.08.22-07.50.51:264][888]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.08.22-07.50.59:150][455]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.50.59:151][455]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.50.59:152][455]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.51.03:901][738]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.08.22-07.51.10:233][151]BlueprintLog: New page: Compile MovingHedge
+[2024.08.22-07.51.10:289][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.08.22-07.51.10:331][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.51.10:471][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.51.10:482][151]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.51.10:483][151]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedgeF231F6DC4CAF09ACDE6762BFE5530EDE.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.51.10:500][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 4.99 sec)
+[2024.08.22-07.51.10:502][151]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.51.10:502][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.51.11:055][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.51.11:163][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.51.11:175][177]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.51.11:175][177]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedgeB2BAA948423881786E8D88B6749C9939.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.51.11:190][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 5.13 sec)
+[2024.08.22-07.51.11:195][177]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.51.11:195][177]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.51.12:937][295]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-07.51.12:949][295]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.22-07.51.12:950][295]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.22-07.51.12:959][295]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 8 ms (total: 78 ms)
+[2024.08.22-07.51.12:959][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-07.51.12:960][295]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 3:51:12 am)
+[2024.08.22-07.51.12:981][295]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.51.13:001][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020687s)
+[2024.08.22-07.51.13:004][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.021181s)
+[2024.08.22-07.51.13:015][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.08.22-07.51.13:020][295]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.51.13:021][295]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.51.13:022][295]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.22-07.51.13:023][295]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.22-07.51.13:023][295]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.22-07.51.13:023][295]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.22-07.51.13:024][295]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.22-07.51.13:030][295]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.22-07.51.13:031][295]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 613 ms)
+[2024.08.22-07.51.13:032][295]LogPlayLevel: PIE: World Init took: (0.011009s)
+[2024.08.22-07.51.13:032][295]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-07.51.13:032][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-07.51.13:032][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-07.51.13:033][295]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-07.51.13:033][295]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-07.51.13:033][295]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-07.51.13:040][295]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-07.51.13:101][295]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.22-07.51.13:102][295]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-07.51.13:102][295]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-07.51.13:102][295]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-07.51.13:106][295]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.08.22-07.51.13:106][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.08.22-07.51.13:107][295]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.08.22-07.51.13:109][295]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.08.22-07.51.13:109][295]LogInit: FAudioDevice initialized with ID 12.
+[2024.08.22-07.51.13:109][295]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.08.22-07.51.13:109][295]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.08.22-07.51.13:112][295]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.22-07.51.13:122][295]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.22-17.51.13
+[2024.08.22-07.51.13:122][295]LogWorld: Bringing up level for play took: 0.009201
+[2024.08.22-07.51.13:127][295]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.08.22-07.51.13:131][295]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.13:132][295]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.13:135][295]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: blank: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: 2: 9
+[2024.08.22-07.51.13:137][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: THE NUMBER IS: 4
+[2024.08.22-07.51.13:139][295]LogTemp: Warning: IS: 4
+[2024.08.22-07.51.13:140][295]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-07.51.13:140][295]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.22-07.51.13:140][295]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.22-07.51.13:146][295]PIE: Server logged in
+[2024.08.22-07.51.13:148][295]PIE: Play in editor total start time 0.198 seconds.
+[2024.08.22-07.51.40:996][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.51.40:997][387]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.51.40:997][387]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-07.51.41:000][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.51.41:000][387]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.22-07.51.41:026][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-07.51.41:042][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.51.41:109][387]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.22-07.51.41:110][387]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.08.22-07.51.41:110][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.08.22-07.51.41:117][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.08.22-07.51.41:128][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.51.41:175][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.08.22-07.51.41:229][388]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.08.22-07.51.50:044][ 17]BlueprintLog: New page: Compile MovingHedge
+[2024.08.22-07.51.50:084][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.08.22-07.51.50:120][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.51.50:269][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.51.50:283][ 17]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.51.50:285][ 17]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedge3552168F471FB4164A0D1FB3523A02A0.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.51.50:311][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 5.32 sec)
+[2024.08.22-07.51.50:329][ 17]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.51.50:331][ 17]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.51.50:937][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.51.51:012][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.51.51:020][ 56]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.51.51:021][ 56]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedgeA774D1F84CB757AD81EBAAA2CD93B414.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.51.51:037][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 5.42 sec)
+[2024.08.22-07.51.51:041][ 56]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.51.51:041][ 56]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.51.52:750][181]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-07.51.52:761][181]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.22-07.51.52:761][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.22-07.51.52:770][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 8 ms (total: 86 ms)
+[2024.08.22-07.51.52:771][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-07.51.52:771][181]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 3:51:52 am)
+[2024.08.22-07.51.52:811][181]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.51.52:832][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020961s)
+[2024.08.22-07.51.52:832][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.021963s)
+[2024.08.22-07.51.52:850][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.08.22-07.51.52:854][181]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.51.52:854][181]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.51.52:855][181]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.22-07.51.52:855][181]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.22-07.51.52:856][181]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.22-07.51.52:856][181]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.22-07.51.52:856][181]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.22-07.51.52:863][181]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.22-07.51.52:864][181]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 620 ms)
+[2024.08.22-07.51.52:865][181]LogPlayLevel: PIE: World Init took: (0.009272s)
+[2024.08.22-07.51.52:865][181]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-07.51.52:865][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-07.51.52:865][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-07.51.52:866][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-07.51.52:866][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-07.51.52:866][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-07.51.52:896][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-07.51.52:952][181]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.22-07.51.52:952][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-07.51.52:953][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-07.51.52:953][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-07.51.52:953][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.08.22-07.51.52:959][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.08.22-07.51.52:962][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.08.22-07.51.52:962][181]LogInit: FAudioDevice initialized with ID 13.
+[2024.08.22-07.51.52:962][181]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.08.22-07.51.52:962][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.08.22-07.51.52:962][181]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.22-07.51.52:965][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.22-07.51.52:975][181]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.22-17.51.52
+[2024.08.22-07.51.52:975][181]LogWorld: Bringing up level for play took: 0.009007
+[2024.08.22-07.51.52:979][181]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.08.22-07.51.52:981][181]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.52:981][181]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.52:981][181]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.52:981][181]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.52:984][181]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.52:984][181]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.51.52:984][181]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.52:984][181]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.52:985][181]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: blank: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:986][181]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: 2: 9
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: THE NUMBER IS: 2
+[2024.08.22-07.51.52:987][181]LogTemp: Warning: IS: 2
+[2024.08.22-07.51.52:988][181]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-07.51.52:988][181]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.22-07.51.52:989][181]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.22-07.51.52:993][181]PIE: Server logged in
+[2024.08.22-07.51.52:994][181]PIE: Play in editor total start time 0.233 seconds.
+[2024.08.22-07.52.20:044][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.52.20:046][193]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.52.20:046][193]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-07.52.20:047][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.52.20:048][193]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.22-07.52.20:066][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-07.52.20:078][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.52.20:124][193]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.22-07.52.20:125][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.22-07.52.20:125][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.22-07.52.20:128][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.22-07.52.20:136][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.52.20:172][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.08.22-07.52.20:224][194]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.08.22-07.52.36:305][354]BlueprintLog: New page: Compile MovingHedge
+[2024.08.22-07.52.36:349][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.08.22-07.52.36:390][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.52.36:521][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.52.36:531][354]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.52.36:532][354]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedge32CA22F24551879EF5FD9BA1550E8D04.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.52.36:546][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 5.57 sec)
+[2024.08.22-07.52.36:549][354]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.52.36:549][354]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.52.37:018][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.52.37:105][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MovingHedge" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset" SILENT=true
+[2024.08.22-07.52.37:116][380]LogSavePackage: Moving output files for package: /Game/Assets/Meshes/MovingHedge
+[2024.08.22-07.52.37:117][380]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MovingHedge774DA1CE4C764572CFFFFA9A20BBB87C.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/Meshes/MovingHedge.uasset'
+[2024.08.22-07.52.37:134][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 5.69 sec)
+[2024.08.22-07.52.37:143][380]AssetCheck: New page: Asset Save: MovingHedge
+[2024.08.22-07.52.37:143][380]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Meshes/MovingHedge.MovingHedge
+[2024.08.22-07.52.40:109][586]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-07.52.40:120][586]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.22-07.52.40:120][586]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.22-07.52.40:128][586]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7 ms (total: 93 ms)
+[2024.08.22-07.52.40:128][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-07.52.40:129][586]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 3:52:40 am)
+[2024.08.22-07.52.40:129][586]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.52.40:150][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021261s)
+[2024.08.22-07.52.40:150][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.021774s)
+[2024.08.22-07.52.40:166][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.08.22-07.52.40:169][586]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.52.40:170][586]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.52.40:170][586]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.22-07.52.40:171][586]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.22-07.52.40:172][586]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.22-07.52.40:172][586]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.22-07.52.40:172][586]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.22-07.52.40:177][586]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.22-07.52.40:179][586]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 626 ms)
+[2024.08.22-07.52.40:180][586]LogPlayLevel: PIE: World Init took: (0.008576s)
+[2024.08.22-07.52.40:180][586]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-07.52.40:180][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-07.52.40:180][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-07.52.40:180][586]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-07.52.40:180][586]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-07.52.40:186][586]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-07.52.40:187][586]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-07.52.40:251][586]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.22-07.52.40:252][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-07.52.40:252][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-07.52.40:252][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-07.52.40:253][586]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.08.22-07.52.40:259][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.08.22-07.52.40:261][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.08.22-07.52.40:262][586]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.08.22-07.52.40:262][586]LogInit: FAudioDevice initialized with ID 14.
+[2024.08.22-07.52.40:262][586]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.08.22-07.52.40:262][586]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.08.22-07.52.40:266][586]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.22-07.52.40:275][586]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.22-17.52.40
+[2024.08.22-07.52.40:276][586]LogWorld: Bringing up level for play took: 0.009835
+[2024.08.22-07.52.40:290][586]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.08.22-07.52.40:292][586]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.52.40:292][586]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.52.40:293][586]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.52.40:293][586]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.52.40:294][586]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.52.40:295][586]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.52.40:295][586]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.52.40:295][586]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.52.40:296][586]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.52.40:297][586]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: blank: 0.0
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:298][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.52.40:299][586]LogTemp: Warning: 2: 9
+[2024.08.22-07.52.40:300][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.22-07.52.40:300][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.22-07.52.40:300][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: THE NUMBER IS: 3
+[2024.08.22-07.52.40:302][586]LogTemp: Warning: IS: 3
+[2024.08.22-07.52.40:303][586]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-07.52.40:304][586]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.22-07.52.40:304][586]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.22-07.52.40:310][586]PIE: Server logged in
+[2024.08.22-07.52.40:311][586]PIE: Play in editor total start time 0.191 seconds.
+[2024.08.22-07.53.36:377][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.53.36:377][724]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.53.36:378][724]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-07.53.36:379][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.53.36:380][724]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.22-07.53.36:406][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-07.53.36:433][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.53.36:541][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.22-07.53.36:542][724]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.08.22-07.53.36:542][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.08.22-07.53.36:548][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.08.22-07.53.36:558][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.53.36:647][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.08.22-07.53.36:683][725]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.08.22-07.53.41:919][ 79]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.41:919][ 79]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.41:920][ 79]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4
+[2024.08.22-07.53.45:164][291]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.45:164][291]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.45:167][291]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1427021035
+[2024.08.22-07.53.49:813][585]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.49:813][585]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.49:814][585]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5
+[2024.08.22-07.53.55:962][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.55:963][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.53.55:965][980]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1437820036
+[2024.08.22-07.54.03:157][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.22-07.54.03:163][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.54.03:307][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/Z4/B2IVP178VR3RFAC9527HAA
+[2024.08.22-07.54.03:307][442]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/B2IVP178VR3RFAC9527HAA2D9FCDE049CF887F341255AE88F982FE.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/Z4/B2IVP178VR3RFAC9527HAA.uasset'
+[2024.08.22-07.54.03:311][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QY/5M5CUGLIRE69DDOUBML9F5
+[2024.08.22-07.54.03:311][442]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/5M5CUGLIRE69DDOUBML9F596FDC31F447E91922AD3179B8E5C82C2.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QY/5M5CUGLIRE69DDOUBML9F5.uasset'
+[2024.08.22-07.54.03:332][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 5.86 sec)
+[2024.08.22-07.54.03:341][442]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-07.54.03:341][442]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1437820036
+[2024.08.22-07.54.03:342][442]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1427021035
+[2024.08.22-07.54.08:052][750]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.08:054][750]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.08:056][750]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_6
+[2024.08.22-07.54.09:655][840]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.09:655][840]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.09:657][840]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1451512037
+[2024.08.22-07.54.19:589][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.19:589][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.19:590][505]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_7
+[2024.08.22-07.54.28:344][ 51]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.28:344][ 51]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.28:347][ 51]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1470201038
+[2024.08.22-07.54.44:065][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.44:065][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.44:066][130]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_8
+[2024.08.22-07.54.46:659][294]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.46:660][294]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.54.46:662][294]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1488516039
+[2024.08.22-07.55.02:219][426]Cmd: DUPLICATE
+[2024.08.22-07.55.02:219][426]Cmd: ACTOR DUPLICATE
+[2024.08.22-07.55.12:233][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.22-07.55.12:241][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.55.12:382][137]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/0X/JNAVI75KC183TCL7PCAZFW
+[2024.08.22-07.55.12:385][137]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/JNAVI75KC183TCL7PCAZFW89DD7C584DCE3D48C3AE3E96C2CB8F76.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/0X/JNAVI75KC183TCL7PCAZFW.uasset'
+[2024.08.22-07.55.12:390][137]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/FN/IQ1Y441DGFP1BOGQOI7RR5
+[2024.08.22-07.55.12:390][137]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/IQ1Y441DGFP1BOGQOI7RR589A5A23740D519440643499E74411637.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/FN/IQ1Y441DGFP1BOGQOI7RR5.uasset'
+[2024.08.22-07.55.12:394][137]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/6R/DZBVPCCCJ87690IXGOQA9S
+[2024.08.22-07.55.12:395][137]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/DZBVPCCCJ87690IXGOQA9SB62D43C84AFF6921CAF276A62F45AA53.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/6R/DZBVPCCCJ87690IXGOQA9S.uasset'
+[2024.08.22-07.55.12:398][137]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/A3/R033TKSRWEXZ5QNSDI9548
+[2024.08.22-07.55.12:399][137]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/R033TKSRWEXZ5QNSDI9548A4C34E574BA0A469F22B80AC06AB3EA0.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/A3/R033TKSRWEXZ5QNSDI9548.uasset'
+[2024.08.22-07.55.12:414][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 6.03 sec)
+[2024.08.22-07.55.12:421][137]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-07.55.12:421][137]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1504078040
+[2024.08.22-07.55.12:422][137]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1451512037
+[2024.08.22-07.55.12:422][137]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1488516039
+[2024.08.22-07.55.12:422][137]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1470201038
+[2024.08.22-07.55.13:165][195]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.22-07.55.13:174][195]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.22-07.55.13:175][195]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.22-07.55.13:183][195]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7 ms (total: 101 ms)
+[2024.08.22-07.55.13:183][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.22-07.55.13:184][195]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 3:55:13 am)
+[2024.08.22-07.55.13:220][195]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.55.13:240][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018847s)
+[2024.08.22-07.55.13:240][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.019489s)
+[2024.08.22-07.55.13:255][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.08.22-07.55.13:259][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.22-07.55.13:260][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.22-07.55.13:262][195]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.22-07.55.13:269][195]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.22-07.55.13:270][195]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.22-07.55.13:270][195]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.22-07.55.13:270][195]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.22-07.55.13:275][195]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.22-07.55.13:275][195]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 632 ms)
+[2024.08.22-07.55.13:276][195]LogPlayLevel: PIE: World Init took: (0.019250s)
+[2024.08.22-07.55.13:276][195]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.08.22-07.55.13:276][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.22-07.55.13:277][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.22-07.55.13:277][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.22-07.55.13:277][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.22-07.55.13:292][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.22-07.55.13:292][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.22-07.55.13:295][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.22-07.55.13:350][195]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.22-07.55.13:351][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.22-07.55.13:351][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.22-07.55.13:351][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.22-07.55.13:352][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.08.22-07.55.13:352][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.08.22-07.55.13:358][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.08.22-07.55.13:358][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.08.22-07.55.13:359][195]LogInit: FAudioDevice initialized with ID 15.
+[2024.08.22-07.55.13:359][195]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2024.08.22-07.55.13:359][195]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.08.22-07.55.13:361][195]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.22-07.55.13:371][195]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.22-17.55.13
+[2024.08.22-07.55.13:371][195]LogWorld: Bringing up level for play took: 0.008825
+[2024.08.22-07.55.13:375][195]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 2: 0.0
+[2024.08.22-07.55.13:377][195]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 1: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 1: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 1: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: init 2: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: blank: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: blank: 0.666667
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:379][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:380][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:380][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:380][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:380][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.0
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.333333
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: ARR: 0.666667
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: 2: 9
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.22-07.55.13:381][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: THE NUMBER IS: 3
+[2024.08.22-07.55.13:382][195]LogTemp: Warning: IS: 3
+[2024.08.22-07.55.13:383][195]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.22-07.55.13:384][195]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.22-07.55.13:384][195]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.22-07.55.13:388][195]PIE: Server logged in
+[2024.08.22-07.55.13:389][195]PIE: Play in editor total start time 0.214 seconds.
+[2024.08.22-07.55.48:536][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.55.48:536][849]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.22-07.55.48:538][849]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.22-07.55.48:538][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.55.48:541][849]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.22-07.55.48:548][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.22-07.55.48:563][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.22-07.55.48:597][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.22-07.55.48:601][849]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.08.22-07.55.48:601][849]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.08.22-07.55.48:609][849]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.08.22-07.55.48:684][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.08.22-07.55.48:752][850]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.08.22-07.55.56:855][337]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.55.56:856][337]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.55.56:856][337]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_9
+[2024.08.22-07.55.58:551][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.55.58:551][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.55.58:553][429]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1560408041
+[2024.08.22-07.56.08:417][ 64]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.08:417][ 64]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.08:418][ 64]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_10
+[2024.08.22-07.56.11:542][241]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.11:542][241]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.11:545][241]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1573399042
+[2024.08.22-07.56.18:294][660]Cmd: TRANSACTION UNDO
+[2024.08.22-07.56.18:294][660]LogEditorTransaction: Undo Clicking on Elements
+[2024.08.22-07.56.19:133][690]Cmd: TRANSACTION UNDO
+[2024.08.22-07.56.19:133][690]LogEditorTransaction: Undo Move Elements
+[2024.08.22-07.56.19:815][733]Cmd: TRANSACTION UNDO
+[2024.08.22-07.56.19:815][733]LogEditorTransaction: Undo Create Actors
+[2024.08.22-07.56.26:959][152]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.26:960][152]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.26:961][152]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_11
+[2024.08.22-07.56.28:990][265]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.28:990][265]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meshes/hedge3.hedge3
+[2024.08.22-07.56.28:993][265]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meshes/hedge3.hedge3 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1590847043
+[2024.08.22-07.56.39:955][930]LogWorldPartition: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1573399042 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1O/YVXYBLXI96A13I0BJCG5DU.PackageMetaData in its package
+[2024.08.22-07.56.39:957][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.08.22-07.56.39:966][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.22-07.56.40:120][930]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/14/ZL3870GOPGVJQIYQBCSCBV
+[2024.08.22-07.56.40:120][930]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/ZL3870GOPGVJQIYQBCSCBV0C14243B421F9B2B0B8E00A3E38A9CCB.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/14/ZL3870GOPGVJQIYQBCSCBV.uasset'
+[2024.08.22-07.56.40:126][930]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/JL/GBI5CCI137DIN2O2CTAJQ7
+[2024.08.22-07.56.40:126][930]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/GBI5CCI137DIN2O2CTAJQ7DA4BE5C247A9634709D4DBB2CAAAB48E.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/JL/GBI5CCI137DIN2O2CTAJQ7.uasset'
+[2024.08.22-07.56.40:149][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 6.21 sec)
+[2024.08.22-07.56.40:167][930]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.22-07.56.40:168][930]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1590847043
+[2024.08.22-07.56.40:170][930]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3DEB34021502_1560408041
+[2024.08.22-07.56.40:185][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
