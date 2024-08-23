@@ -5804,3 +5804,1994 @@ UnknownFunction []
 [2024.08.23-05.36.19:161][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_58
 [2024.08.23-05.38.21:349][553]LogSlate: Window 'Save Level As' being destroyed
 [2024.08.23-05.38.22:872][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.08.23-05.40.49:390][872]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.40.49:399][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.40.49:399][872]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:40:49 am)
+[2024.08.23-05.40.49:400][872]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.40.49:405][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004672s)
+[2024.08.23-05.40.49:405][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.005098s)
+[2024.08.23-05.40.49:415][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.08.23-05.40.49:417][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.40.49:418][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.40.49:418][872]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.40.49:419][872]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2024.08.23-05.40.49:420][872]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.40.49:420][872]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.40.49:420][872]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.40.49:421][872]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.40.49:421][872]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.40.49:421][872]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.40.49:437][872]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.40.49:496][872]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.40.49:497][872]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.40.49:497][872]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.40.49:498][872]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.40.49:500][872]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.08.23-05.40.49:500][872]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.08.23-05.40.49:504][872]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.08.23-05.40.49:504][872]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.08.23-05.40.49:505][872]LogInit: FAudioDevice initialized with ID 34.
+[2024.08.23-05.40.49:505][872]LogAudio: Display: Audio Device (ID: 34) registered with world 'MainMenu'.
+[2024.08.23-05.40.49:505][872]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.08.23-05.40.49:511][872]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.40.49:512][872]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.40.49
+[2024.08.23-05.40.49:513][872]LogWorld: Bringing up level for play took: 0.001748
+[2024.08.23-05.40.49:527][872]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.08.23-05.40.49:529][872]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.40.49:529][872]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.40.49:529][872]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.40.49:531][872]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.40.49:532][872]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.40.49:533][872]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: 2: 9
+[2024.08.23-05.40.49:534][872]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.40.49:536][872]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.40.49:537][872]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.23-05.40.49:538][872]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.40.49:538][872]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.40.49:538][872]PIE: Server logged in
+[2024.08.23-05.40.49:539][872]PIE: Play in editor total start time 0.139 seconds.
+[2024.08.23-05.40.59:890][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.40.59:890][687]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.40.59:890][687]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.40.59:891][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.40.59:895][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.40.59:899][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.40.59:913][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.40.59:913][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.08.23-05.40.59:913][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.08.23-05.40.59:918][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.08.23-05.40.59:933][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.08.23-05.40.59:964][688]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.08.23-05.41.52:492][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.41.52:646][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.41.52:679][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.08.23-05.41.52:698][725]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.41.52:699][725]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenu5AF3EE534ADADD7E0DC06489C239CC36.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.41.52:707][725]LogFileHelpers: Saving map 'MainMenu' took 0.061
+[2024.08.23-05.41.52:760][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 268 ms (total: 6.99 sec)
+[2024.08.23-05.41.52:777][725]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.41.52:777][725]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.06:975][734]BlueprintLog: New page: Compile MainMenu
+[2024.08.23-05.42.06:996][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.08.23-05.42.07:013][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.07:171][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.07:202][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.08.23-05.42.07:222][734]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.07:223][734]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenu0F85A529417188FDB0E798BE6EAD18C5.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.07:230][734]LogFileHelpers: Saving map 'MainMenu' took 0.059
+[2024.08.23-05.42.07:293][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 280 ms (total: 7.27 sec)
+[2024.08.23-05.42.07:310][734]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.07:310][734]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.07:913][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.08:031][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.08:058][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.08.23-05.42.08:076][770]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.08:079][770]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenu62CCC6EE448E2DAA470E08B440A8D67D.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.08:085][770]LogFileHelpers: Saving map 'MainMenu' took 0.055
+[2024.08.23-05.42.08:100][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 7.46 sec)
+[2024.08.23-05.42.08:103][770]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.08:103][770]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.10:487][948]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.42.10:495][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.42.10:495][948]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:42:10 am)
+[2024.08.23-05.42.10:495][948]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.42.10:498][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003411s)
+[2024.08.23-05.42.10:498][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003835s)
+[2024.08.23-05.42.10:507][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.08.23-05.42.10:508][948]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.42.10:509][948]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.42.10:510][948]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.42.10:510][948]LogPlayLevel: PIE: World Init took: (0.001876s)
+[2024.08.23-05.42.10:511][948]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.08.23-05.42.10:511][948]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.42.10:511][948]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.42.10:511][948]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.42.10:511][948]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.42.10:512][948]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.42.10:512][948]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.42.10:513][948]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.42.10:513][948]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.42.10:514][948]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.42.10:514][948]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.42.10:514][948]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.42.10:548][948]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.42.10:595][948]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.42.10:595][948]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.42.10:595][948]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.42.10:595][948]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.42.10:596][948]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.08.23-05.42.10:596][948]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.08.23-05.42.10:604][948]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.08.23-05.42.10:604][948]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.08.23-05.42.10:605][948]LogInit: FAudioDevice initialized with ID 35.
+[2024.08.23-05.42.10:605][948]LogAudio: Display: Audio Device (ID: 35) registered with world 'MainMenu'.
+[2024.08.23-05.42.10:605][948]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.08.23-05.42.10:610][948]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.42.10:613][948]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.42.10
+[2024.08.23-05.42.10:618][948]LogWorld: Bringing up level for play took: 0.003360
+[2024.08.23-05.42.10:633][948]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.08.23-05.42.10:637][948]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.10:641][948]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.10:642][948]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.10:643][948]LogTemp: Warning: 2: 9
+[2024.08.23-05.42.10:645][948]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.42.10:645][948]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.42.10:645][948]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.42.10:649][948]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.42.10:649][948]PIE: Server logged in
+[2024.08.23-05.42.10:650][948]PIE: Play in editor total start time 0.156 seconds.
+[2024.08.23-05.42.12:568][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.42.12:568][ 84]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.42.12:568][ 84]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.42.12:569][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.42.12:573][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.42.12:576][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.42.12:583][ 84]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.42.12:583][ 84]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.08.23-05.42.12:583][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.08.23-05.42.12:587][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.08.23-05.42.12:599][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.42.12:602][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.08.23-05.42.12:681][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.08.23-05.42.24:485][973]BlueprintLog: New page: Compile MainMenu
+[2024.08.23-05.42.24:516][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.08.23-05.42.24:530][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.24:632][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.24:662][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.08.23-05.42.24:681][973]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.24:682][973]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuFC8CDD6842CC9993BEDC50A84CA7EAEF.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.24:688][973]LogFileHelpers: Saving map 'MainMenu' took 0.067
+[2024.08.23-05.42.24:702][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 7.63 sec)
+[2024.08.23-05.42.24:707][973]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.24:707][973]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.25:239][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.25:343][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.25:382][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.08.23-05.42.25:402][  6]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.25:404][  6]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuA8D2279E46539C9270D6F2853DD14BAF.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.25:410][  6]LogFileHelpers: Saving map 'MainMenu' took 0.069
+[2024.08.23-05.42.25:532][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 294 ms (total: 7.93 sec)
+[2024.08.23-05.42.25:535][  6]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.25:535][  6]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.27:275][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.42.27:285][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.42.27:285][128]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:42:27 am)
+[2024.08.23-05.42.27:287][128]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.42.27:290][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003267s)
+[2024.08.23-05.42.27:290][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003728s)
+[2024.08.23-05.42.27:297][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.08.23-05.42.27:298][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.42.27:299][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.42.27:299][128]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.42.27:300][128]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2024.08.23-05.42.27:301][128]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.42.27:301][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.42.27:301][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.42.27:302][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.42.27:302][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.42.27:302][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.42.27:315][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.42.27:368][128]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.42.27:370][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.42.27:370][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.42.27:370][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.42.27:371][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.08.23-05.42.27:371][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.08.23-05.42.27:373][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.08.23-05.42.27:374][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.08.23-05.42.27:374][128]LogInit: FAudioDevice initialized with ID 36.
+[2024.08.23-05.42.27:374][128]LogAudio: Display: Audio Device (ID: 36) registered with world 'MainMenu'.
+[2024.08.23-05.42.27:374][128]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.08.23-05.42.27:377][128]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.42.27:379][128]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.42.27
+[2024.08.23-05.42.27:379][128]LogWorld: Bringing up level for play took: 0.001577
+[2024.08.23-05.42.27:384][128]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.08.23-05.42.27:385][128]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.27:396][128]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.27:396][128]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.27:396][128]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.27:397][128]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.27:397][128]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.42.27:397][128]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.27:397][128]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.27:397][128]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:400][128]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: 2: 9
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.42.27:404][128]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.42.27:406][128]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.23-05.42.27:406][128]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.42.27:406][128]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.42.27:406][128]PIE: Server logged in
+[2024.08.23-05.42.27:408][128]PIE: Play in editor total start time 0.123 seconds.
+[2024.08.23-05.42.31:188][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.42.31:190][411]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.42.31:191][411]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.42.31:192][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.42.31:202][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.42.31:205][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.42.31:223][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.42.31:224][411]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.08.23-05.42.31:224][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.08.23-05.42.31:227][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.08.23-05.42.31:237][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.08.23-05.42.31:265][412]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.08.23-05.42.47:003][263]BlueprintLog: New page: Compile MainMenu
+[2024.08.23-05.42.47:027][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.08.23-05.42.47:043][263]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.47:154][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.47:192][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.08.23-05.42.47:211][263]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.47:212][263]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuC84CA2634A5674EF9ED83F913A48F115.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.47:220][263]LogFileHelpers: Saving map 'MainMenu' took 0.065
+[2024.08.23-05.42.47:233][263]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 8.12 sec)
+[2024.08.23-05.42.47:235][263]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.47:236][263]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.42.47:865][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.42.47:943][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.42.47:973][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.08.23-05.42.47:992][300]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.42.47:993][300]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuDC7A751446D239490CBF96AAE10123A6.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.42.47:999][300]LogFileHelpers: Saving map 'MainMenu' took 0.057
+[2024.08.23-05.42.48:011][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 8.26 sec)
+[2024.08.23-05.42.48:013][300]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.42.48:013][300]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.45.13:051][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.45.13:171][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.45.13:209][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.23-05.45.13:227][960]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.45.13:227][960]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenu7B1575784DA87FF7991DC39A095CC2B9.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.45.13:236][960]LogFileHelpers: Saving map 'MainMenu' took 0.065
+[2024.08.23-05.45.13:269][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 217 ms (total: 8.48 sec)
+[2024.08.23-05.45.13:295][960]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.45.13:295][960]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.45.16:128][171]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.45.16:136][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.45.16:136][171]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:45:16 am)
+[2024.08.23-05.45.16:154][171]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.45.16:158][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003405s)
+[2024.08.23-05.45.16:158][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003904s)
+[2024.08.23-05.45.16:164][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.08.23-05.45.16:166][171]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.45.16:166][171]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.45.16:166][171]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.45.16:169][171]LogPlayLevel: PIE: World Init took: (0.001508s)
+[2024.08.23-05.45.16:169][171]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.45.16:169][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.45.16:169][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.45.16:170][171]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.45.16:170][171]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.45.16:170][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.45.16:211][171]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.45.16:268][171]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.45.16:270][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.45.16:270][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.45.16:270][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.45.16:271][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.08.23-05.45.16:272][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.08.23-05.45.16:279][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.08.23-05.45.16:279][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.08.23-05.45.16:284][171]LogInit: FAudioDevice initialized with ID 37.
+[2024.08.23-05.45.16:284][171]LogAudio: Display: Audio Device (ID: 37) registered with world 'MainMenu'.
+[2024.08.23-05.45.16:284][171]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.08.23-05.45.16:292][171]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.45.16:294][171]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.45.16
+[2024.08.23-05.45.16:295][171]LogWorld: Bringing up level for play took: 0.001457
+[2024.08.23-05.45.16:301][171]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.08.23-05.45.16:302][171]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.45.16:303][171]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.45.16:304][171]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.45.16:307][171]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.45.16:308][171]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.45.16:309][171]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.45.16:309][171]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.45.16:326][171]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.45.16:330][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:331][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:331][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:331][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:332][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:332][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:332][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.45.16:336][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:340][171]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.45.16:340][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:340][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:340][171]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.45.16:340][171]LogTemp: Warning: 2: 9
+[2024.08.23-05.45.16:342][171]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.45.16:347][171]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.45.16:347][171]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.45.16:348][171]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.45.16:349][171]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.23-05.45.16:350][171]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.45.16:350][171]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.45.16:350][171]PIE: Server logged in
+[2024.08.23-05.45.16:353][171]PIE: Play in editor total start time 0.215 seconds.
+[2024.08.23-05.45.22:817][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.45.22:818][668]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.45.22:818][668]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.45.22:819][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.45.22:829][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.45.22:833][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.45.22:844][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.45.22:846][668]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.08.23-05.45.22:846][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.08.23-05.45.22:849][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.08.23-05.45.22:861][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.08.23-05.45.22:891][669]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.08.23-05.48.06:784][409]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.48.06:791][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.48.06:791][409]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:48:06 am)
+[2024.08.23-05.48.06:794][409]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.48.06:799][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003480s)
+[2024.08.23-05.48.06:799][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003876s)
+[2024.08.23-05.48.06:806][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.08.23-05.48.06:808][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.48.06:808][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.48.06:808][409]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.48.06:809][409]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2024.08.23-05.48.06:809][409]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.08.23-05.48.06:809][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.48.06:810][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.48.06:810][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.48.06:811][409]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.48.06:811][409]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.48.06:811][409]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.48.06:824][409]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.48.06:871][409]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.48.06:871][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.48.06:872][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.48.06:872][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.48.06:872][409]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.08.23-05.48.06:875][409]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.08.23-05.48.06:877][409]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.08.23-05.48.06:878][409]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.08.23-05.48.06:878][409]LogInit: FAudioDevice initialized with ID 38.
+[2024.08.23-05.48.06:878][409]LogAudio: Display: Audio Device (ID: 38) registered with world 'MainMenu'.
+[2024.08.23-05.48.06:878][409]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.08.23-05.48.06:881][409]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.48.06:882][409]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.48.06
+[2024.08.23-05.48.06:882][409]LogWorld: Bringing up level for play took: 0.001416
+[2024.08.23-05.48.06:889][409]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2024.08.23-05.48.06:890][409]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.06:899][409]LogTemp: Warning: 2: 9
+[2024.08.23-05.48.06:900][409]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.48.06:901][409]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.48.06:904][409]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.23-05.48.06:904][409]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.48.06:904][409]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.48.06:904][409]PIE: Server logged in
+[2024.08.23-05.48.06:907][409]PIE: Play in editor total start time 0.113 seconds.
+[2024.08.23-05.48.25:618][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.48.25:619][930]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.48.25:619][930]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.48.25:619][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.48.25:624][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.48.25:626][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.48.25:632][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.48.25:633][930]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.08.23-05.48.25:633][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.08.23-05.48.25:637][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.08.23-05.48.25:651][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.08.23-05.48.25:683][931]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2024.08.23-05.48.51:340][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.48.51:347][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.48.51:348][ 94]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:48:51 am)
+[2024.08.23-05.48.51:349][ 94]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.48.51:356][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006093s)
+[2024.08.23-05.48.51:356][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006516s)
+[2024.08.23-05.48.51:380][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.08.23-05.48.51:383][ 94]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.48.51:383][ 94]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.48.51:383][ 94]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.48.51:384][ 94]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2024.08.23-05.48.51:384][ 94]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.08.23-05.48.51:384][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.48.51:385][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.48.51:385][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.48.51:386][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.48.51:386][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.48.51:386][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.48.51:399][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.48.51:443][ 94]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.48.51:444][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.48.51:444][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.48.51:444][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.48.51:446][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.08.23-05.48.51:449][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.08.23-05.48.51:451][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.08.23-05.48.51:451][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.08.23-05.48.51:454][ 94]LogInit: FAudioDevice initialized with ID 39.
+[2024.08.23-05.48.51:454][ 94]LogAudio: Display: Audio Device (ID: 39) registered with world 'MainMenu'.
+[2024.08.23-05.48.51:454][ 94]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.08.23-05.48.51:456][ 94]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.48.51:457][ 94]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.48.51
+[2024.08.23-05.48.51:458][ 94]LogWorld: Bringing up level for play took: 0.001327
+[2024.08.23-05.48.51:463][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.51:464][ 94]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:466][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:467][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:468][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:468][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:468][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.48.51:469][ 94]LogTemp: Warning: 2: 9
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.48.51:470][ 94]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.48.51:476][ 94]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.08.23-05.48.51:477][ 94]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.48.51:477][ 94]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.48.51:477][ 94]PIE: Server logged in
+[2024.08.23-05.48.51:479][ 94]PIE: Play in editor total start time 0.131 seconds.
+[2024.08.23-05.49.00:239][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.00:239][761]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.00:240][761]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.00:240][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.00:243][761]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.49.00:246][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.00:254][761]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.00:256][761]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.08.23-05.49.00:256][761]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.08.23-05.49.00:260][761]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.08.23-05.49.00:279][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.00:282][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.08.23-05.49.00:310][762]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2024.08.23-05.49.12:853][742]BlueprintLog: New page: Compile MainMenu
+[2024.08.23-05.49.12:889][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.08.23-05.49.12:904][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.49.13:012][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.49.13:040][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.08.23-05.49.13:060][742]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.49.13:061][742]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuD212A84A4BB2CBC05B723999C98D4AAA.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.49.13:071][742]LogFileHelpers: Saving map 'MainMenu' took 0.070
+[2024.08.23-05.49.13:101][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 8.68 sec)
+[2024.08.23-05.49.13:111][742]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.49.13:111][742]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.49.13:521][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.49.13:638][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.23-05.49.13:671][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.08.23-05.49.13:691][765]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.08.23-05.49.13:694][765]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/MainMenuF15BFDDC4010F10B616927849FA7D797.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Levels/MainMenu.umap'
+[2024.08.23-05.49.13:701][765]LogFileHelpers: Saving map 'MainMenu' took 0.062
+[2024.08.23-05.49.13:711][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 8.87 sec)
+[2024.08.23-05.49.13:717][765]AssetCheck: New page: Asset Save: MainMenu
+[2024.08.23-05.49.13:717][765]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.08.23-05.49.15:673][908]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.49.15:681][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.49.15:682][908]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:49:15 am)
+[2024.08.23-05.49.15:682][908]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.15:685][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003185s)
+[2024.08.23-05.49.15:687][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003609s)
+[2024.08.23-05.49.15:693][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.08.23-05.49.15:694][908]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.15:695][908]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.15:695][908]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.15:700][908]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2024.08.23-05.49.15:700][908]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.49.15:700][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.49.15:700][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.49.15:700][908]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.49.15:700][908]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.49.15:700][908]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.49.15:713][908]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.49.15:767][908]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.49.15:767][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.49.15:767][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.49.15:767][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.49.15:768][908]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2024.08.23-05.49.15:768][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2024.08.23-05.49.15:801][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2024.08.23-05.49.15:801][908]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2024.08.23-05.49.15:801][908]LogInit: FAudioDevice initialized with ID 40.
+[2024.08.23-05.49.15:801][908]LogAudio: Display: Audio Device (ID: 40) registered with world 'MainMenu'.
+[2024.08.23-05.49.15:801][908]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2024.08.23-05.49.15:804][908]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.15:806][908]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.15
+[2024.08.23-05.49.15:807][908]LogWorld: Bringing up level for play took: 0.001289
+[2024.08.23-05.49.15:826][908]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2024.08.23-05.49.15:827][908]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.15:827][908]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.15:827][908]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.15:828][908]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:830][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.15:832][908]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.15:833][908]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.15:834][908]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.49.15:834][908]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.49.15:834][908]PIE: Server logged in
+[2024.08.23-05.49.15:835][908]PIE: Play in editor total start time 0.155 seconds.
+[2024.08.23-05.49.17:315][ 18]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.08.23-05.49.17:315][ 18]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.08.23-05.49.17:317][ 18]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.49.17:319][ 18]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.49.17:319][ 18]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.17:323][ 18]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.17:324][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.17:333][ 18]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.17:337][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.08.23-05.49.17:558][ 18]LogAudio: Display: Audio Device (ID: 40) registered with world 'ThirdPersonMap'.
+[2024.08.23-05.49.17:559][ 18]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.17:560][ 18]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.17:560][ 18]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.23-05.49.17:566][ 18]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.23-05.49.17:568][ 18]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.23-05.49.17:572][ 18]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.08.23-05.49.17:573][ 18]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.23-05.49.17:619][ 18]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.23-05.49.18:465][ 18]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 842 ms (total: 1.64 sec)
+[2024.08.23-05.49.18:475][ 18]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.23-05.49.18:476][ 18]LogWorldPartition: Display: WorldPartition initialize took 908 ms (total: 3.96 sec)
+[2024.08.23-05.49.18:476][ 18]LogPlayLevel: PIE: World Init took: (0.918751s)
+[2024.08.23-05.49.18:476][ 18]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.23-05.49.18:543][ 18]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.23-15.49.18
+[2024.08.23-05.49.18:553][ 18]LogWorld: Bringing up level for play took: 0.072793
+[2024.08.23-05.49.18:676][ 18]LogTemp: Warning: THE NUMBER IS: 4
+[2024.08.23-05.49.18:678][ 18]LogTemp: Warning: IS: 4
+[2024.08.23-05.49.18:681][ 18]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.18:699][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.23-05.49.18:700][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.23-05.49.18:701][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.23-05.49.18:701][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.23-05.49.18:701][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.23-05.49.18:701][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.23-05.49.18:701][ 18]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.23-05.49.18:757][ 18]LogLoad: Took 1.437064 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.08.23-05.49.19:472][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.19:472][ 58]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.23-05.49.19:474][ 58]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.19:478][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.19:482][ 58]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.23-05.49.19:487][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.49.19:491][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.19:497][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.19:510][ 58]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2024.08.23-05.49.19:510][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.08.23-05.49.19:512][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.08.23-05.49.19:524][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.19:539][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.08.23-05.49.19:600][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2024.08.23-05.49.20:764][142]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.49.20:774][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.49.20:774][142]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:49:20 am)
+[2024.08.23-05.49.20:774][142]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.20:779][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003639s)
+[2024.08.23-05.49.20:779][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004106s)
+[2024.08.23-05.49.20:789][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.08.23-05.49.20:791][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.20:791][142]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.20:793][142]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.20:793][142]LogPlayLevel: PIE: World Init took: (0.001419s)
+[2024.08.23-05.49.20:793][142]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2024.08.23-05.49.20:793][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.49.20:793][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.49.20:794][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.49.20:794][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.49.20:794][142]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.49.20:794][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.49.20:794][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.49.20:794][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.49.20:796][142]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.49.20:796][142]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.49.20:796][142]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.49.20:804][142]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.49.20:851][142]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.49.20:852][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.49.20:852][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.49.20:852][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.49.20:852][142]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2024.08.23-05.49.20:852][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2024.08.23-05.49.20:857][142]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2024.08.23-05.49.20:857][142]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2024.08.23-05.49.20:859][142]LogInit: FAudioDevice initialized with ID 41.
+[2024.08.23-05.49.20:859][142]LogAudio: Display: Audio Device (ID: 41) registered with world 'MainMenu'.
+[2024.08.23-05.49.20:859][142]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2024.08.23-05.49.20:862][142]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.20:864][142]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.20
+[2024.08.23-05.49.20:864][142]LogWorld: Bringing up level for play took: 0.001232
+[2024.08.23-05.49.20:869][142]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.08.23-05.49.20:871][142]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:874][142]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.20:877][142]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.20:877][142]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.49.20:879][142]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.49.20:879][142]PIE: Server logged in
+[2024.08.23-05.49.20:879][142]PIE: Play in editor total start time 0.105 seconds.
+[2024.08.23-05.49.28:128][709]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.23-05.49.28:130][709]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.23-05.49.28:130][709]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.28:131][709]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.28:131][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.28:172][709]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.28:174][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.23-05.49.28:177][709]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.28:182][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003965s)
+[2024.08.23-05.49.28:182][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004405s)
+[2024.08.23-05.49.28:182][709]LogAudio: Display: Audio Device (ID: 41) registered with world 'MainMenu'.
+[2024.08.23-05.49.28:182][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.28:182][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.28:183][709]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.28:184][709]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2024.08.23-05.49.28:184][709]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.28:185][709]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.28
+[2024.08.23-05.49.28:185][709]LogWorld: Bringing up level for play took: 0.001297
+[2024.08.23-05.49.28:188][709]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.23-05.49.28:188][709]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.28:189][709]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.28:195][709]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.28:198][709]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.28:199][709]LogLoad: Took 0.068975 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.08.23-05.49.32:351][ 45]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.23-05.49.32:351][ 45]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.23-05.49.32:352][ 45]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.32:353][ 45]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.32:353][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.32:389][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.32:392][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.08.23-05.49.32:395][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.32:400][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004258s)
+[2024.08.23-05.49.32:400][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004799s)
+[2024.08.23-05.49.32:401][ 45]LogAudio: Display: Audio Device (ID: 41) registered with world 'MainMenu'.
+[2024.08.23-05.49.32:401][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.32:401][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.32:402][ 45]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.32:402][ 45]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2024.08.23-05.49.32:402][ 45]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.32:404][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.32
+[2024.08.23-05.49.32:404][ 45]LogWorld: Bringing up level for play took: 0.001365
+[2024.08.23-05.49.32:405][ 45]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.23-05.49.32:406][ 45]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.32:406][ 45]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.32:408][ 45]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.32:411][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.32:413][ 45]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.32:414][ 45]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.32:414][ 45]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.32:414][ 45]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.32:414][ 45]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.32:414][ 45]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.32:416][ 45]LogLoad: Took 0.063849 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.08.23-05.49.35:347][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.35:348][275]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.35:348][275]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.35:348][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.35:380][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.49.35:383][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.35:390][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.49.35:391][275]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2024.08.23-05.49.35:391][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.08.23-05.49.35:394][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.08.23-05.49.35:404][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.08.23-05.49.35:439][276]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.08.23-05.49.38:918][495]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Assets/UI/Options.Options
+[2024.08.23-05.49.38:928][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.38:929][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.38:949][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.38:950][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.47:917][900]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.23-05.49.48:776][946]BlueprintLog: New page: Compile Options
+[2024.08.23-05.49.48:821][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.23-05.49.49:041][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.49.49:159][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Options" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset" SILENT=true
+[2024.08.23-05.49.49:172][946]LogSavePackage: Moving output files for package: /Game/Assets/UI/Options
+[2024.08.23-05.49.49:173][946]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/OptionsA29A0418437CA5E1BF8B96AD1C08A0F0.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset'
+[2024.08.23-05.49.49:185][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 9.02 sec)
+[2024.08.23-05.49.49:241][946]AssetCheck: New page: Asset Save: Options
+[2024.08.23-05.49.49:244][946]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Assets/UI/Options.Options
+[2024.08.23-05.49.49:646][961]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.49.49:797][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Options" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset" SILENT=true
+[2024.08.23-05.49.49:803][961]LogSavePackage: Moving output files for package: /Game/Assets/UI/Options
+[2024.08.23-05.49.49:805][961]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Options9073C07545200178F0F76991D84A5EA6.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset'
+[2024.08.23-05.49.49:813][961]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 9.18 sec)
+[2024.08.23-05.49.49:819][961]AssetCheck: New page: Asset Save: Options
+[2024.08.23-05.49.49:820][961]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Assets/UI/Options.Options
+[2024.08.23-05.49.51:660][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.23-05.49.54:094][210]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.49.54:103][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.49.54:103][210]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:49:54 am)
+[2024.08.23-05.49.54:104][210]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.54:109][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003170s)
+[2024.08.23-05.49.54:109][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003537s)
+[2024.08.23-05.49.54:114][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.08.23-05.49.54:117][210]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.54:117][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.54:118][210]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.54:118][210]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2024.08.23-05.49.54:120][210]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.49.54:120][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.49.54:120][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.49.54:120][210]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.49.54:121][210]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.49.54:121][210]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.49.54:132][210]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.49.54:178][210]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.49.54:178][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.49.54:178][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.49.54:178][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.49.54:179][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.08.23-05.49.54:182][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.08.23-05.49.54:185][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.08.23-05.49.54:185][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.08.23-05.49.54:185][210]LogInit: FAudioDevice initialized with ID 42.
+[2024.08.23-05.49.54:185][210]LogAudio: Display: Audio Device (ID: 42) registered with world 'MainMenu'.
+[2024.08.23-05.49.54:186][210]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.08.23-05.49.54:187][210]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.54:189][210]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.54
+[2024.08.23-05.49.54:189][210]LogWorld: Bringing up level for play took: 0.001457
+[2024.08.23-05.49.54:193][210]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.08.23-05.49.54:194][210]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.54:194][210]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.54:199][210]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.54:200][210]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.54:201][210]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.54:202][210]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.49.54:202][210]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.49.54:202][210]PIE: Server logged in
+[2024.08.23-05.49.54:203][210]PIE: Play in editor total start time 0.1 seconds.
+[2024.08.23-05.49.56:098][349]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.23-05.49.56:098][349]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.23-05.49.56:098][349]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.56:099][349]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.56:099][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.56:153][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.56:158][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.08.23-05.49.56:168][349]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.56:193][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003442s)
+[2024.08.23-05.49.56:193][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.012941s)
+[2024.08.23-05.49.56:193][349]LogAudio: Display: Audio Device (ID: 42) registered with world 'MainMenu'.
+[2024.08.23-05.49.56:193][349]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.56:193][349]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.56:209][349]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.56:220][349]LogPlayLevel: PIE: World Init took: (0.032970s)
+[2024.08.23-05.49.56:220][349]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.56:222][349]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.56
+[2024.08.23-05.49.56:224][349]LogWorld: Bringing up level for play took: 0.002072
+[2024.08.23-05.49.56:236][349]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.23-05.49.56:237][349]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.56:250][349]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.56:250][349]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.56:252][349]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.56:252][349]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.56:253][349]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.56:284][349]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.56:292][349]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.56:312][349]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.56:329][349]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.56:329][349]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.56:329][349]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.56:330][349]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.56:337][349]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.56:340][349]LogLoad: Took 0.240917 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.08.23-05.49.59:923][635]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.23-05.49.59:924][635]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.23-05.49.59:924][635]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.59:924][635]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.49.59:924][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.49.59:959][635]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.49.59:961][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.23-05.49.59:964][635]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.49.59:967][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002991s)
+[2024.08.23-05.49.59:967][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003394s)
+[2024.08.23-05.49.59:967][635]LogAudio: Display: Audio Device (ID: 42) registered with world 'MainMenu'.
+[2024.08.23-05.49.59:967][635]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.49.59:967][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.49.59:968][635]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.49.59:968][635]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2024.08.23-05.49.59:969][635]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.49.59:970][635]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.49.59
+[2024.08.23-05.49.59:970][635]LogWorld: Bringing up level for play took: 0.001433
+[2024.08.23-05.49.59:972][635]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.23-05.49.59:972][635]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.59:974][635]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.59:974][635]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.59:974][635]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.59:974][635]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.59:978][635]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.49.59:978][635]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.59:978][635]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:980][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: 2: 9
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.49.59:981][635]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.49.59:982][635]LogLoad: Took 0.058926 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.08.23-05.50.03:403][910]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.08.23-05.50.03:403][910]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.08.23-05.50.03:407][910]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.50.03:407][910]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.50.03:407][910]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.03:408][910]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.03:408][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.03:423][910]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.50.03:426][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.08.23-05.50.03:488][910]LogAudio: Display: Audio Device (ID: 42) registered with world 'ThirdPersonMap'.
+[2024.08.23-05.50.03:488][910]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.50.03:489][910]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.50.03:490][910]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.23-05.50.03:490][910]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.23-05.50.03:491][910]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.23-05.50.03:491][910]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.08.23-05.50.03:491][910]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.23-05.50.03:497][910]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.23-05.50.03:686][910]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 189 ms (total: 1.83 sec)
+[2024.08.23-05.50.03:693][910]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.23-05.50.03:694][910]LogWorldPartition: Display: WorldPartition initialize took 203 ms (total: 4.16 sec)
+[2024.08.23-05.50.03:694][910]LogPlayLevel: PIE: World Init took: (0.205839s)
+[2024.08.23-05.50.03:694][910]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.23-05.50.03:718][910]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.23-15.50.03
+[2024.08.23-05.50.03:719][910]LogWorld: Bringing up level for play took: 0.024257
+[2024.08.23-05.50.03:722][910]LogTemp: Warning: THE NUMBER IS: 1
+[2024.08.23-05.50.03:722][910]LogTemp: Warning: IS: 1
+[2024.08.23-05.50.03:722][910]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.03:722][910]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.03:723][910]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.03:732][910]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.03:732][910]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.03:732][910]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.03:734][910]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.03:736][910]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: 2: 9
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.23-05.50.03:737][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.23-05.50.03:738][910]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.23-05.50.03:744][910]LogLoad: Took 0.337934 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.08.23-05.50.05:052][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.05:052][  7]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.23-05.50.05:054][  7]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.05:054][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.05:056][  7]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.23-05.50.05:062][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.50.05:069][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.05:082][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.05:084][  7]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.08.23-05.50.05:085][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.08.23-05.50.05:090][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.08.23-05.50.05:106][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.08.23-05.50.05:139][  8]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.08.23-05.50.06:268][ 87]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.50.06:278][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.50.06:278][ 87]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:50:06 am)
+[2024.08.23-05.50.06:278][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.06:283][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005236s)
+[2024.08.23-05.50.06:283][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.005850s)
+[2024.08.23-05.50.06:298][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.08.23-05.50.06:301][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.50.06:301][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.50.06:302][ 87]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.50.06:302][ 87]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2024.08.23-05.50.06:302][ 87]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.08.23-05.50.06:302][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.50.06:304][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.50.06:304][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.50.06:304][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.50.06:304][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.50.06:311][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.50.06:313][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.50.06:362][ 87]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.50.06:362][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.50.06:362][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.50.06:362][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.50.06:364][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.08.23-05.50.06:365][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.08.23-05.50.06:383][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.08.23-05.50.06:383][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.08.23-05.50.06:383][ 87]LogInit: FAudioDevice initialized with ID 43.
+[2024.08.23-05.50.06:384][ 87]LogAudio: Display: Audio Device (ID: 43) registered with world 'MainMenu'.
+[2024.08.23-05.50.06:384][ 87]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.08.23-05.50.06:387][ 87]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.50.06:389][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.50.06
+[2024.08.23-05.50.06:389][ 87]LogWorld: Bringing up level for play took: 0.001801
+[2024.08.23-05.50.06:408][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2024.08.23-05.50.06:411][ 87]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.06:415][ 87]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.06:421][ 87]LogTemp: Warning: 2: 9
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.50.06:423][ 87]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.50.06:424][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.50.06:425][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.50.06:425][ 87]PIE: Server logged in
+[2024.08.23-05.50.06:426][ 87]PIE: Play in editor total start time 0.148 seconds.
+[2024.08.23-05.50.07:330][148]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.08.23-05.50.07:330][148]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.08.23-05.50.07:332][148]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.50.07:332][148]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.23-05.50.07:332][148]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.07:333][148]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.07:333][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.07:372][148]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.50.07:375][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.23-05.50.07:419][148]LogAudio: Display: Audio Device (ID: 43) registered with world 'ThirdPersonMap'.
+[2024.08.23-05.50.07:419][148]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.50.07:419][148]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.50.07:419][148]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.23-05.50.07:420][148]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.23-05.50.07:420][148]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.23-05.50.07:420][148]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.08.23-05.50.07:420][148]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.23-05.50.07:425][148]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.23-05.50.07:548][148]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 123 ms (total: 1.96 sec)
+[2024.08.23-05.50.07:555][148]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.23-05.50.07:560][148]LogWorldPartition: Display: WorldPartition initialize took 135 ms (total: 4.30 sec)
+[2024.08.23-05.50.07:562][148]LogPlayLevel: PIE: World Init took: (0.142510s)
+[2024.08.23-05.50.07:562][148]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.23-05.50.07:579][148]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.23-15.50.07
+[2024.08.23-05.50.07:580][148]LogWorld: Bringing up level for play took: 0.017106
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: THE NUMBER IS: 4
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: IS: 4
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.07:582][148]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:583][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: 2: 9
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.23-05.50.07:584][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.23-05.50.07:585][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.23-05.50.07:585][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.23-05.50.07:585][148]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.23-05.50.07:589][148]LogLoad: Took 0.257867 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.08.23-05.50.08:902][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.08:903][246]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.23-05.50.08:907][246]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.08:917][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.08:920][246]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.23-05.50.08:925][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.50.08:928][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.08:943][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.08:944][246]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.08.23-05.50.08:944][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.08.23-05.50.08:947][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.08.23-05.50.08:968][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.08.23-05.50.08:991][247]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2024.08.23-05.50.11:784][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.50.11:793][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.50.11:793][447]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:50:11 am)
+[2024.08.23-05.50.11:817][447]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.11:821][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003627s)
+[2024.08.23-05.50.11:821][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004190s)
+[2024.08.23-05.50.11:833][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.23-05.50.11:834][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.50.11:835][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.50.11:835][447]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.50.11:835][447]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2024.08.23-05.50.11:837][447]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.50.11:837][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.50.11:837][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.50.11:838][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.50.11:838][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.50.11:838][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.50.11:846][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.50.11:900][447]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.50.11:900][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.50.11:901][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.50.11:901][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.50.11:901][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.08.23-05.50.11:901][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.08.23-05.50.11:907][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.08.23-05.50.11:907][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.08.23-05.50.11:907][447]LogInit: FAudioDevice initialized with ID 44.
+[2024.08.23-05.50.11:907][447]LogAudio: Display: Audio Device (ID: 44) registered with world 'MainMenu'.
+[2024.08.23-05.50.11:907][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.08.23-05.50.11:910][447]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.50.11:912][447]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.50.11
+[2024.08.23-05.50.11:912][447]LogWorld: Bringing up level for play took: 0.001375
+[2024.08.23-05.50.11:915][447]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.08.23-05.50.11:918][447]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.50.11:922][447]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:923][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: 2: 9
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.50.11:924][447]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.50.11:924][447]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.50.11:924][447]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.50.11:924][447]PIE: Server logged in
+[2024.08.23-05.50.11:926][447]PIE: Play in editor total start time 0.133 seconds.
+[2024.08.23-05.50.16:598][812]LogNet: Browse: /Game/Levels/MainMenu
+[2024.08.23-05.50.16:598][812]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.08.23-05.50.16:599][812]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.16:599][812]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.16:600][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.16:609][812]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-05.50.16:612][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.08.23-05.50.16:619][812]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.16:624][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005395s)
+[2024.08.23-05.50.16:625][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.005951s)
+[2024.08.23-05.50.16:626][812]LogAudio: Display: Audio Device (ID: 44) registered with world 'MainMenu'.
+[2024.08.23-05.50.16:626][812]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.50.16:626][812]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.50.16:626][812]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.50.16:626][812]LogPlayLevel: PIE: World Init took: (0.001693s)
+[2024.08.23-05.50.16:626][812]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.50.16:628][812]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.50.16
+[2024.08.23-05.50.16:628][812]LogWorld: Bringing up level for play took: 0.001607
+[2024.08.23-05.50.16:630][812]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.08.23-05.50.16:630][812]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:637][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: 2: 9
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.50.16:638][812]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.50.16:639][812]LogLoad: Took 0.041144 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.08.23-05.50.22:868][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.22:868][303]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.50.22:869][303]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.50.22:869][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.22:905][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.50.22:908][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.50.22:917][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.50.22:917][303]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.08.23-05.50.22:918][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.08.23-05.50.22:921][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.08.23-05.50.22:931][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.08.23-05.50.22:962][304]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.08.23-05.51.49:954][228]BlueprintLog: New page: Compile Options
+[2024.08.23-05.51.49:985][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.08.23-05.51.50:006][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.51.50:114][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Options" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset" SILENT=true
+[2024.08.23-05.51.50:120][228]LogSavePackage: Moving output files for package: /Game/Assets/UI/Options
+[2024.08.23-05.51.50:120][228]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Options9D4A429742266B82C5EC339D26D42649.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset'
+[2024.08.23-05.51.50:126][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 9.30 sec)
+[2024.08.23-05.51.50:128][228]AssetCheck: New page: Asset Save: Options
+[2024.08.23-05.51.50:128][228]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Assets/UI/Options.Options
+[2024.08.23-05.51.50:568][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-05.51.50:685][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Options" FILE="../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset" SILENT=true
+[2024.08.23-05.51.50:692][253]LogSavePackage: Moving output files for package: /Game/Assets/UI/Options
+[2024.08.23-05.51.50:693][253]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/Options96D0D7FF4BA079FF5A0C78B35D63AE0F.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/Assets/UI/Options.uasset'
+[2024.08.23-05.51.50:705][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 9.44 sec)
+[2024.08.23-05.51.50:707][253]AssetCheck: New page: Asset Save: Options
+[2024.08.23-05.51.50:707][253]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Assets/UI/Options.Options
+[2024.08.23-05.51.52:559][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.08.23-05.51.55:647][601]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-05.51.55:655][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-05.51.55:655][601]PIE: New page: PIE session: MainMenu (24 Aug 2024, 1:51:55 am)
+[2024.08.23-05.51.55:657][601]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.51.55:661][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003438s)
+[2024.08.23-05.51.55:661][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004080s)
+[2024.08.23-05.51.55:667][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.08.23-05.51.55:669][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-05.51.55:669][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-05.51.55:670][601]LogAIModule: Creating AISystem for world MainMenu
+[2024.08.23-05.51.55:670][601]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2024.08.23-05.51.55:671][601]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.08.23-05.51.55:671][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-05.51.55:673][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-05.51.55:673][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-05.51.55:673][601]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-05.51.55:674][601]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-05.51.55:674][601]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-05.51.55:682][601]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-05.51.55:732][601]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.08.23-05.51.55:733][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-05.51.55:733][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-05.51.55:733][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-05.51.55:738][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.08.23-05.51.55:738][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.08.23-05.51.55:740][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.08.23-05.51.55:740][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.08.23-05.51.55:741][601]LogInit: FAudioDevice initialized with ID 45.
+[2024.08.23-05.51.55:741][601]LogAudio: Display: Audio Device (ID: 45) registered with world 'MainMenu'.
+[2024.08.23-05.51.55:741][601]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.08.23-05.51.55:744][601]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.08.23-05.51.55:746][601]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.08.23-15.51.55
+[2024.08.23-05.51.55:746][601]LogWorld: Bringing up level for play took: 0.001230
+[2024.08.23-05.51.55:752][601]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.08.23-05.51.55:757][601]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: blank: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: blank: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: 2: 9
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: VALUE: Panel_C_0
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: VALUE: Panel_C_4
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: VALUE: Panel_C_5
+[2024.08.23-05.51.55:763][601]LogTemp: Warning: VALUE: Panel_C_2
+[2024.08.23-05.51.55:765][601]LogTemp: Warning: VALUE: Panel_C_6
+[2024.08.23-05.51.55:765][601]LogTemp: Warning: VALUE: Panel_C_3
+[2024.08.23-05.51.55:765][601]LogTemp: Warning: VALUE: Panel_C_7
+[2024.08.23-05.51.55:765][601]LogTemp: Warning: VALUE: Panel_C_1
+[2024.08.23-05.51.55:765][601]LogTemp: Warning: VALUE: Panel_C_8
+[2024.08.23-05.51.55:766][601]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.08.23-05.51.55:766][601]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.08.23-05.51.55:766][601]PIE: Server logged in
+[2024.08.23-05.51.55:767][601]PIE: Play in editor total start time 0.111 seconds.
+[2024.08.23-05.52.01:889][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.52.01:889][ 72]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.08.23-05.52.01:889][ 72]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-05.52.01:889][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.52.01:896][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-05.52.01:899][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-05.52.01:907][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-05.52.01:908][ 72]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.08.23-05.52.01:908][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.08.23-05.52.01:912][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.08.23-05.52.01:922][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.08.23-05.52.01:948][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_72
