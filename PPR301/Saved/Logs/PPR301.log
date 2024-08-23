@@ -2358,3 +2358,23 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.23-04.55.17:611][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
 [2024.08.23-04.55.17:650][998]LogPlayLevel: Display: Destroying online subsystem :Context_28
 [2024.08.23-04.55.20:233][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.23-04.56.17:835][669]LogShaderCompilers: Display: ================================================
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: Total job queries 204, among them cache hits 64 (31.37%)
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: Tracking 140 distinct input hashes that result in 84 distinct outputs (60.00%)
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: RAM used: 2.91 MiB of 819.20 MiB budget. Usage: 0.36%
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.08.23-04.56.17:836][669]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.08.23-04.56.17:837][669]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.08.23-04.56.17:837][669]LogShaderCompilers: Display: ================================================
+[2024.08.23-04.56.20:647][837]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.08.23-04.56.31:116][462]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.08.23-04.56.31:729][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-04.56.33:829][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.08.23-04.56.33:834][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-04.56.33:933][603]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2024.08.23-04.56.33:933][603]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/SWSI13675DVYIZ0N4NF7Y3B9F124224AA1CF9952DAA4A9F0FA42C6.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2024.08.23-04.56.33:956][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 13.0 sec)
+[2024.08.23-04.56.33:964][603]AssetCheck: New page: Asset Save: PlayerStart_0
+[2024.08.23-04.56.33:964][603]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0
