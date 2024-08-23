@@ -1258,3 +1258,149 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.08.23-00.42.54:781][ 82]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
 [2024.08.23-00.42.54:781][ 82]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
 [2024.08.23-00.43.15:984][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.08.23-00.43.52:472][669]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.23-00.43.52:495][669]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.23-00.43.52:496][669]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.23-00.43.52:512][669]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 16 ms
+[2024.08.23-00.43.52:517][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.23-00.43.52:531][669]PIE: New page: PIE session: ThirdPersonMap (23 Aug 2024, 8:43:52 pm)
+[2024.08.23-00.43.52:577][669]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.08.23-00.43.52:581][669]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.08.23-00.43.52:583][669]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.23-00.43.52:619][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031437s)
+[2024.08.23-00.43.52:620][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.036419s)
+[2024.08.23-00.43.52:632][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.08.23-00.43.52:639][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.23-00.43.52:652][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.23-00.43.52:654][669]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.23-00.43.52:657][669]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.23-00.43.52:659][669]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.23-00.43.52:661][669]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.23-00.43.52:662][669]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.23-00.43.52:669][669]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.08.23-00.43.52:671][669]LogWorldPartition: Display: WorldPartition initialize took 12 ms (total: 4.15 sec)
+[2024.08.23-00.43.52:672][669]LogPlayLevel: PIE: World Init took: (0.037606s)
+[2024.08.23-00.43.52:676][669]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.08.23-00.43.52:679][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.23-00.43.52:682][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.23-00.43.52:682][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.23-00.43.52:683][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.23-00.43.52:685][669]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.23-00.43.52:685][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.23-00.43.52:685][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.23-00.43.52:687][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.23-00.43.52:694][669]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.23-00.43.52:695][669]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.23-00.43.52:695][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.23-00.43.52:714][669]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.23-00.43.52:774][669]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.08.23-00.43.52:784][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.23-00.43.52:785][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.23-00.43.52:786][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.23-00.43.52:794][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.08.23-00.43.52:801][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.08.23-00.43.52:807][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.08.23-00.43.52:807][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.08.23-00.43.52:808][669]LogInit: FAudioDevice initialized with ID 2.
+[2024.08.23-00.43.52:809][669]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.08.23-00.43.52:809][669]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.08.23-00.43.52:853][669]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.23-00.43.52:867][669]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.23-10.43.52
+[2024.08.23-00.43.52:883][669]LogWorld: Bringing up level for play took: 0.016522
+[2024.08.23-00.43.52:899][669]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.08.23-00.43.53:058][669]LogTemp: Warning: init 1: 0.0
+[2024.08.23-00.43.53:058][669]LogTemp: Warning: init 2: 0.0
+[2024.08.23-00.43.53:061][669]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-00.43.53:063][669]LogTemp: Warning: init 2: 0.0
+[2024.08.23-00.43.53:063][669]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-00.43.53:063][669]LogTemp: Warning: init 2: 0.0
+[2024.08.23-00.43.53:063][669]LogTemp: Warning: init 1: 0.0
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.333333
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 1: 0.0
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 1: 0.333333
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 1: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: init 2: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: blank: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: blank: 0.0
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: blank: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: blank: 0.666667
+[2024.08.23-00.43.53:067][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.0
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.333333
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: ARR: 0.666667
+[2024.08.23-00.43.53:068][669]LogTemp: Warning: 2: 9
+[2024.08.23-00.43.53:070][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345B0802_2021527959
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1356292137
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385564138
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1385985139
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386305140
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386558141
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1386896142
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387197143
+[2024.08.23-00.43.53:074][669]LogTemp: Warning: VALUE: Panel_C_UAID_74D4DD3DEB345C0802_1387485144
+[2024.08.23-00.43.53:084][669]LogTemp: Warning: THE NUMBER IS: 3
+[2024.08.23-00.43.53:085][669]LogTemp: Warning: IS: 3
+[2024.08.23-00.43.53:150][669]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.08.23-00.43.53:179][669]LogScript: Warning: Script Msg: The widget 'TextBox_C_0' was already added to the screen.
+[2024.08.23-00.43.53:180][669]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.23-00.43.53:221][669]PIE: Server logged in
+[2024.08.23-00.43.53:225][669]PIE: Play in editor total start time 0.73 seconds.
+[2024.08.23-00.43.53:481][670]LogShaderCompilers: Display: ================================================
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: Total job queries 182, among them cache hits 42 (23.08%)
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: Tracking 140 distinct input hashes that result in 84 distinct outputs (60.00%)
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: RAM used: 2.91 MiB of 819.20 MiB budget. Usage: 0.36%
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.08.23-00.43.53:484][670]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.08.23-00.43.53:485][670]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.08.23-00.43.53:485][670]LogShaderCompilers: Display: ================================================
+[2024.08.23-00.44.00:201][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-00.44.00:202][ 86]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.23-00.44.00:207][ 86]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.23-00.44.00:211][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-00.44.00:212][ 86]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.08.23-00.44.00:228][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.23-00.44.00:234][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.23-00.44.00:244][ 86]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.23-00.44.00:251][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.08.23-00.44.00:254][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.08.23-00.44.00:259][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.08.23-00.44.00:272][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.23-00.44.00:291][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.08.23-00.44.00:327][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.08.23-00.44.30:292][322]LogViewport: Scene viewport resized to 1520x1010, mode Windowed.
+[2024.08.23-00.44.41:428][309]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2024.08.23-00.44.41:473][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.23-00.44.41:497][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-00.44.41:724][309]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2024.08.23-00.44.41:725][309]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/BP_ThirdPersonGameMode7D3DE5C343F501C5BD1E2E8A70900722.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2024.08.23-00.44.41:766][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 268 ms (total: 1.03 sec)
+[2024.08.23-00.44.41:773][309]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
+[2024.08.23-00.44.41:773][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2024.08.23-00.44.42:258][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.23-00.44.42:483][338]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2024.08.23-00.44.42:484][338]LogSavePackage: Moving '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Saved/BP_ThirdPersonGameMode05AFC1B547AC505F10B48A9CF067A850.tmp' to '../../../../../../Users/123sj/Documents/GitHub/PPR301/PPR301/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2024.08.23-00.44.42:500][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 1.28 sec)
+[2024.08.23-00.44.42:504][338]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
+[2024.08.23-00.44.42:504][338]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
